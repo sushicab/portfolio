@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Autour_One, Inter } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +17,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body style={{paddingTop: "80px", backgroundColor:'#E3E3E3'}} className={inter.className}><Navbar />{children}</body>
     </html>
   );
 }
+
+
+// command + > 0 auto import library 
