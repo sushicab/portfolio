@@ -13,7 +13,7 @@ const Contact = () => {
       <div
         style={{
           display: "flex",
-          justifyContent: "right",
+          justifyContent: "center",
           alignItems: "right",
           minHeight: "70vh",
         }}

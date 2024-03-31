@@ -7,8 +7,8 @@ const Imagetop = () => {
       <Image
         src="/img/top/placeholder2.png" // Replace with the path to your image file
         alt="Your Image Alt Text"
-        width={300} // Set the width of the image
-        height={400} // Set the height of the image
+        width={300} 
+        height={400} 
       />
     </div>
   );

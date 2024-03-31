@@ -11,7 +11,7 @@ const Aboutpagetext = () => {
       >
         <h2 className="text-1xl font-bold mb-4">Conference Publication:</h2>
         <div className="mb-8">
-          <p className="mb-1">
+          <p className="mb-2">
             <a
               href="https://dl.acm.org/doi/abs/10.1145/3490149.3505581"
               target="_blank"
