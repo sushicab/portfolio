@@ -32,9 +32,7 @@ export default function About() {
           marginBottom: "150px",
         }}
       >
-        <em>Lotus</em>
-        <br />
-        Lacquer painting 1m x 1m on the blackboard.
+        <em>Lotus</em> - Lacquer painting 1m x 1m on the blackboard.
         <br />
         <br />
         Material: eggshell, lacquer, sand, colors, etc.
