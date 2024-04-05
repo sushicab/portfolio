@@ -6,8 +6,9 @@ export default function About() {
         style={{
           width: "100vw",
           height: "100vh",
-          position: "relative",
           display: "flex",
+          justifyContent: "center",
+          margin: "0 auto",
         }}
       >
         <iframe
@@ -15,9 +16,6 @@ export default function About() {
           style={{
             width: "100%",
             height: "100%",
-            position: "absolute",
-            top: "0",
-            left: "0",
           }}
           allow="autoplay; fullscreen; picture-in-picture"
           title="Vimeo video"

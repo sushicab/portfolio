@@ -80,6 +80,22 @@ const Aboutpagetext = () => {
         <p style={{ textDecoration: "underline" }}>
           <a href="mailto:zhuangyifan01@gmail.com"> CV upon request</a>
         </p>
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <p
+            style={{
+              fontStyle: "italic",
+              fontWeight: "lighter",
+              fontSize: "30px",
+              marginTop: "100px",
+              flex: "1",
+            }}
+          >
+            Website design & developed by herself
+          </p>
+          <div style={{ width: "20vw", alignItems: "Right" }}>
+            <img src="/img/about/meme.png" style={{ maxWidth: "70%" }} />
+          </div>
+        </div>
       </div>
     </div>
   );

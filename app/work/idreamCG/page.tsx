@@ -8,6 +8,7 @@ export default function About() {
           height: "100vh",
           position: "relative",
           display: "flex",
+          margin: "0 auto",
         }}
       >
         <iframe

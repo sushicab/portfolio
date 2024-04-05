@@ -13,25 +13,25 @@ const Rows = [
     Cards: [
       {
         title: "Shibuya in VR",
-        description: "Immersive Point Cloud Adventure",
+        description: "Interactive Point Cloud Experience/ 2022",
         imgUrl: "/img/workpage/shibuyaVR1.png",
         path: "/work/shibuyaVR",
       },
       {
         title: "I dream, I dreamt",
-        description: "Interactive Installation ",
+        description: "Interactive Installation/ 2021 ",
         imgUrl: "/img/workpage/idream4.jpg",
         path: "/work/idream",
       },
       {
         title: "Emolleia",
-        description: "Interactive Wearable Device ",
+        description: "Interactive Wearable Device/ 2021 ",
         imgUrl: "/img/workpage/emolleia1.jpg",
         path: "/work/emolleia",
       },
       {
         title: "Gender Shell",
-        description: "AR Interactive Experience",
+        description: "AR Interactive Experience/ 2020",
         imgUrl: "/img/workpage/gender1.png",
         path: "/work/idream",
       },
@@ -42,13 +42,13 @@ const Rows = [
     Cards: [
       {
         title: "Digital Biotopia  ",
-        description: "3D Art Work/ AI Research",
+        description: "3D Art Work/ AI Research/ 2023",
         imgUrl: "/img/workpage/bio1.png",
         path: "/work/digitalbiotopia",
       },
       {
         title: "I dream, I dreamt",
-        description: "3D Animation",
+        description: "3D Animation/ 2021",
         imgUrl: "/img/workpage/dreamCG1.png",
         path: "/work/idreamCG",
       },
@@ -93,6 +93,12 @@ const Rows = [
         path: "/work/whatislove",
       },
       {
+        title: "Liquid Painting",
+        description: "for 'Remix'/ 2023",
+        imgUrl: "/img/workpage/liquid1.jpg",
+        path: "/work/liquidPainting",
+      },
+      {
         title: "Distant Lover ",
         description: "Oil Painting/ 2019",
         imgUrl: "/img/workpage/distantlover.jpg",
@@ -100,15 +106,9 @@ const Rows = [
       },
       {
         title: "Lotus",
-        description: "LACQUER PAINTING/2017 ",
+        description: "Lacquer Painting/ 2017 ",
         imgUrl: "/img/workpage/lotus1.jpg",
         path: "/work/lotus",
-      },
-      {
-        title: "Liquid Painting",
-        description: "2024",
-        imgUrl: "/img/workpage/liquid1.jpg",
-        path: "/work/liquidPainting",
       },
     ],
   },
@@ -196,15 +196,16 @@ function Row({ rowTitle, Cards }: any) {
 
 export default function Work() {
   return (
-    <div style={{ padding: "50px" }}>
-      {Rows.map((row) => (
-        <Row key={row.rowTitle} {...row} />
-      ))}
+    <main>
+      <div style={{ padding: "50px" }}>
+        {Rows.map((row) => (
+          <Row key={row.rowTitle} {...row} />
+        ))}
+      </div>
       <div style={{ marginTop: "50px" }}>
         {" "}
-        {/* Adjust margin top as needed */}
         <IntroductionComp />
       </div>
-    </div>
+    </main>
   );
 }

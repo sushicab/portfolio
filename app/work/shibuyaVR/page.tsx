@@ -3,7 +3,7 @@ export default function About() {
     <main>
       <div style={{ maxWidth: "1440px" }}>
         <iframe
-          src="https://player.vimeo.com/video/926147856?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+          src="https://player.vimeo.com/video/929541977?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=584799"
           width="1440px"
           height="786px"
           allow="autoplay; fullscreen; picture-in-picture"
@@ -18,7 +18,7 @@ export default function About() {
           fontStyle: "italic",
         }}
       >
-        Shibuya in VR <br style={{ marginTop: "100px" }} />
+        Shibuya in VR <br style={{ marginTop: "200px" }} />
         <br />
         Immersive Point Cloud Adventure
       </h2>
@@ -26,9 +26,10 @@ export default function About() {
         style={{
           margin: "20px",
           textAlign: "justify",
-          marginLeft: "200px",
-          marginRight: "200px",
-          marginBottom: "100px",
+          marginTop: "100px",
+          marginLeft: "250px",
+          marginRight: "250px",
+          marginBottom: "250px",
         }}
       >
         Envision Shibuya, a bustling and iconic district in Tokyo, undergoing a
@@ -68,7 +69,7 @@ export default function About() {
         }}
       >
         <img
-          src="/img/projects/interactive design/shibuya VR/shibuyaVR1.png"
+          src="/img/projects/interactive design/shibuya VR/shibuya1.jpg"
           alt="Image 1"
           style={{
             width: "calc(50% - 100px)",
@@ -77,7 +78,7 @@ export default function About() {
           }}
         />
         <img
-          src="/img/projects/interactive design/shibuya VR/shibuyaVR1.png"
+          src="/img/projects/interactive design/shibuya VR//shibuya5.jpg"
           alt="Image 2"
           style={{
             width: "calc(50% - 100px)",
@@ -86,7 +87,7 @@ export default function About() {
           }}
         />
         <img
-          src="/img/projects/interactive design/idream/idream4.jpg"
+          src="/img/projects/interactive design/shibuya VR/shibuya3.jpg"
           alt="Image 3"
           style={{
             width: "calc(50% - 100px)",
@@ -95,7 +96,7 @@ export default function About() {
           }}
         />
         <img
-          src="/img/projects/interactive design/idream/idream3.jpg"
+          src="/img/projects/interactive design/shibuya VR/shibuya4.jpg"
           alt="Image 4"
           style={{
             width: "calc(50% - 100px)",

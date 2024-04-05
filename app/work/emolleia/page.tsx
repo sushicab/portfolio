@@ -8,6 +8,7 @@ export default function About() {
           height: "100vh",
           position: "relative",
           display: "flex",
+          margin: "0 auto",
         }}
       >
         <iframe
@@ -61,7 +62,6 @@ export default function About() {
           textAlign: "justify",
           marginLeft: "200px",
           marginRight: "200px",
-          marginBottom: "100px",
         }}
       >
         Three blooming transparent flowers shape accessory can be wearing around
@@ -74,19 +74,12 @@ export default function About() {
         Each of three flower has been equipped LED light unit inside in order to
         perform color change to assist better express wearer's emotion. 
       </p>
-      <div style={{ padding: "140px", textAlign: "center" }}>
+      <div style={{ padding: "200px", textAlign: "center" }}>
         <img
           src="/img/projects/interactive design/emolleia/emolleia3.jpg"
           alt="Description of your image"
         />
       </div>
-
-      {/* <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap' }}>
-        <img src="/img/projects/interactive design/idream/idream1.jpg" alt="Image 1" style={{ width: 'calc(50% - 100px)', marginBottom: '10px', marginLeft:'95px' }} />
-        <img src="/img/projects/interactive design/idream/idream2.jpg" alt="Image 2" style={{ width: 'calc(50% - 100px)', marginBottom: '10px', marginRight:'95px' }} />
-        <img src="/img/projects/interactive design/idream/idream4.jpg" alt="Image 3" style={{ width: 'calc(50% - 100px)', marginBottom: '20px', marginLeft:'95px' }} />
-        <img src="/img/projects/interactive design/idream/idream3.jpg" alt="Image 4" style={{ width: 'calc(50% - 100px)',  marginBottom: '20px' , marginRight:'95px'}} />
-      </div> */}
       <p
         style={{
           margin: "20px",
@@ -111,22 +104,30 @@ export default function About() {
         expressing, ultimately enhance our conversation efficiency or even
         social life.
       </p>
-
-      <div style={{ padding: "50px", display: "flex", marginLeft: "400px" }}>
-        <img
-          src="/img/projects/interactive design/emolleia/emolleia1.jpg"
-          alt="Description of your image"
-          style={{ maxWidth: "80%", maxHeight: "80%" }}
-        />
+      <div>
+        <div style={{ padding: "50px", display: "flex", marginLeft: "400px" }}>
+          <img
+            src="/img/projects/interactive design/emolleia/emolleia1.jpg"
+            alt="Description of your image"
+            style={{
+              width: "calc(70%)",
+              marginBottom: "10px",
+              marginLeft: "130px",
+            }}
+          />
+        </div>
+        <div style={{ padding: "50px", display: "flex", marginRight: "400px" }}>
+          <img
+            src="/img/projects/interactive design/emolleia/emolleia1.jpg"
+            alt="Description of your image"
+            style={{
+              width: "calc(70%)",
+              marginBottom: "10px",
+              marginLeft: "170px",
+            }}
+          />
+        </div>
       </div>
-      <div style={{ padding: "50px", display: "flex", marginRight: "400px" }}>
-        <img
-          src="/img/projects/interactive design/emolleia/emolleia1.jpg"
-          alt="Description of your image"
-          style={{ maxWidth: "80%", maxHeight: "80%" }}
-        />
-      </div>
-
       <div style={{}}>
         <p
           style={{
@@ -184,7 +185,7 @@ export default function About() {
       </p>
       <div style={{ display: "flex", justifyContent: "center" }}>
         <img
-          src="/img/projects/interactive design/emolleia/f2motion.png"
+          src="/img/projects/interactive design/emolleia/userstudy.jpg"
           alt="Description of image 1"
           style={{
             width: "70%",
