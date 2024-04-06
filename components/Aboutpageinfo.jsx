@@ -24,7 +24,7 @@ const Aboutpageinfo = () => {
           <p className="mb-2">
             <span className="font-regular mr-10">2019 - 2021</span> MA at
             Graduate School of Keio University, major HCI (Human-Computer
-            Interaction)
+            Interaction) & Interaction Design
           </p>
           <p className="mb-2">
             <span className="font-regular mr-10">2014 - 2018</span> BA at
@@ -48,6 +48,10 @@ const Aboutpageinfo = () => {
           <p className="mb-2">
             <span className="font-regular mr-10">2021 - 2022</span> Research
             Assistant, Graduate School of Keio University, Kanagawa, JP
+          </p>
+          <p className="mb-2">
+            <span className="font-regular mr-10">2020 - 2021</span> Account
+            Executive, Helixes.inc , Tokyo, JP
           </p>
           <p className="mb-2">
             <span className="font-regular mr-10">2018 - 2019</span> Account
