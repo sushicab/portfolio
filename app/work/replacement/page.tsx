@@ -2,6 +2,7 @@ import { Autour_One } from "next/font/google";
 import ImageSlider from "@/components/ImageSlider";
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Carousel } from "react-bootstrap";
 
 export default function About() {
   return (
@@ -51,7 +52,9 @@ export default function About() {
         cyber world has supplanted our authentic identities, weaving alternate
         narratives.
       </p>
-      <ImageSlider />
+      <div>
+        <ImageSlider />
+      </div>
     </main>
   );
 }
