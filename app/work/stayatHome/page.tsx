@@ -55,7 +55,7 @@ export default function About() {
         from my time spent at home in China, I found that they intertwined.This
         juxtaposition underscored the surreal nature of memory, particularly
         when it comes to those people who have departed from this world sooner
-        than you expected. seamlessly.
+        than you expected.
         <br />
         <br />
         This project reflects on my feelings about my family, hometown,

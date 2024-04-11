@@ -3,7 +3,7 @@ const Aboutpageinfo = () => {
     <div style={{ display: "flex", fontSize: "14px" }}>
       {/* Left Side - Image */}
       <div style={{ width: "50vw", marginRight: "10px" }}>
-        <img src="/img/about/IMG_1582.JPG" style={{ maxWidth: "80%" }} />
+        <img src="/img/about/IMG_1582.JPG" style={{ maxWidth: "75%" }} />
       </div>
 
       {/* Right Side - Text */}

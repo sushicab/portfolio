@@ -39,7 +39,7 @@ export default function About() {
         <br />
         <br />
         Love is tender, gentle, subtle, unpredictable but strong. Love is when I
-        look you in the eyes, I only dare to do Eskimo kiss. .
+        look you in the eyes, I only dare to do Eskimo Kiss.
         <br />
         <br />
         Exhibition:

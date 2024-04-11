@@ -52,7 +52,7 @@ export default function About() {
           marginBottom: "150px",
         }}
       >
-        <em>Liquid Paintingr</em> / 2023
+        <em>Liquid Painting</em> / 2023
         <br />
         <br />
         148 x 105mm, liquid paints on paper board.

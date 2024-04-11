@@ -32,7 +32,10 @@ export default function About() {
           marginBottom: "150px",
         }}
       >
-        <em>Lotus</em> - Lacquer painting 1m x 1m on the blackboard.
+        <em>Lotus</em> - Lacquer painting on the black board.
+        <br />
+        <br />
+        Size: 1m x 1m
         <br />
         <br />
         Material: eggshell, lacquer, sand, colors, etc.
@@ -41,8 +44,11 @@ export default function About() {
         10 weeks, experimental work.
         <br />
         <br />
-        Lacquer painting is a form of painting with lacquer that was practiced
-        in China and Japan for decoration.
+        Lacquer painting is a traditional art form that originated in East Asia,
+        particularly in China, Japan, and Korea. It involves applying multiple
+        layers of natural lacquer, often derived from the sap of the lacquer
+        tree, onto a surface such as wood, paper, or metal. Each layer is
+        carefully applied and allowed to dry before the next layer is added.
       </p>
     </main>
   );

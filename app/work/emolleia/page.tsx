@@ -42,7 +42,8 @@ export default function About() {
           fontStyle: "italic",
         }}
       >
-        &quot;'Emolleia' was inspired by a poetry 'Shy Flower'. 
+        &quot;Emolleia was inspired by a poem titled "Shy Flower". 
+        <br />
         <br />
         To the little shy flower;
         <br />
@@ -60,19 +61,21 @@ export default function About() {
         style={{
           margin: "20px",
           textAlign: "justify",
-          marginLeft: "200px",
-          marginRight: "200px",
+          marginLeft: "auto",
+          marginRight: "auto",
+          maxWidth: "800px",
         }}
       >
-        Three blooming transparent flowers shape accessory can be wearing around
-        the shoulder. With a web camera turned on, the onlooker's facial
-        expression will be detected and categorized, according to the facial
-        expression, the Emolleia will perform five pre-definded correlated
-        motion.
+        Three blooming transparent flowers form an accessory that can be worn
+        around the shoulder. With a webcam turned on, the onlooker's facial
+        expression will be detected and categorized. Depending on the facial
+        expression, the Emolleia will perform five predefined correlated
+        motions.
         <br />
         <br />
-        Each of three flower has been equipped LED light unit inside in order to
-        perform color change to assist better express wearer's emotion. 
+        Each of the three flowers has been equipped with an LED light unit
+        inside to enable color changes, aiding in better expressing the wearer's
+        emotions.
       </p>
       <div style={{ padding: "200px", textAlign: "center" }}>
         <img
@@ -84,8 +87,9 @@ export default function About() {
         style={{
           margin: "20px",
           textAlign: "justify",
-          marginLeft: "200px",
-          marginRight: "200px",
+          marginLeft: "auto",
+          marginRight: "auto",
+          maxWidth: "800px",
           marginBottom: "100px",
         }}
       >
@@ -203,19 +207,45 @@ export default function About() {
           marginTop: "80px",
         }}
       >
-        <h2
-          style={{ fontSize: "20px", fontStyle: "italic", marginLeft: "15px" }}
-        >
-          EMOLLEIA DEMO AT KMD FORUM 2021:
+        <div>
+          <h2
+            style={{
+              fontSize: "20px",
+              fontStyle: "italic",
+              marginLeft: "10px",
+            }}
+          >
+            EMOLLEIA DEMO AT KMD FORUM 2021:
+          </h2>
+          <div style={{ display: "flex", justifyContent: "flex-start" }}>
+            <iframe
+              src="https://player.vimeo.com/video/663887880?badge=0&amp;autopause=0&amp"
+              width="1200px"
+              height="700px"
+              allow="autoplay; fullscreen; picture-in-picture"
+              title="Vimeo video"
+            ></iframe>
+          </div>
+        </div>
+
+        <h2 className="text-1xl font-bold mb-4">
+          More details in related publication:
         </h2>
-        <div style={{ display: "flex", justifyContent: "center" }}>
-          <iframe
-            src="https://player.vimeo.com/video/663887880?badge=0&amp;autopause=0&amp"
-            width="1211px%"
-            height="700px"
-            allow="autoplay; fullscreen; picture-in-picture"
-            title="Vimeo video"
-          ></iframe>
+        <div className="mb-8">
+          <p className="mb-2">
+            <a
+              href="https://dl.acm.org/doi/abs/10.1145/3490149.3505581"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: "underline" }}
+            >
+              [1] Yifan Zhuang, Keitaro Tsuchiya, Takuro Nakao, Jiawen Han,
+              Megumi Isoga, Shinya Shimizu, and Kai Kunze. 2022. Emolleia –
+              Wearable Kinetic Flower Display for Expressing Emotions. In
+              Sixteenth International Conference on Tangible, Embedded, and
+              Embodied Interaction (TEI ’22), February 13–16, 2022
+            </a>
+          </p>
         </div>
       </div>
       <div style={{ display: "flex", justifyContent: "space-between" }}>
@@ -257,8 +287,8 @@ export default function About() {
             C O L L A B O R A T I O N:
           </p>
           <p style={{ marginBottom: "15px" }}>
-            Emolleia Flowers project is in collaboration with NTT Media
-            Intelligence Laboratories.
+            This project is in collaboration with NTT Media Intelligence
+            Laboratory.
           </p>
         </div>
       </div>

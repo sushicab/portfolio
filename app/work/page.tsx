@@ -18,7 +18,7 @@ const Rows = [
         path: "/work/shibuyaVR",
       },
       {
-        title: "I dream, I dreamt",
+        title: "i dream, i dreamt",
         description: "Interactive Installation/ 2021 ",
         imgUrl: "/img/workpage/idream4.jpg",
         path: "/work/idream",
@@ -30,10 +30,10 @@ const Rows = [
         path: "/work/emolleia",
       },
       {
-        title: "Gender Shell",
-        description: "AR Interactive Experience/ 2020",
+        title: "AR Experience",
+        description: "Interactive Augmented Reality projects",
         imgUrl: "/img/workpage/gender1.png",
-        path: "/work/idream",
+        path: "/work/ARprojects",
       },
     ],
   },
