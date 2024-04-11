@@ -17,10 +17,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body style={{paddingTop: "80px", backgroundColor:'#E3E3E3'}} className={inter.className}><Navbar />{children}</body>
+      <body
+        style={{ paddingTop: "80px", backgroundColor: "#E3E3E3" }}
+        className={inter.className}
+      >
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }
 
-
-// command + > 0 auto import library 
+// command + > 0 auto import library
