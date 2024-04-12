@@ -33,7 +33,7 @@ const Rows = [
         title: "AR Experience",
         description: "Interactive Augmented Reality projects",
         imgUrl: "/img/workpage/gender1.png",
-        path: "/work/ARprojects",
+        path: "/work/AR",
       },
     ],
   },
@@ -60,7 +60,7 @@ const Rows = [
       {
         title: "Replacement  ",
         description: "2021",
-        imgUrl: "/img/workpage/replacement 2.jpg",
+        imgUrl: "/img/projects/photography/replacement/2.jpg",
         path: "/work/replacement",
       },
       {

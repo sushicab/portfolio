@@ -29,7 +29,7 @@ export default function About() {
       <p
         style={{
           textAlign: "left",
-          width: "60%",
+          width: "70%",
           height: "auto",
           margin: "auto",
           marginTop: "80px",
