@@ -1,13 +1,5 @@
 import React from "react";
-import EmblaCarousel from "@/components/EmblaCarousel";
-
-// export default function About() {
-//   return (
-//     <main>
-
-//     </main>
-//   );
-// }
+import ReplacementCarousel from "@/components/ReplacementCarousel";
 
 export default function About() {
   return (
@@ -23,7 +15,7 @@ export default function About() {
       >
         replacement
       </h1>
-      <EmblaCarousel />
+      <ReplacementCarousel />
 
       <div style={{ justifyContent: "center", display: "flex" }}></div>
       <p

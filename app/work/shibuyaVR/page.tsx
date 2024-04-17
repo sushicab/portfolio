@@ -1,10 +1,10 @@
 export default function About() {
   return (
     <main>
-      <div style={{ maxWidth: "1440px" }}>
+      <div style={{ maxWidth: "100%" }}>
         <iframe
           src="https://player.vimeo.com/video/929541977?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=584799"
-          width="1440px"
+          width="100%"
           height="786px"
           allow="autoplay; fullscreen; picture-in-picture"
           title="Vimeo video"

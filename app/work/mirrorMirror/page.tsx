@@ -1,8 +1,6 @@
 import { Autour_One } from "next/font/google";
-import ImageSlider from "@/components/ImageSlider";
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import { Carousel } from "react-bootstrap";
+import MirrorCarousel from "@/components/MirrorCarousel";
 
 export default function About() {
   return (
@@ -18,7 +16,9 @@ export default function About() {
       >
         mirror mirror
       </h1>
-      <div>{/* <ImageSlider /> */}</div>
+      <MirrorCarousel />
+
+      <div></div>
       <div style={{ justifyContent: "center", display: "flex" }}></div>
       <p
         style={{

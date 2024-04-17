@@ -8,8 +8,8 @@ import {
   usePrevNextButtons,
 } from "@/components/EmblaCarouselArrowButton";
 
-export default function EmblaCarousel() {
-  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: false });
+const EmblaCarousel = ({ images = [] }) => {
+  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true });
 
   useEffect(() => {
     if (emblaApi) {
@@ -45,38 +45,46 @@ export default function EmblaCarousel() {
       >
         <div className="embla" ref={emblaRef} style={{ marginBottom: "10px" }}>
           <div className="embla__container">
-            <div className="embla__slide">
-              <img src="/img/projects/photography/replacement/2.jpg" alt="" />
-            </div>
-            <div className="embla__slide">
-              <img src="/img/projects/photography/replacement/3.jpg" alt="" />
-            </div>
-            <div className="embla__slide">
-              <img src="/img/projects/photography/replacement/1.jpg" alt="" />
-            </div>
+            {images.map((imageUrl, index) => (
+              <div className="embla__slide" key={index}>
+                <img
+                  src={imageUrl}
+                  alt={`Slide ${index}`}
+                  style={{
+                    display: "block",
+                    margin: "0 auto",
+                    maxWidth: "100%",
+                    maxHeight: "100%",
+                    objectFit: "contain", // Maintain aspect ratio
+                  }}
+                />
+              </div>
+            ))}
+          </div>
+          <div
+            className="embla__controls absolute "
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+              width: "90%",
+              alignItems: "center",
+            }}
+          >
+            <PrevButton
+              onClick={onPrevButtonClick}
+              disabled={prevBtnDisabled}
+              style={{ marginRight: "auto" }}
+            />
+            <NextButton
+              onClick={onNextButtonClick}
+              disabled={nextBtnDisabled}
+              style={{ marginLeft: "auto" }}
+            />
           </div>
         </div>
       </div>
-      <div
-        className="embla__controls"
-        style={{
-          display: "flex",
-          justifyContent: "space-between",
-          width: "100%",
-          alignItems: "center",
-        }}
-      >
-        <PrevButton
-          onClick={onPrevButtonClick}
-          disabled={prevBtnDisabled}
-          style={{ marginRight: "auto" }}
-        />
-        <NextButton
-          onClick={onNextButtonClick}
-          disabled={nextBtnDisabled}
-          style={{ marginLeft: "auto" }}
-        />
-      </div>
     </div>
   );
-}
+};
+
+export default EmblaCarousel;
