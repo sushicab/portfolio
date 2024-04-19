@@ -1,14 +1,8 @@
 const Aboutpagetext = () => {
   return (
-    <div className="flex">
-      <div
-        style={{
-          width: "50vw",
-          height: "auto",
-          fontSize: "14px",
-          paddingRight: "60px",
-        }}
-      >
+    <div className="about-page-text">
+      {/* Left Side - Text */}
+      <div className="text-column">
         <h2 className="text-1xl font-bold mb-4">Conference Publication:</h2>
         <div className="mb-8">
           <p className="mb-2">
@@ -53,47 +47,51 @@ const Aboutpagetext = () => {
         <h2 className="text-1xl font-bold mb-4">Language:</h2>
         <p className="mb-2">English, Japanese, Chinese</p>
       </div>
-      <div
-        style={{
-          width: "50vw",
-          height: "auto",
-          fontSize: "14px",
-          PaddingLeft: "10px",
-        }}
-      >
-        <p>
-          Instagram:{" "}
-          <a
-            href="https://www.instagram.com/wandanle.z/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            @wandanle.z
-          </a>
-        </p>
-        <div style={{ marginBottom: "100px" }}>
+
+      {/* Right Side - Image */}
+      <div className="image-column">
+        <div
+          style={{
+            width: "50vw",
+            height: "auto",
+            fontSize: "14px",
+          }}
+        >
           <p>
-            Mail:{" "}
-            <a href="mailto:zhuangyifan01@gmail.com">zhuangyifan01@gmail.com</a>
+            Instagram:{" "}
+            <a
+              href="https://www.instagram.com/wandanle.z/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              @wandanle.z
+            </a>
           </p>
-        </div>
-        <p style={{ textDecoration: "underline" }}>
-          <a href="mailto:zhuangyifan01@gmail.com"> CV upon request</a>
-        </p>
-        <div style={{ display: "flex", alignItems: "center" }}>
-          <p
-            style={{
-              fontStyle: "italic",
-              fontWeight: "lighter",
-              fontSize: "30px",
-              marginTop: "100px",
-              flex: "1",
-            }}
-          >
-            Website design & developed by herself
+          <div style={{ marginBottom: "100px" }}>
+            <p>
+              Mail:{" "}
+              <a href="mailto:zhuangyifan01@gmail.com">
+                zhuangyifan01@gmail.com
+              </a>
+            </p>
+          </div>
+          <p style={{ textDecoration: "underline" }}>
+            <a href="mailto:zhuangyifan01@gmail.com"> CV upon request</a>
           </p>
-          <div style={{ width: "20vw" }}>
-            <img src="/img/about/meme.png" style={{ maxWidth: "55%" }} />
+          <div style={{ display: "flex", alignItems: "center" }}>
+            <p
+              style={{
+                fontStyle: "italic",
+                fontWeight: "lighter",
+                fontSize: "30px",
+                marginTop: "100px",
+              }}
+            >
+              Website design & developed by herself
+            </p>
+            {/* <div style={{ width: "20vw" }}>
+              <img src="/img/about/meme.png" style={{ maxWidth: "55%" }} />
+            </div> */}
           </div>
         </div>
       </div>

@@ -3,10 +3,10 @@ import EmblaCarousel from "@/components/EmblaCarousel";
 
 const MirrorCarousel = () => {
   const images = [
+    "/img/projects/photography/mirror mirror/mirror3.jpg",
     "/img/projects/photography/mirror mirror/mirror31.jpg",
     "/img/projects/photography/mirror mirror/mirror1.jpg",
     "/img/projects/photography/mirror mirror/mirror2.jpg",
-    "/img/projects/photography/mirror mirror/mirror3.jpg",
     "/img/projects/photography/mirror mirror/mirror4.jpg",
     "/img/projects/photography/mirror mirror/mirror5.jpg",
     "/img/projects/photography/mirror mirror/mirror6.jpg",

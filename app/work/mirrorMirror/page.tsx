@@ -17,7 +17,6 @@ export default function About() {
         mirror mirror
       </h1>
       <MirrorCarousel />
-
       <div></div>
       <div style={{ justifyContent: "center", display: "flex" }}></div>
       <p

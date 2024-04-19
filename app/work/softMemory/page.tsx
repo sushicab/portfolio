@@ -16,7 +16,7 @@ export default function About() {
       >
         Soft Memory
       </h1>
-      {/* <SoftMemoryCarousel /> */}
+      <SoftMemoryCarousel />
       <div></div>
       <div style={{ justifyContent: "center", display: "flex" }}></div>
       <p

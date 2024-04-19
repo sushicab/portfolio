@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     p {
       font-size: 14px;
       margin: 5vw 5vw 10vw 5vw
@@ -117,5 +117,258 @@
     .embla__button {
       width: 2.4rem;
       height: 2.4rem; 
+  }
+}
+
+.container {
+  max-width: 1000px; /* Set a maximum width for the container */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+iframe {
+  width: 100%;
+  height: 50vh; /* Set the iframe height to half of the viewport height */
+}
+
+h2 {
+  font-size: 1rem; /* Set the font size of h2 */
+  /* margin-top: 10px; /* Add some space above the h2 */
+} */
+
+h1 {
+  font-size: 2rem; /* Set the font size of h2 */
+  margin-top: 20px; /* Add some space above the h2 */
+  font-style: italic;
+}
+
+p {
+  font-size: 1rem; /* Set the font size of paragraphs */
+  text-align: justify; /* Justify text alignment */
+  margin: 10px 0; /* Add some vertical margin to paragraphs */
+}
+
+
+
+.about-page-info {
+  display: flex;
+  font-size: 14px;
+}
+
+.about-page-info .items-left {
+  width: 50vw;
+  margin-right: 10px;
+  margin-top:10px;
+  margin-bottom: 20px;
+}
+
+.about-page-info .items-right {
+  width: 50vw;
+  height: auto;
+  overflow: hidden;
+  padding-bottom: 80px;
+}
+
+/* Media query for screens smaller than 600px (typical mobile screen size) */
+@media (max-width: 768px) {
+  .about-page-info {
+    flex-direction: column;  
+  }
+
+  .about-page-info .items-left {
+    width: 50vw;
+    margin-right: 10px;
+    margin-top:30px;
+    margin-bottom: 60px;
+    width: 120%;
+  }
+  .about-page-info .items-right {
+    width: 100%; 
+  font-size: 14px;
+    margin-right: 0; 
+  }
+}
+
+.about-page-text {
+  display: flex;
+  font-size: 14px;
+}
+
+.about-page-text .text-column{
+  width: 55vw;
+  margin-top:30px;
+  margin-bottom: 60px;
+
+}
+.about-page-text .image-column {
+  height: auto;
+  font-size: 14px;
+  width: 45vw;
+  margin-Left: 70px;
+  margin-top:30px;
+  margin-bottom: 60px;
+  
+}
+
+.about-page-text .text-column h2,
+.about-page-text .image-column h2 {
+  margin-bottom: 20px;
+}
+
+.about-page-text .text-column p,
+.about-page-text .image-column p {
+  margin-bottom: 10px;
+}
+
+/* Media query for screens smaller than 600px (typical mobile screen size) */
+@media (max-width: 768px) {
+  .about-page-text {
+    flex-direction: column; /* Display content in a single column */
+  }
+
+  .about-page-text .text-column{
+    width: 100%; 
+    
+  }
+  
+  .about-page-text .image-column {
+
+  }
+}
+
+.introduction-container {
+  width: auto;
+  height: 800px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-content {
+  width: 50%;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.right-content {
+  width: 50%;
+  margin-left: 100px;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+.center-text {
+  font-size: 10rem;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 9px;
+  position: absolute;
+  width: 100%; 
+  margin-top: 150px;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .introduction-container {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+  }
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .left-content,
+  .right-content {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .center-text {
+    font-size: 5rem;
+    text-align: left;
+    font-weight: bold;
+    letter-spacing: 3px;
+    width: 100%; 
+    position: static;
+  }
+}
+
+/* PageInfo.css */
+
+/* Container styles */
+.page-info-container {
+  width: 100%;
+}
+
+/* Iframe styles */
+.iframe-container {
+  max-width: 100%;
+}
+
+/* Text content styles */
+.text-content {
+  margin: 20px;
+  text-align: justify;
+  margin-top: 100px;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-bottom: 250px;
+}
+
+/* Image grid styles */
+.image-grid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  object-fit: cover;
+}
+
+/* Image item styles */
+.image-item {
+  width: calc(50% - 100px);
+  margin-bottom: 10px;
+  margin-left: 95px;
+}
+
+/* Credits container styles */
+.credits-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Credits text styles */
+.credits-text {
+  width: 50%;
+  padding: 100px;
+  margin-left: 80px;
+}
+
+
+@media (max-width: 768px) {
+  .page-info-text {
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .image-item {
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .credits-text {
+    width: 100%;
+    padding: 20px;
+    margin-left: 0;
   }
 }

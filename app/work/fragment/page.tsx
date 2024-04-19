@@ -1,8 +1,6 @@
 import { Autour_One } from "next/font/google";
-import ImageSlider from "@/components/ImageSlider";
+import FragmentCarousel from "@/components/FragmentCarousel";
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import { Carousel } from "react-bootstrap";
 
 export default function About() {
   return (
@@ -18,7 +16,8 @@ export default function About() {
       >
         fragment
       </h1>
-      <div>{/* <ImageSlider /> */}</div>
+      <FragmentCarousel />
+      <div></div>
       <div style={{ justifyContent: "center", display: "flex" }}></div>
       <p
         style={{
