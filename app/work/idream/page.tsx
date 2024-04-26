@@ -8,9 +8,9 @@ const Page = () => {
         iframeSrc="https://player.vimeo.com/video/638304049?h=369837fcf8"
         title="i dream, i dreamt"
         subtitle='"All that we all see or seem
-        <br />
+        
         Is but a dream within a dream?"
-        <br />
+        
         -- <i>A Dream Within a Dream</i> Allan Kaprow'
         textContent={`"Dreamt, I Dream" unfolds as an immersive interactive
         artistic creation of mine, inviting you into the realm of dream
@@ -19,8 +19,7 @@ const Page = () => {
         installation unveils the subjective interplay of memory and brain
         activities. The surreal experience of transforming disconnected and
         incongruent signals into a visually cohesive narrative is rekindled.
-        <br />
-        <br />
+       
         Various layers of animation and sound are activated through contact with
         3D-printed eye, nose, lip, ear, and hand replicas representing
         surrounding body organs. Equipped with cameras, electroacoustic
@@ -29,15 +28,14 @@ const Page = () => {
         In this immersive journey, participants not only experience but also
         shape the dream generating process, blurring the lines between
         experiencer and creator.
-        <br />
-        <br />
+       
         We exist as components within the dreams of others, just as we perceive
         others' existence as integral elements in our own dreams.`}
         imagePaths={[
           "/img/projects/interactive design/idream/idream1.jpg",
           "/img/projects/interactive design/idream/idream2.jpg",
-          "/img/projects/interactive design/idream/idream3.jpg",
-          "/img/projects/interactive design/idream/idream4.jpg",
+          "/img/projects/interactive design/idream/File 3.jpg",
+          "/img/projects/interactive design/idream/File 2.jpg",
         ]}
         creditsText={[
           "C R E D I T S",
@@ -61,6 +59,7 @@ const Page = () => {
           "GEIST LAB",
           "GRADUATE SCHOOL OF KEIO MEDIA DESIGN",
         ]}
+        additionalVideoSrc="https://player.vimeo.com/video/638304696?badge=0"
       />
     </div>
   );

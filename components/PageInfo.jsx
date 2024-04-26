@@ -1,6 +1,6 @@
 import React from "react";
 
-const ProjectInfo = ({
+const PageInfo = ({
   iframeSrc,
   title,
   subtitle,
@@ -9,21 +9,30 @@ const ProjectInfo = ({
   creditsText,
   videoCreditsText,
   specialThanksText,
+  additionalVideoSrc,
 }) => {
   return (
     <main>
-      <div style={{ maxWidth: "1440px" }}>
+      <div
+        style={{
+          maxWidth: "1440px",
+          display: "flex",
+          justifyContent: "center",
+          margin: "0 auto",
+          marginTop: "20px",
+        }}
+      >
         <iframe
-          src={iframeSrc}
           width="1440px"
           height="786px"
+          src={iframeSrc}
           allow="autoplay; fullscreen; picture-in-picture"
           title="Vimeo video"
         ></iframe>
       </div>
       <h2
         style={{
-          marginTop: "50px",
+          marginTop: "200px",
           fontSize: "50px",
           textAlign: "center",
           fontStyle: "italic",
@@ -34,7 +43,7 @@ const ProjectInfo = ({
       <p
         style={{
           textAlign: "center",
-          marginTop: "40px",
+          marginTop: "100px",
           marginBottom: "40px",
           fontStyle: "italic",
         }}
@@ -45,9 +54,10 @@ const ProjectInfo = ({
         style={{
           margin: "20px",
           textAlign: "justify",
-          marginLeft: "200px",
-          marginRight: "200px",
+          marginLeft: "300px",
+          marginRight: "300px",
           marginBottom: "100px",
+          marginTop: "100px",
         }}
       >
         {textContent}
@@ -57,6 +67,8 @@ const ProjectInfo = ({
           display: "flex",
           justifyContent: "space-between",
           flexWrap: "wrap",
+          marginTop: "200px",
+          marginBottom: "110px",
         }}
       >
         {imagePaths.map((path, index) => (
@@ -73,15 +85,25 @@ const ProjectInfo = ({
           />
         ))}
       </div>
-      <div style={{ maxWidth: "1440px", marginTop: "100px" }}>
+      <div
+        style={{
+          maxWidth: "1440px",
+          display: "flex",
+          justifyContent: "center",
+          margin: "0 auto",
+          marginTop: "20px",
+        }}
+      >
         <iframe
-          src="https://player.vimeo.com/video/638304696?badge=0"
           width="1440px"
           height="786px"
+          src={additionalVideoSrc}
           allow="autoplay; fullscreen; picture-in-picture"
           title="Vimeo video"
+          style={{ marginTop: "150px" }}
         ></iframe>
       </div>
+
       <div style={{ display: "flex", justifyContent: "space-between" }}>
         <div style={{ width: "50%", padding: "150px", marginLeft: "100px" }}>
           <p style={{ marginBottom: "15px" }}>{creditsText[0]}</p>
@@ -112,4 +134,4 @@ const ProjectInfo = ({
   );
 };
 
-export default ProjectInfo;
+export default PageInfo;

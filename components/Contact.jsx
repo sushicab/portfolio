@@ -5,7 +5,7 @@ const Contact = () => {
     <div>
       <div
         style={{
-          fontSize: "160px",
+          fontSize: "160px"
         }}
       >
         <h2>Get in touch</h2>

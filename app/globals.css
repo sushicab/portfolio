@@ -120,35 +120,6 @@
   }
 }
 
-.container {
-  max-width: 1000px; /* Set a maximum width for the container */
-  margin: 0 auto; /* Center the container horizontally */
-}
-
-iframe {
-  width: 100%;
-  height: 50vh; /* Set the iframe height to half of the viewport height */
-}
-
-h2 {
-  font-size: 1rem; /* Set the font size of h2 */
-  /* margin-top: 10px; /* Add some space above the h2 */
-} */
-
-h1 {
-  font-size: 2rem; /* Set the font size of h2 */
-  margin-top: 20px; /* Add some space above the h2 */
-  font-style: italic;
-}
-
-p {
-  font-size: 1rem; /* Set the font size of paragraphs */
-  text-align: justify; /* Justify text alignment */
-  margin: 10px 0; /* Add some vertical margin to paragraphs */
-}
-
-
-
 .about-page-info {
   display: flex;
   font-size: 14px;
@@ -370,5 +341,130 @@ p {
     width: 100%;
     padding: 20px;
     margin-left: 0;
+  }
+}
+
+/* PageInfo.css */
+
+/* Main container */
+.page-info-container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Video iframe */
+.page-info-video {
+  width: 100%;
+  height: 786px; /* Default height for larger screens */
+}
+
+/* Title */
+.page-info-title {
+  margin-top: 50px;
+  font-size: 50px;
+  text-align: center;
+  font-style: italic;
+}
+
+/* Subtitle */
+.page-info-subtitle {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-style: italic;
+}
+
+/* Text content */
+.page-info-text-content {
+  margin: 20px;
+  text-align: justify;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 100px;
+}
+
+/* Image grid */
+.page-info-image-grid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Individual images */
+.page-info-image-item {
+  width: calc(50% - 100px);
+  margin-bottom: 10px;
+}
+
+/* Credits section */
+.page-info-credits {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Credits text */
+.page-info-credits-text {
+  width: 50%;
+  padding: 150px;
+}
+
+/* Video credits text */
+.page-info-video-credits-text {
+  width: 50%;
+  padding: 150px;
+}
+
+/* Special thanks section */
+.page-info-special-thanks {
+  margin-top: 50px;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  /* Video iframe */
+  .page-info-video {
+    height: auto; /* Adjusting height to auto for smaller screens */
+  }
+
+  /* Title */
+  .page-info-title {
+    font-size: 30px;
+  }
+
+  /* Subtitle */
+  .page-info-subtitle {
+    font-size: 20px;
+  }
+
+  /* Text content */
+  .page-info-text-content {
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+
+  /* Individual images */
+  .page-info-image-item {
+    width: calc(50% - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  /* Credits section */
+  .page-info-credits {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Credits text */
+  .page-info-credits-text,
+  .page-info-video-credits-text {
+    width: auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* Special thanks section */
+  .page-info-special-thanks {
+    margin-top: 20px;
   }
 }
