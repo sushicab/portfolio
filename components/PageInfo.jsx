@@ -34,14 +34,20 @@ const PageInfo = ({
       <p className="page-info-subtitle">{parse(subtitle)}</p>
       <p className="page-info-text-content">{parse(textContent)}</p>
       <div className="page-info-image-grid">
-        {imagePaths.map((path, index) => (
-          <img
-            className="page-info-image"
-            key={index}
-            src={path}
-            alt={`Image ${index + 1}`}
-          />
-        ))}
+        {imagePaths.map((image, index) =>
+          image.type === "image" ? (
+            <img
+              className="page-info-image"
+              key={index}
+              src={image.src}
+              alt={`Image ${index + 1}`}
+            />
+          ) : (
+            <video className="page-info-image" controls autoPlay>
+              <source src={image.src} type="video/mp4" />
+            </video>
+          )
+        )}
       </div>
       <div
         style={{

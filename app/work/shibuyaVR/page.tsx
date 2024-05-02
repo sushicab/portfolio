@@ -7,7 +7,7 @@ const Page = () => {
     <div>
       <PageInfo
         iframeSrc="https://player.vimeo.com/video/929541977?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=584799"
-        title="Shibuya VR Immersive Point Cloud Adventure"
+        title="Shibuya VR <br />Immersive Point Cloud Adventure"
         subtitle="
         "
         textContent={`        Envision Shibuya, a bustling and iconic district in Tokyo, undergoing a
@@ -21,19 +21,38 @@ const Page = () => {
         Central to this endeavor is the utilization of visualized point cloud
         data, a sophisticated technique that transforms the virtual landscape
         into a dynamic and responsive environment. Participants are not mere
-        observers; they are active participants in this digital spectacle.A key
-        element facilitating this interactive journey is a specially designed UI
+        observers; they are active participants in this digital spectacle.
+        <br />
+        <br />
+        
+        A key element facilitating this interactive journey is a specially designed UI
         tablet. This device serves as the gateway for participants to exercise
         their creative agency, allowing them to customize various aspects of the
         luminous particles. From selecting vibrant colors to fine-tuning
         performance dynamics and adjusting geometric sizes, the UI tablet
         empowers individuals to shape the aesthetic and experiential dimensions
-        of this virtual wonderland.`}
+        of this virtual wonderland.
+        <br />
+        <br />
+        
+        As the project progresses, we eagerly anticipate delving deeper into the myriad possibilities for enhancing interactive and immersive experiences within the virtual domain. The fusion of technology, creativity, and user agency promises to redefine how we engage with and perceive virtual spaces, paving the way for a future where the boundaries between the physical and digital realms become even more fluid and enthralling.`}
         imagePaths={[
-          "/img/projects/interactive design/shibuya VR/shibuya1.jpg",
-          "/img/projects/interactive design/shibuya VR/shibuya5.jpg",
-          "/img/projects/interactive design/shibuya VR/shibuya3.jpg",
-          "/img/projects/interactive design/shibuya VR/shibuya4.jpg",
+          {
+            type: "image",
+            src: "/img/projects/interactive design/shibuya VR/shibuya1.jpg",
+          },
+          {
+            type: "image",
+            src: "/img/projects/interactive design/shibuya VR/shibuya5.jpg",
+          },
+          {
+            type: "image",
+            src: "/img/projects/interactive design/shibuya VR/shibuya3.jpg",
+          },
+          {
+            type: "image",
+            src: "/img/projects/interactive design/shibuya VR/shibuya4.jpg",
+          },
         ]}
         creditsText={[
           "C R E D I T S",

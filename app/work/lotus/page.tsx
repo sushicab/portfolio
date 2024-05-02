@@ -14,18 +14,20 @@ export default function About() {
       >
         Lotus
       </h1>
-      <div style={{ justifyContent: "center", display: "flex" }}>
+      <div
+        style={{ justifyContent: "center", display: "flex", marginTop: "40px" }}
+      >
         <img
           src="/img/projects/fine arts/lotus/lotus1.jpg"
           alt="lotus"
-          width="50%"
+          width="60%"
           height="auto"
         />
       </div>
       <p
         style={{
           textAlign: "left",
-          width: "60%",
+          width: "70%",
           height: "auto",
           margin: "auto",
           marginTop: "80px",
