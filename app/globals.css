@@ -11,6 +11,57 @@
 
 nav {
   max-width: 100vw;
+  position: fixed;
+
+  right: 0;
+  z-index: 10;
+  background-color: rgba(227, 227, 227, 0.3); /* Adjust opacity as needed */
+}
+
+/* Navbar inner container */
+.navbar-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Logo */
+.logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: black;
+}
+
+/* Menu */
+.menu {
+  width: auto; /* Adjust as needed */
+  display: flex;
+}
+
+/* Menu items */
+.menu ul {
+  display: flex;
+  padding: 1rem;
+  margin: 0;
+  list-style: none;
+}
+
+.menu li {
+  margin-right: 1rem;
+}
+
+/* Menu link */
+.menu a {
+  font-size: 1rem;
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: gray; /* Adjust hover color as needed */
 }
 
 /* Styles for the content container */
@@ -253,14 +304,6 @@ nav {
   font-style: italic;
 }
 
-/* Subtitle */
-.page-info-subtitle {
-  text-align: center;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  font-style: italic;
-}
-
 /* Text content */
 .page-info-text-content {
   text-align: justify;
@@ -346,8 +389,92 @@ nav {
   text-decoration: underline;
 }
 
+.AR-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.AR-title {
+  margin-top: 80px;
+  font-size: 50px;
+  text-align: center;
+  font-style: italic;
+}
+
+.AR-text {
+  margin: 20px;
+  text-align: justify;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+.AR-image-item {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 900px;
+}
+
+.AR-image {
+  width: calc(30% - 10px);
+  margin-bottom: 10px;
+}
+
+.AR-credits-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 150px;
+  margin-left: 80px;
+}
+
+.AR-credits {
+  margin-bottom: 15px;
+}
+
 /* Media query for responsiveness */
 @media (max-width: 768px) {
+  .navbar-inner {
+    flex-direction: column;
+    position: fixed;
+  }
+
+  /* Logo */
+  .logo {
+    margin-bottom: 1rem;
+  }
+
+  /* Menu */
+  .menu {
+    justify-content: right; /* Center align menu items */
+  }
+
+  /* Menu items */
+  .menu ul {
+    flex-direction: row; /* Display menu items in a row */
+    display: flex;
+    padding: 1rem;
+    margin: 0;
+  }
+
+  .menu a {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+  }
+
+  .menu li {
+    margin-right: 1px;
+  }
+
   .introduction-container {
     width: 100%;
     height: 100%;
@@ -535,5 +662,57 @@ nav {
 
   .contact-link {
     margin-bottom: 2rem;
+  }
+
+  .AR-container {
+    height: 100vh;
+    width: 100%;
+  }
+
+  .AR-title {
+    margin-top: 100px;
+    font-size: 35px;
+  }
+
+  .AR-text {
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .AR-text-content {
+    margin: 0 15vw;
+  }
+
+  .AR-image-item {
+    width: calc(100% - 100px);
+  }
+
+  .AR-image-iteme-grid {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5vw 0;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .AR-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .AR-credits-container {
+    width: 90%;
+    padding: 30px;
+    margin: 0 5vw;
+  }
+
+  .AR-credits {
+    padding: 5px;
   }
 }
