@@ -7,6 +7,7 @@ const PageInfo = ({
   subtitle,
   textContent,
   imagePaths,
+  textAdditional,
   creditsText,
   videoCreditsText,
   specialThanksText,
@@ -49,6 +50,8 @@ const PageInfo = ({
           )
         )}
       </div>
+      <p className="page-info-text-additional">{parse(textAdditional)}</p>
+
       <div
         style={{
           maxWidth: "1440px",

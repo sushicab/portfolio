@@ -25,17 +25,9 @@ const Page = () => {
         <br />
         <br />
         
-        A key element facilitating this interactive journey is a specially designed UI
-        tablet. This device serves as the gateway for participants to exercise
-        their creative agency, allowing them to customize various aspects of the
-        luminous particles. From selecting vibrant colors to fine-tuning
-        performance dynamics and adjusting geometric sizes, the UI tablet
-        empowers individuals to shape the aesthetic and experiential dimensions
-        of this virtual wonderland.
-        <br />
-        <br />
+
         
-        As the project progresses, we eagerly anticipate delving deeper into the myriad possibilities for enhancing interactive and immersive experiences within the virtual domain. The fusion of technology, creativity, and user agency promises to redefine how we engage with and perceive virtual spaces, paving the way for a future where the boundaries between the physical and digital realms become even more fluid and enthralling.`}
+        `}
         imagePaths={[
           {
             type: "image",
@@ -54,6 +46,9 @@ const Page = () => {
             src: "/img/projects/interactive design/shibuya VR/shibuya4.jpg",
           },
         ]}
+        textAdditional={
+          " A key element facilitating this interactive journey is a specially designed UI tablet. This device serves as the gateway for participants to exercise their creative agency, allowing them to customize various aspects of the luminous particles. From selecting vibrant colors to fine-tuning performance dynamics and adjusting geometric sizes, the UI table empowers individuals to shape the aesthetic and experiential dimensions of this virtual wonderland."
+        }
         creditsText={[
           "C R E D I T S",
           "YIFAN ZHUANG <b>Interaction Design & System Development</b>",

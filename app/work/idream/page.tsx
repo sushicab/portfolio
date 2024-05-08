@@ -20,15 +20,7 @@ const Page = () => {
         activities. The surreal experience of transforming disconnected and
         incongruent signals into a visually cohesive narrative is rekindled.
         </br></br>
-        Various layers of animation and sound are activated through contact with
-        3D-printed eye, nose, lip, ear, and hand replicas representing
-        surrounding body organs. Equipped with cameras, electroacoustic
-        transducers, and touch sensors, the installation processes live video
-        and audience voices, fostering real-time interaction with participants.
-        In this immersive journey, participants not only experience but also
-        shape the dream generating process, blurring the lines between
-        experiencer and creator.
-        </br></br>
+
         We exist as components within the dreams of others, just as we perceive
         others' existence as integral elements in our own dreams.`}
         imagePaths={[
@@ -49,6 +41,9 @@ const Page = () => {
             src: "/img/projects/interactive design/idream/File 2.jpg",
           },
         ]}
+        textAdditional={
+          "        Various layers of animation and sound are activated through contact with 3D-printed eye, nose, lip, ear, and hand replicas representing surrounding body organs. Equipped with cameras, electroacoustic transducers, and touch sensors, the installation processes live video and audience voices, fostering real-time interaction with participants. In this immersive journey, participants not only experience but also shape the dream generating process, blurring the lines between experiencer and creator. </br></br>"
+        }
         creditsText={[
           "C R E D I T S",
           "YIFAN ZHUANG Creative Direction & Interaction Design & CG Animation",

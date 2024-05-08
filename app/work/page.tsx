@@ -26,7 +26,7 @@ const Rows = [
       {
         title: "Emolleia",
         description: "Interactive Wearable Device/ 2021 ",
-        imgUrl: "/img/workpage/emolleia1.jpg",
+        imgUrl: "/img/projects/interactive design/emolleia/emolleia1.jpg",
         path: "/work/emolleia",
       },
       {

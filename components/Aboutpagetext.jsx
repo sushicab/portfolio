@@ -19,6 +19,7 @@ const Aboutpagetext = () => {
               Embodied Interaction (TEI ’22), February 13–16, 2022
             </a>
           </p>
+          <br></br>
           <p className="mb-2">
             <a
               href="https://dl.acm.org/doi/abs/10.1145/3393914.3395900"
@@ -33,19 +34,16 @@ const Aboutpagetext = () => {
         </div>
 
         <h2 className="text-1xl font-bold mb-4">Exhibition Experience:</h2>
-        <div className="mb-8">
-          <p className="mb-2">2021 Keio Media Design Forum, Tokyo, JP</p>
-          <p className="mb-2">
-            2020 ‘Boys Lovelife’ at PR Picaresque Gallery, Tokyo, JP
-          </p>
-          <p className="mb-2">
-            2019 ‘KAWAII of the World’ at PR Picaresque Gallery, Tokyo, JP
-          </p>
-          <p className="mb-2">2018 ‘Things About Depression’, Beijing, CN</p>
+        <div>
+          <p>2021 Keio Media Design Forum, Tokyo, JP</p>
+          <p>2020 ‘Boys Lovelife’ at PR Picaresque Gallery, Tokyo, JP</p>
+          <p>2019 ‘KAWAII of the World’ at PR Picaresque Gallery, Tokyo, JP</p>
+          <p>2018 ‘Things About Depression’, Beijing, CN</p>
+          <br></br>
         </div>
 
         <h2 className="text-1xl font-bold mb-4">Language:</h2>
-        <p className="mb-2">English, Japanese, Chinese</p>
+        <p>English, Japanese, Chinese</p>
       </div>
 
       {/* Right Side - Image */}
@@ -54,7 +52,6 @@ const Aboutpagetext = () => {
           style={{
             width: "50vw",
             height: "auto",
-            fontSize: "14px",
           }}
         >
           <p>
@@ -89,9 +86,9 @@ const Aboutpagetext = () => {
             >
               Website design & developed by herself
             </p>
-            {/* <div style={{ width: "20vw" }}>
+            <div style={{ width: "20vw" }}>
               <img src="/img/about/meme.png" style={{ maxWidth: "55%" }} />
-            </div> */}
+            </div>
           </div>
         </div>
       </div>

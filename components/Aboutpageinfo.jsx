@@ -2,49 +2,45 @@ const Aboutpageinfo = () => {
   return (
     <div className="about-page-info">
       <div className="items-left">
-        <img src="/img/about/IMG_1582.JPG" style={{ maxWidth: "85%" }} />
+        <img src="/img/about/IMG_1582.JPG" style={{ maxWidth: "80%" }} />
       </div>
 
       <div className="items-right">
         {/* Add fixed dimensions and overflow properties */}
         <h2 className="text-1xl font-bold mb-1">Education Background:</h2>
-        <div className="mb-8" style={{ fontSize: "14px" }}>
+        <div className="mb-8">
           {/* Adjust font size here */}
           <p className="mb-2">
-            <span className="font-regular mr-10">2019 - 2021</span> MA at
-            Graduate School of Keio University, major HCI (Human-Computer
-            Interaction) & Interaction Design
+            <span>2019 - 2021</span> MA at Graduate School of Keio University,
+            major HCI (Human-Computer Interaction) & Interaction Design
           </p>
           <p className="mb-2">
-            <span className="font-regular mr-10">2014 - 2018</span> BA at
-            Shanghai University, major Digital Communication and
-            Media/Multimedia
+            <span>2014 - 2018</span> BA at Shanghai University, major Digital
+            Communication and Media/Multimedia
           </p>
         </div>
 
         <h2 className="text-1xl font-bold mb-2">Work Experience:</h2>
-        <div style={{ fontSize: "14px" }}>
+        <div>
           {" "}
           {/* Adjust font size here */}
           <p className="mb-2">
-            <span className="font-regular mr-10">2022 - Present</span>{" "}
-            Interaction Designer, aircord.inc, Tokyo, JP
+            <span>2022 - Present</span> Interaction Designer, aircord.inc,
+            Tokyo, JP
           </p>
           <p className="mb-2">
-            <span className="font-regular mr-10">2022 - Present</span> 3D
-            Artist/Researcher, The Shift, Tokyo, JP
+            <span>2022 - Present</span> 3D Artist/Researcher, The Shift, Tokyo,
+            JP
           </p>
           <p className="mb-2">
-            <span className="font-regular mr-10">2021 - 2022</span> Research
-            Assistant, Graduate School of Keio University, Kanagawa, JP
+            <span>2021 - 2022</span> Research Assistant, Graduate School of Keio
+            University, Kanagawa, JP
           </p>
           <p className="mb-2">
-            <span className="font-regular mr-10">2020 - 2021</span> Account
-            Executive, Helixes.inc , Tokyo, JP
+            <span>2020 - 2021</span> Account Executive, Helixes.inc , Tokyo, JP
           </p>
           <p className="mb-2">
-            <span className="font-regular mr-10">2018 - 2019</span> Account
-            Executive, GTB (WPP), Shanghai, CN
+            <span>2018 - 2019</span> Account Executive, GTB (WPP), Shanghai, CN
           </p>
         </div>
       </div>

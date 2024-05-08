@@ -40,6 +40,7 @@ const About = () => {
             src: "/img/projects/CG/i dream CG/videooout/eyeball 1.mp4",
           },
         ]}
+        textAdditional={""}
         creditsText={[
           "C R E D I T S",
           "YIFAN ZHUANG Art Director & 3D ARTIST",
