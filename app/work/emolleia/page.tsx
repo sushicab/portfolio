@@ -1,10 +1,83 @@
 import React from "react";
 import PageInfo from "@/components/PageInfo";
+import EmolleiaPageInfo from "@/components/EmolleiaPageInfo";
 
 const Page = () => {
   return (
     <div>
-      <PageInfo
+      <EmolleiaPageInfo
+        iframeSrc="https://player.vimeo.com/video/626239850?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+        title=" Emolleia"
+        subtitle='
+              Emolleia was inspired by a poem titled "Shy Flower"
+              <br />
+              <br />
+              To the little shy flower;
+              <br />
+              hiding beneath brush "
+              <br />
+              petals extended
+              <br />
+              smiles
+              <br />
+              pink-white colors
+              <br />
+              for the butterfly she drew'
+        textContent={`        Three blooming transparent flowers form an accessory that can be worn
+              around the shoulder. With a webcam turned on, the onlooker's facial
+              expression will be detected and categorized. Depending on the facial
+              expression, the Emolleia will perform five predefined correlated
+              motions.
+              <br />
+              <br />
+              Each of the three flowers has been equipped with an LED light unit
+              inside to enable color changes, aiding in better expressing the wearer's
+              emotions.`}
+        imagePaths={[
+          {
+            type: "image",
+            src: "/img/projects/interactive design/emolleia/emolleia3.jpg",
+          },
+          {
+            type: "image",
+            src: "/img/projects/interactive design/emolleia/emolleia1.jpg",
+          },
+          {
+            type: "image",
+            src: "/img/projects/interactive design/emolleia/2.jpg",
+          },
+          {
+            type: "image",
+            src: "/img/projects/interactive design/emolleia/emolleia2.jpg",
+          },
+        ]}
+        creditsText={[
+          "C R E D I T S",
+          "YIFAN ZHUANG <b>Researcher & Lead Designer</b>",
+          "KEITARO TSUCHIYA <b>Electrical & Mechanical Designer </b>",
+          "TAKURO NAKAO <b>3D Modeler & Technical Support</b>",
+          "JIAWEN HAN <b>Data Analysis</b>",
+        ]}
+        videoCreditsText={[
+          "V I D E O C R E D I T S",
+          "YIFAN ZHUANG <b>Direction & Shooting & Edit</b>",
+          "DALEN WANG <b>Hair & Makeup</b>",
+          "SIYU MA <b>Model</b>",
+        ]}
+        specialThanksText={[
+          "S P E C I A L  T H A N K S",
+          "KAI KUNZE",
+          "GEIST LAB",
+          "Graduate School of Keio Media Design",
+          "C O L L A B O R A T I O N:",
+          "'Emolleia' project is in collaboration with NTT Media Intelligence Laboratories.",
+        ]}
+        textAdditional={
+          "We sought to explore more possibilities that people can do to express their emotion through not only facial or body language, but also non-verbal language and wearable devices.  <br />  <br />The aim of this study is to explore more possibilities utilizing wearables to assist on emotion expressing, ultimately enhance our conversation efficiency or even social life."
+        }
+      />
+
+      {/* <PageInfo
         iframeSrc="https://player.vimeo.com/video/626239850?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
         title=" Emolleia"
         subtitle='
@@ -149,7 +222,7 @@ const Page = () => {
         </div>
       </div>
       <div>
-        <h2 className="page-info-subtitle">EMOLLEIA DEMO AT KMD FORUM 2021:</h2>
+        <h2 className="page-info-text">EMOLLEIA DEMO AT KMD FORUM 2021:</h2>
         <div className="page-info-iframe">
           <iframe
             src="https://player.vimeo.com/video/663887880?badge=0&amp;autopause=0&amp"
@@ -197,9 +270,8 @@ const Page = () => {
           <p>
             This project is in collaboration with NTT Media Intelligence
             Laboratory.
-          </p>
-        </div>
-      </div>
+          </p> */}
+      {/* </div> */}
     </div>
   );
 };
@@ -418,11 +490,11 @@ export default Page;
 // >
 // <div>
 //   <h2
-//     style={{
-//       fontSize: "20px",
-//       fontStyle: "italic",
-//       marginLeft: "10px",
-//     }}
+// style={{
+//   fontSize: "20px",
+//   fontStyle: "italic",
+//   marginLeft: "10px",
+// }}
 //   >
 //     EMOLLEIA DEMO AT KMD FORUM 2021:
 //   </h2>

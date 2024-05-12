@@ -56,7 +56,7 @@ const Page = () => {
         ]}
         videoCreditsText={[]}
         specialThanksText={[]}
-        additionalVideoSrc="https://player.vimeo.com/video/638304696?badge=0"
+        additionalVideoSrc="/img/projects/interactive design/shibuya VR/video1.MP4"
       />
     </div>
   );

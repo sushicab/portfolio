@@ -86,8 +86,8 @@ const Aboutpagetext = () => {
             >
               Website design & developed by herself
             </p>
-            <div style={{ width: "20vw" }}>
-              <img src="/img/about/meme.png" style={{ maxWidth: "55%" }} />
+            <div>
+              <img src="/img/about/meme.png" style={{ maxWidth: "40%" }} />
             </div>
           </div>
         </div>

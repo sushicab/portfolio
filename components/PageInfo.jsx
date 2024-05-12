@@ -61,13 +61,25 @@ const PageInfo = ({
           marginTop: "20px",
         }}
       >
-        <iframe
-          className="page-info-iframe"
-          src={additionalVideoSrc}
-          allow="autoplay; fullscreen; picture-in-picture"
-          title="Vimeo video"
-          style={{ marginTop: "150px" }}
-        ></iframe>
+        {typeof additionalVideoSrc === "string" &&
+        additionalVideoSrc.endsWith(".mp4") ? (
+          <video
+            className="page-info-video"
+            src={additionalVideoSrc}
+            controls
+            autoPlay
+            loop
+            style={{ marginTop: "150px", maxWidth: "100%" }}
+          ></video>
+        ) : (
+          <iframe
+            className="page-info-iframe"
+            src={additionalVideoSrc}
+            allow="autoplay; fullscreen; picture-in-picture"
+            title="Vimeo video"
+            style={{ marginTop: "150px" }}
+          ></iframe>
+        )}
       </div>
 
       <div className="page-info-credits-container">

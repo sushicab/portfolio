@@ -30,22 +30,14 @@ export default function About() {
         }}
       >
         <em>Soft Memory</em>, a Polaroid project born from deep appreciation for
-        a timeless medium, as a delicate dance of uncertainty, the steadfast
-        preservation of colors and memories, and the ineffable connection it
-        forges between past and present.
-        <br />
-        <br />
-        Each snapshot is a window to the past, a tangible vessel carrying
-        emotions and experiences frozen in time. As I hold these Polaroids in my
-        hands, I feel the weight of nostalgia wash over me, each image a portal
-        to cherished moments and lost fragments of time.
+        uncertainty, each image a portal to cherished moments and lost fragments
+        of time.
         <br />
         <br />
         In <em>Soft Memoryr</em>, I invite you to join me on a journey through
         the snapshots of yesteryears, where every image tells a story and every
-        frame holds a piece of my heart. Explore the beauty of impermanence and
-        the enduring power of memory as we traverse the landscapes of emotion
-        captured on Polaroid film.
+        frame holds a piece of my heart. Explore the beauty of ineffable
+        connection that forges between past and present.
       </p>
     </main>
   );
