@@ -74,7 +74,7 @@ const About = () => {
         ]}
         videoCreditsText={[]}
         specialThanksText={[]}
-        additionalVideoSrc="/img/projects/CG/digital biotopia/Untitled.png"
+        additionalVideoSrc="/img/projects/CG/digital biotopia/1211_2.mp4"
       />
     </div>
   );

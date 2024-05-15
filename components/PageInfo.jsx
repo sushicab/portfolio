@@ -44,7 +44,7 @@ const PageInfo = ({
               alt={`Image ${index + 1}`}
             />
           ) : (
-            <video className="page-info-image" controls autoPlay>
+            <video className="page-info-image" controls autoPlay loop>
               <source src={image.src} type="video/mp4" />
             </video>
           )
