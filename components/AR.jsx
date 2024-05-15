@@ -1,22 +1,22 @@
-import React from 'react';
+import React from "react";
 
 const AboutPage = () => {
   return (
     <main>
-      <div className='AR-container'>
+      <div className="AR-container">
         <iframe
-          src='https://player.vimeo.com/video/581720024?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'
+          src="https://player.vimeo.com/video/581720024?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
           style={{
-            width: '100%',
-            height: '100%',
+            width: "100%",
+            height: "100%",
           }}
-          allow='autoplay; fullscreen; picture-in-picture'
-          title='Vimeo video'
+          allow="autoplay; fullscreen; picture-in-picture"
+          title="Vimeo video"
         ></iframe>
       </div>
 
-      <div className='AR-text-content'>
-        <div className='AR-title'>
+      <div className="AR-text-content">
+        <div className="AR-title">
           <h2>
             Augmented Reality Projects
             <br />
@@ -24,7 +24,7 @@ const AboutPage = () => {
             1. Gender Shell
           </h2>
         </div>
-        <p className='AR-text'>
+        <p className="AR-text">
           “Gender Shell” is an AR installation to visualize gender
           classification experience, as one of the three Reflective design and
           social experiment installations in the research project Labeling: The
@@ -65,58 +65,58 @@ const AboutPage = () => {
           equality amidst gender classification.
         </p>
       </div>
-      <div className='AR-image-item-grid'>
-        <div className='AR-image-item'>
+      <div className="AR-image-item-grid">
+        <div className="AR-image-item">
           <img
-            src='/img/projects/interactive design/gender shell/gender2.jpg'
-            alt='Image 3'
-            className='AR-image'
+            src="/img/projects/interactive design/gender shell/gender2.jpg"
+            alt="Image 3"
+            className="AR-image"
           />
           <iframe
-            src='https://player.vimeo.com/video/581720024?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'
-            className='AR-image'
-            allow='autoplay; fullscreen; picture-in-picture'
-            title='Vimeo video'
+            src="https://player.vimeo.com/video/581720024?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+            className="AR-image"
+            allow="autoplay; fullscreen; picture-in-picture"
+            title="Vimeo video"
           ></iframe>
           <img
-            src='/img/projects/interactive design/gender shell/gender1.png'
-            alt='Image 2'
-            className='AR-image'
+            src="/img/projects/interactive design/gender shell/gender1.png"
+            alt="Image 2"
+            className="AR-image"
           />
         </div>
       </div>
 
-      <div className='AR-credits-container'>
+      <div className="AR-credits-container">
         <div>
-          <h2 className='text-1xl font-bold mb-4'>
+          <h2 className="text-1xl font-bold mb-4">
             More details in related publication:
           </h2>
-          <div className='AR-credits'>
+          <div className="AR-credits">
             <p>
               <a
-                href='https://dl.acm.org/doi/abs/10.1145/3393914.3395900'
-                target='_blank'
-                rel='noopener noreferrer'
-                style={{ textDecoration: 'underline' }}
+                href="https://dl.acm.org/doi/abs/10.1145/3393914.3395900"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ textDecoration: "underline" }}
               >
                 [1]Labeling: The Reflective Design of Socialized Gender
                 Classification
               </a>
             </p>
           </div>
-          <p className='AR-credits'>C R E D I T S</p>
-          <p className='AR-credits'>
-            CHIA-HSIN CHEN <strong> Lead Designer/ Researcher </strong>{' '}
+          <p className="AR-credits">C R E D I T S</p>
+          <p className="AR-credits">
+            CHIA-HSIN CHEN <strong> Lead Designer/ Researcher </strong>{" "}
           </p>
-          <p className='AR-credits'>
-            YIFAN ZHUANG <strong> AR Creator/ Developer </strong>{' '}
+          <p className="AR-credits">
+            YIFAN ZHUANG <strong> AR Creator/ Developer </strong>{" "}
           </p>
         </div>
       </div>
 
-      <h2 className='AR-title'>2. AR Filter Collection</h2>
-      <div className='AR-text-content'>
-        <p className='AR-text'>
+      <h2 className="AR-title">2. AR Filter Collection</h2>
+      <div className="AR-text-content">
+        <p className="AR-text">
           In today’s digital age, social media platforms have become vibrant
           hubs for self-expression and creativity. One of the most engaging
           forms of expression on these platforms is the use of augmented reality
@@ -140,29 +140,29 @@ const AboutPage = () => {
           the idea of exploring the world of cybernetics. With a longing to
           understand this realm, I experimented with creating an augmented
           reality effect that splits the face.
-        </p>{' '}
+        </p>{" "}
       </div>
-      <div className='AR-image-item'>
+      <div className="AR-image-item">
         <img
-          src='/img/projects/interactive design/gender shell/cover.jpg'
-          alt='Image 2'
-          className='AR-image'
-          style={{ maxWidth: '100%', height: 'auto' }}
+          src="/img/projects/interactive design/gender shell/cover.jpg"
+          alt="Image 2"
+          className="AR-image"
+          style={{ maxWidth: "100%", height: "auto" }}
         />
         <iframe
-          src='https://player.vimeo.com/video/581701361?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'
-          className='AR-image'
-          allow='autoplay; fullscreen; picture-in-picture'
-          title='Vimeo video'
+          src="https://player.vimeo.com/video/581701361?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+          className="AR-image"
+          allow="autoplay; fullscreen; picture-in-picture"
+          title="Vimeo video"
         ></iframe>
         <img
-          src='/img/projects/interactive design/gender shell/2.png'
-          alt='Image 1'
-          className='AR-image'
+          src="/img/projects/interactive design/gender shell/2.png"
+          alt="Image 1"
+          className="AR-image"
         />
       </div>
-      <div className='AR-text-content'>
-        <p className='AR-text'>
+      <div className="AR-text-content">
+        <p className="AR-text">
           <strong>
             <em> - /ǫᴎiɘdoɘᴎ/ </em>
           </strong>
@@ -192,31 +192,31 @@ const AboutPage = () => {
           tribute  to monolith in the movie<em>2001; A  Space Odyssey</em>, as
           the enlightenment to encourage humankind pursue the technological
           development and space travel.
-        </p>{' '}
+        </p>{" "}
       </div>
-      <div className='AR-image-item'>
+      <div className="AR-image-item">
         <img
-          src='/img/projects/interactive design/gender shell/icon.jpg'
-          alt='Image 3'
-          className='AR-image'
+          src="/img/projects/interactive design/gender shell/icon.jpg"
+          alt="Image 3"
+          className="AR-image"
         />
         <iframe
-          src='https://player.vimeo.com/video/581714257?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'
-          className='AR-image'
-          allow='autoplay; fullscreen; picture-in-picture'
-          title='Vimeo video'
+          src="https://player.vimeo.com/video/581714257?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+          className="AR-image"
+          allow="autoplay; fullscreen; picture-in-picture"
+          title="Vimeo video"
         ></iframe>
         <img
-          src='/img/projects/interactive design/gender shell/1.png'
-          alt='Image 2'
-          className='AR-image'
+          src="/img/projects/interactive design/gender shell/1.png"
+          alt="Image 2"
+          className="AR-image"
         />
       </div>
-      <div className='AR-credits-container'>
-        <div className='AR-credits'>
+      <div className="AR-credits-container">
+        <div className="AR-credits">
           <p>C R E D I T S</p>
           <p>
-            YIFAN ZHUANG <strong> Designer/ Developer </strong>{' '}
+            YIFAN ZHUANG <strong> Designer/ Developer </strong>{" "}
           </p>
         </div>
       </div>
