@@ -1,35 +1,37 @@
-import { Autour_One } from "next/font/google";
+import { Autour_One } from 'next/font/google';
 
 export default function About() {
   return (
     <main>
       <h1
         style={{
-          fontSize: "40px",
-          fontStyle: "italic",
-          textAlign: "center",
-          marginTop: "100px",
-          marginBottom: "30px",
+          fontSize: '40px',
+          fontStyle: 'italic',
+          textAlign: 'center',
+          marginTop: '100px',
+          marginBottom: '30px',
         }}
       >
         Stay at Home
       </h1>
-      <div style={{ justifyContent: "center", display: "flex" }}>
+      <div style={{ justifyContent: 'center', display: 'flex' }}>
         <img
-          src="/img/projects/short film/screenshot/stayathome1.png"
-          alt="lotus"
-          width="100%"
-          height="auto"
+          src='/img/projects/short film/screenshot/stayathome1.png'
+          alt='lotus'
+          style={{
+            width: '100%',
+            height: 'auto',
+          }}
         />
       </div>
       <p
         style={{
-          textAlign: "left",
-          width: "60%",
-          height: "auto",
-          margin: "auto",
-          marginTop: "80px",
-          marginBottom: "150px",
+          textAlign: 'left',
+          width: '60%',
+          height: 'auto',
+          margin: 'auto',
+          marginTop: '80px',
+          marginBottom: '150px',
         }}
       >
         <em>Stay at Home </em>
@@ -48,9 +50,9 @@ export default function About() {
         <br />
         Upon returning home to China, I was inspired to create the second draft
         of the film. During my two-week stay with my parents and grandmother, I
-        finally took the opportunity to visit my grandfather's tomb, paying my
+        finally took the opportunity to visit my grandfather’s tomb, paying my
         respects to him. He had unfortunately passed away in January 2021, and I
-        hadn't been able to see him due to the strict lockdown policies in China
+        hadn’t been able to see him due to the strict lockdown policies in China
         at the time. Editing together footage from my life in Tokyo with scenes
         from my time spent at home in China, I found that they intertwined.This
         juxtaposition underscored the surreal nature of memory, particularly
