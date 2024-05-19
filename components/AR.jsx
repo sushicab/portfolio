@@ -215,7 +215,7 @@ const AboutPage = () => {
       <div className="AR-credits-container">
         <div className="AR-credits">
           <p>C R E D I T S</p>
-          <p>
+          <p style={{ marginBottom: "50px" }}>
             YIFAN ZHUANG <strong> Designer/ Developer </strong>{" "}
           </p>
         </div>

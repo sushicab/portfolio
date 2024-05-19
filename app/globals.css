@@ -160,18 +160,18 @@ nav {
 }
 
 .about-page-text .text-column {
-  width: 55vw;
+  width: 75vw;
   margin-bottom: 60px;
   margin-right: 60px;
-}
-.about-page-text .image-column {
-  height: auto;
-  width: 45vw;
-  margin-bottom: 60px;
+  font-style: "italic";
+  font-weight: "lighter";
+  font-size: "30px";
 }
 
-.about-page-text .image-column p {
-  margin-bottom: 10px;
+.about-page-text-image {
+  width: 35vw;
+  margin-top: 50px;
+  width: 30%;
 }
 
 .introduction-container {
@@ -527,11 +527,11 @@ nav {
   }
 
   .page-info-text-content {
-    margin: 0 15vw;
+    margin: 0 10vw;
     margin-bottom: 60px;
   }
   .page-info-text-additional {
-    margin: 0 15vw;
+    margin: 0 10vw;
     margin-top: 80px;
   }
 
@@ -644,7 +644,14 @@ nav {
   }
 
   .about-page-text.text-column {
+    flex-direction: column;
+  }
+
+  .about-page-text-image {
+    flex-direction: column;
     width: 100%;
+    margin-bottom: 150px;
+    margin-top: 80px;
   }
 
   .contact-title {
@@ -676,8 +683,7 @@ nav {
   }
 
   .AR-text {
-    margin-left: 2px;
-    margin-right: 2px;
+    margin: 0 0;
     margin-top: 50px;
     margin-bottom: 50px;
   }

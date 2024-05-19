@@ -181,7 +181,12 @@ function Row({ rowTitle, Cards }: any) {
       <div className="md:hidden">
         {" "}
         {/* Hide on medium and larger screens */}
-        <h1 className="text-3xl font-italic text-center mt-10 mb-6">
+        <h1
+          className="text-3xl text-center mt-10 mb-6"
+          style={{
+            fontStyle: "italic",
+          }}
+        >
           {rowTitle}
         </h1>
         <div className="flex flex-wrap justify-between mb-12">
