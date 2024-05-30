@@ -86,9 +86,9 @@ const Aboutpagetext = () => {
             >
               Website design & developed by herself
             </p>
-            <div className="about-page-text-image">
+            {/* <div className="about-page-text-image">
               <img src="/img/about/meme.png" />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

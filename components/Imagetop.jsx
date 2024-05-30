@@ -1,14 +1,22 @@
-import Image from 'next/image'; // Import the Image component from Next.js
+import Image from "next/image";
 
 const Imagetop = () => {
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '100vh' }}>
-      {/* Center the image using flexbox */}
+    <div>
       <Image
-        src="/img/top/placeholder2.png" // Replace with the path to your image file
+        className="image_top_main "
+        src="/img/top/test_9.png"
         alt="Your Image Alt Text"
-        width={300} 
-        height={400} 
+        width={1440}
+        height={900}
+      />
+
+      <Image
+        className="image_top "
+        src="/img/top/test1.png"
+        alt="Your Image Alt Text"
+        width={200}
+        height={300}
       />
     </div>
   );
