@@ -13,7 +13,7 @@ const Imagetop = () => {
 
       <Image
         className="image_top "
-        src="/img/top/test1.png"
+        src="/img/top/ifan_png.png"
         alt="Your Image Alt Text"
         width={200}
         height={300}
