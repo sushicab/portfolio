@@ -18,7 +18,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        style={{ paddingTop: "80px", backgroundColor: "#E3E3E3" }}
+        style={{
+          paddingTop: "80px",
+          width: "100vw",
+          height: "100wh",
+          backgroundColor: "#E3E3E3",
+        }}
         className={inter.className}
       >
         <Navbar />

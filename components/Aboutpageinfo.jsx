@@ -5,6 +5,7 @@ const Aboutpageinfo = () => {
         <img
           alt={"yifan!"}
           src="/img/about/IMG_1582.JPG"
+          fill
           style={{ maxWidth: "70%" }}
         />
       </div>

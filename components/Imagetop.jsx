@@ -5,10 +5,10 @@ const Imagetop = () => {
     <div>
       <Image
         className="image_top_main "
-        src="/img/top/test_9.png"
+        src="/img/projects/photography/moments/soft44.jpg"
         alt="Your Image Alt Text"
-        width={1440}
-        height={900}
+        width={300}
+        height={200}
       />
 
       <Image

@@ -193,7 +193,6 @@ function Row({ rowTitle, Cards }: any) {
           {Cards.map((card: any) => (
             <Card key={card.title} {...card} />
           ))}
-          padding-left
         </div>
       </div>
     </>

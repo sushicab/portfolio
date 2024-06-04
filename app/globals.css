@@ -13,7 +13,7 @@
   max-width: 1000px;
   display: flex;
   justify-content: center;
-  margin: 0 auto;
+  margin: 10rem auto;
 }
 
 .image_top {
@@ -166,6 +166,7 @@ nav {
 }
 
 .about-page-info .items-left {
+  position: relative;
   width: 50vw;
   margin-right: 10px;
   margin-top: 10px;
@@ -762,5 +763,8 @@ nav {
 
     height: 30vh;
     width: 80vw;
+    width: 100%; /* Ensure the image fills its container */
+    height: auto; /* Maintain the original aspect ratio */
+    object-fit: contain;
   }
 }
