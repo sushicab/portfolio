@@ -22,7 +22,7 @@ const navLinks = [
 
 const Navbar = () => {
   return (
-    <nav className="fixed top-0 left-0 right-0 z-10bg-opacity-90">
+    <nav className="fixed top-0 left-0 right-0 z-10 ">
       <div className=" flex justify-betweenmx-auto p-3 px-4">
         <div className="grid grid-cols-5 lg:grid-cols-12">
           <Link

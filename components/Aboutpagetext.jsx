@@ -66,14 +66,11 @@ const Aboutpagetext = () => {
           </p>
           <div style={{ marginBottom: "100px" }}>
             <p>
-              Mail:{" "}
-              <a href="mailto:zhuangyifan01@gmail.com">
-                zhuangyifan01@gmail.com
-              </a>
+              Mail: <a href="mailto:hi@yifanzhuang.com">hi@yifanzhuang.com</a>
             </p>
           </div>
           <p style={{ textDecoration: "underline" }}>
-            <a href="mailto:zhuangyifan01@gmail.com"> CV upon request</a>
+            <a href="mailto:hi@yifanzhuang.com"> CV upon request</a>
           </p>
           <div className="about-page-text.text-column">
             <p

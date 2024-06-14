@@ -9,16 +9,25 @@
   margin-bottom: 30px;
 }
 
-.image_top_main {
-  max-width: 1000px;
+.imageContainer {
   display: flex;
   justify-content: center;
-  margin: 10rem auto;
+  align-items: center;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.image_top_main {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .image_top {
   position: absolute;
-  bottom: 0;
+  bottom: 30%;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -39,7 +48,7 @@ nav {
 
   right: 0;
   z-index: 10;
-  background-color: rgba(227, 227, 227, 0.3); /* Adjust opacity as needed */
+  background-color: rgba(227, 227, 227, 0); /* Adjust opacity as needed */
 }
 
 /* Navbar inner container */
@@ -750,7 +759,7 @@ nav {
 
   .image_top {
     position: absolute;
-    bottom: 0;
+    bottom: 20%;
     left: 50%;
     transform: translateX(-50%);
     display: flex;

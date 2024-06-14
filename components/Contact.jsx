@@ -9,10 +9,7 @@ const Contact = () => {
       <div className="contact-links">
         <ul>
           <li>
-            <a
-              href="mailto:zhuangyifan01@gmail.com" // Corrected the mailto link
-              className="contact-link"
-            >
+            <a href="mailto:hi@yifanzhuang.com" className="contact-link">
               Mail
             </a>
           </li>

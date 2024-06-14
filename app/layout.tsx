@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         style={{
-          paddingTop: "80px",
+          // paddingTop: "80px",
           width: "100vw",
           height: "100wh",
           backgroundColor: "#E3E3E3",
