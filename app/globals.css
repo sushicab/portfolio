@@ -759,12 +759,13 @@ nav {
 
   .image_top {
     position: absolute;
-    bottom: 20%;
+    bottom: 40%;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 40%;
   }
 
   .image_top_main {

@@ -1,31 +1,31 @@
-import React from 'react';
-import ReplacementCarousel from '@/components/ReplacementCarousel';
+import React from "react";
+import ReplacementCarousel from "@/components/ReplacementCarousel";
 
 export default function About() {
   return (
-    <main>
+    <main style={{ paddingTop: "80px" }}>
       <h1
         style={{
-          fontSize: '40px',
-          fontStyle: 'italic',
-          textAlign: 'center',
-          marginTop: '100px',
-          marginBottom: '30px',
+          fontSize: "40px",
+          fontStyle: "italic",
+          textAlign: "center",
+          marginTop: "100px",
+          marginBottom: "30px",
         }}
       >
         replacement
       </h1>
       <ReplacementCarousel />
 
-      <div style={{ justifyContent: 'center', display: 'flex' }}></div>
+      <div style={{ justifyContent: "center", display: "flex" }}></div>
       <p
         style={{
-          textAlign: 'left',
-          width: '70%',
-          height: 'auto',
-          margin: 'auto',
-          marginTop: '80px',
-          marginBottom: '150px',
+          textAlign: "left",
+          width: "70%",
+          height: "auto",
+          margin: "auto",
+          marginTop: "80px",
+          marginBottom: "150px",
         }}
       >
         We’re obsessed with INSTAGRAM! Among us, I manage 4 accounts, Sara

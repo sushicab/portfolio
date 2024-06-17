@@ -4,7 +4,7 @@ import SoftMemoryCarousel from "@/components/SoftMemoryCarousel";
 
 export default function About() {
   return (
-    <main>
+    <main style={{ paddingTop: "80px" }}>
       <h1
         style={{
           fontSize: "40px",
@@ -30,8 +30,8 @@ export default function About() {
         }}
       >
         <em>Soft Memory</em>, a Polaroid project born from deep appreciation for
-        uncertainty, each image a portal to cherished moments and lost fragments
-        of time.
+        uncertainty, each image is a portal to cherished moments and lost
+        fragments of time.
         <br />
         <br />
         In <em>Soft Memoryr</em>, I invite you to join me on a journey through
