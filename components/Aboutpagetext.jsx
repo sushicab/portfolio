@@ -72,7 +72,7 @@ const Aboutpagetext = () => {
           <p style={{ textDecoration: "underline" }}>
             <a href="mailto:hi@yifanzhuang.com"> CV upon request</a>
           </p>
-          <div className="about-page-text.text-column">
+          <div>
             <p
               style={{
                 fontStyle: "italic",
