@@ -19,6 +19,20 @@
   overflow: hidden;
 }
 
+.imageContainer-text {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: black; /* Change text color to white or any color you prefer */
+  padding: 10px; /* Optional: to add some padding around the text */
+  text-align: center;
+}
+
 .image_top_main {
   position: absolute;
   top: 0;
@@ -33,6 +47,42 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.imagetop-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Aligns items to the top */
+  align-items: center;
+  padding: 0 2rem;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.imageContainer-intro {
+  padding: 3%;
+  text-align: center;
+}
+
+.imageContainer-introText {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+}
+
+.imageContainer-emphasis {
+  font-style: italic;
+  font-size: 45px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.imagetop-middle-container {
+  position: absolute; /* Positioning type */
+  bottom: 0; /* Stick to the bottom */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Adjust centering after positioning */
 }
 
 .responsive-image {
@@ -667,10 +717,6 @@ nav {
     font-size: 14px;
   }
 
-  .about-page-text.text-column {
-    flex-direction: column;
-  }
-
   .about-page-text-image {
     flex-direction: column;
     width: 100%;
@@ -766,5 +812,25 @@ nav {
     width: 100%; /* Ensure the image fills its container */
     height: auto; /* Maintain the original aspect ratio */
     object-fit: contain;
+  }
+
+  .imageContainer-introText {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+  }
+
+  .imageContainer-emphasis {
+    font-style: italic;
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  .imagetop-middle-container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 100px;
   }
 }

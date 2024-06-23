@@ -11,6 +11,9 @@ const Imagetop = () => {
           objectFit="cover"
           className="image_top_main "
         />
+        <div className="imageContainer-text">
+          <p>© Yifan Zhuang 2024. </p>
+        </div>
       </div>
 
       <Image
@@ -20,6 +23,36 @@ const Imagetop = () => {
         width={250}
         height={200}
       />
+      <div className="imagetop-container">
+        <div className="imageContainer-intro">
+          <p className="imageContainer-introText">
+            a <span className="imageContainer-emphasis">creative</span> &{" "}
+            <span className="imageContainer-emphasis">curious</span> human{" "}
+            <br />
+            creates <br />
+            <span className="imageContainer-emphasis">
+              virtual experience
+            </span>{" "}
+            <br />
+            <span className="imageContainer-emphasis">
+              {" "}
+              & visual expression
+            </span>{" "}
+            <br />
+            <br />
+            Based in <span className="imageContainer-emphasis">Tokyo</span>
+          </p>
+        </div>
+        <div className="imagetop-middle-container">
+          <Image
+            className=""
+            src="/img/top/render4.png"
+            alt="Your Image Alt Text"
+            width={200}
+            height={200}
+          />
+        </div>
+      </div>
     </div>
   );
 };
