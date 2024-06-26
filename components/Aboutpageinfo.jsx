@@ -3,7 +3,7 @@ const Aboutpageinfo = () => {
     <div className="about-page-info">
       <div className="items-left">
         <img
-          alt={"yifan!"}
+          alt={"yifan"}
           src="/img/about/IMG_1582.jpg"
           fill
           style={{ maxWidth: "70%" }}
