@@ -55,7 +55,7 @@ const Imagetop = () => {
         </div>
       </div>
       <div className="imageContainer">
-        <video className="imageContainer-video" autoPlay loop muted>
+        <video className="imageContainer-video" autoPlay loop muted playsInline>
           <source src="/img/top/11.22.mp4" type="video/mp4" />
         </video>
         <div className="overlay">
