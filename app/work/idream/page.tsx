@@ -12,7 +12,7 @@ const Page = () => {
         Is but a dream within a dream?"
         
         </br></br>-- <i>A Dream Within a Dream</i> Allan Kaprow'
-        textContent={`"Dreamt, I Dream" unfolds as an immersive interactive
+        textContent={`"i dream, i dreamt" unfolds as an immersive interactive
         artistic creation of mine, inviting you into the realm of dream
         generation through the artificial brain 'no.01'. By responding to
         stimuli from the external world initiated by participants, this
