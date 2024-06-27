@@ -6,7 +6,7 @@ const IntroductionComp = () => {
       <div className="flex-container">
         <div className="left-content">
           <h1>
-            <a href="zhuangyifan01@gmail.com" className="underline">
+            <a href="hi@yifanzhuang.com" className="underline">
               LET‘S WORK TOGETHER.
             </a>
           </h1>
