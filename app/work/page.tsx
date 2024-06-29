@@ -13,7 +13,7 @@ const Rows = [
     Cards: [
       {
         title: "Shibuya in VR",
-        description: "Interactive Point Cloud Experience/ 2022",
+        description: "VR Point Cloud Experience/ 2022",
         imgUrl: "/img/workpage/shibuyaVR1.png",
         path: "/work/shibuyaVR",
       },
@@ -31,14 +31,14 @@ const Rows = [
       },
       {
         title: "AR Experience",
-        description: "Interactive Augmented Reality projects",
+        description: "Augmented Reality projects",
         imgUrl: "/img/workpage/gender1.png",
         path: "/work/AR",
       },
     ],
   },
   {
-    rowTitle: "( Digital Work/ CG )",
+    rowTitle: "(3D Visuals)",
     Cards: [
       {
         title: "Digital Biotopia  ",

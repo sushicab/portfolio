@@ -43,7 +43,7 @@ const About = () => {
         textAdditional={""}
         creditsText={[
           "C R E D I T S",
-          "YIFAN ZHUANG Art Director & 3D ARTIST",
+          "YIFAN ZHUANG  <b>3D ARTIST<b/>",
           "This is the CG created for interactive installation 'i dream, i dreamt'.",
         ]}
         videoCreditsText={[]}

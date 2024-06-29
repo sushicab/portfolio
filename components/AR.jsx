@@ -109,7 +109,7 @@ const AboutPage = () => {
             CHIA-HSIN CHEN <strong> Lead Designer/ Researcher </strong>{" "}
           </p>
           <p className="AR-credits">
-            YIFAN ZHUANG <strong> AR Creator/ Developer </strong>{" "}
+            YIFAN ZHUANG <strong> Interaction Designer/ Developer </strong>{" "}
           </p>
         </div>
       </div>

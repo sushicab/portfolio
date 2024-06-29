@@ -53,16 +53,16 @@ const Page = () => {
         ]}
         creditsText={[
           "C R E D I T S",
-          "YIFAN ZHUANG <b>Researcher & Lead Designer</b>",
+          "YIFAN ZHUANG <b>Researcher & Designer</b>",
           "KEITARO TSUCHIYA <b>Electrical & Mechanical Designer </b>",
           "TAKURO NAKAO <b>3D Modeler & Technical Support</b>",
-          "JIAWEN HAN <b>Data Analysis</b>",
+          "JIAWEN HAN <b>Data Analyst</b>",
         ]}
         videoCreditsText={[
           "V I D E O C R E D I T S",
-          "YIFAN ZHUANG <b>Direction & Shooting & Edit</b>",
-          "DALEN WANG <b>Hair & Makeup</b>",
-          "SIYU MA <b>Model</b>",
+          "YIFAN ZHUANG <b>Director & Videographer & Editor</b>",
+          "DALEN WANG <b>Hair & Makeup Artist</b>",
+          "Marissa MA <b>Model</b>",
         ]}
         specialThanksText={[
           "S P E C I A L  T H A N K S",

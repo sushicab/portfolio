@@ -94,6 +94,22 @@
   object-fit: cover;
 }
 
+.imageContainer-text-footer {
+  position: absolute;
+  right: 50px;
+  bottom: 10px;
+  font-size: 16px;
+  color: black;
+}
+
+.imageContainer-text-footer2 {
+  position: absolute;
+  left: 30px;
+  bottom: 10px;
+  font-size: 16px;
+  color: black;
+}
+
 .overlay {
   position: absolute;
   top: 0;
@@ -891,5 +907,20 @@ nav {
     left: 50%;
     transform: translateX(-50%);
     margin-bottom: 0;
+  }
+
+  .imageContainer-text-footer {
+    position: absolute;
+    left: 20px;
+    top: 80px;
+    font-size: 1rem;
+    color: black;
+  }
+  .imageContainer-text-footer2 {
+    position: absolute;
+    left: 200px;
+    top: 150px;
+    font-size: 16px;
+    color: black;
   }
 }

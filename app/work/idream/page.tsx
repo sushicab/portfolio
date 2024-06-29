@@ -12,7 +12,7 @@ const Page = () => {
         Is but a dream within a dream?"
         
         </br></br>-- <i>A Dream Within a Dream</i> Allan Kaprow'
-        textContent={`"i dream, i dreamt" unfolds as an immersive interactive
+        textContent={` <em>i dream, i dreamt</em> unfolds as an immersive interactive
         artistic creation of mine, inviting you into the realm of dream
         generation through the artificial brain 'no.01'. By responding to
         stimuli from the external world initiated by participants, this
@@ -42,20 +42,20 @@ const Page = () => {
           },
         ]}
         textAdditional={
-          "        Various layers of animation and sound are activated through contact with 3D-printed eye, nose, lip, ear, and hand replicas representing surrounding body organs. Equipped with cameras, electroacoustic transducers, and touch sensors, the installation processes live video and audience voices, fostering real-time interaction with participants. In this immersive journey, participants not only experience but also shape the dream generating process, blurring the lines between experiencer and creator. </br></br>"
+          "Various layers of animation and sound are activated through contact with 3D-printed eye, nose, lips, ear, and hand replicas representing surrounding body organs. Equipped with cameras, electroacoustic transducers, and touch sensors, the installation processes live video and audience voices, fostering real-time interaction with participants. In this immersive journey, participants not only experience but also shape the dream generating process, blurring the lines between experiencer and creator. </br></br>"
         }
         creditsText={[
           "C R E D I T S",
-          "YIFAN ZHUANG Creative Direction & Interaction Design & CG Animation",
-          "HUA MA Technical Direction",
-          "ZIYUE WANG Engineer",
-          "SIYU MA Literature & Theory Advisor",
-          "YINGTING HUANG Sound Design",
+          "YIFAN ZHUANG <b>Creative Director & Interaction Designer & CG Artist<b/>",
+          "HUA MA <b>Technical Director</b>",
+          "ZIYUE WANG <b>Engineer</b>",
+          "SIYU MA <b>Literature & Theory Advisor</b>",
+          "YINGTING HUANG <b>Sound Designer</b>",
         ]}
         videoCreditsText={[
           "V I D E O   C R E D I T S",
-          "YIFAN ZHUANG Direction & Shooting & Edit",
-          "YINGTING HUANG Sound Design",
+          "YIFAN ZHUANG <b>Director & Videographer & Editor</b>",
+          "YINGTING HUANG <b>Sound Designer</b>",
         ]}
         specialThanksText={[
           "S P E C I A L   T H A N K S",

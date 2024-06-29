@@ -50,7 +50,7 @@ const Aboutpagetext = () => {
       <div className="image-column">
         <div
           style={{
-            width: "50vw",
+            width: "48vw",
             height: "auto",
           }}
         >

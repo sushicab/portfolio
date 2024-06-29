@@ -10,23 +10,8 @@ const Page = () => {
         title="Shibuya VR <br />Immersive Point Cloud Adventure"
         subtitle="
         "
-        textContent={`        Envision Shibuya, a bustling and iconic district in Tokyo, undergoing a
-        captivating metamorphosis into a space adorned with millions of
-        illuminated particles, beckoning for uninhibited interaction. This
-        ambitious project seeks to push the boundaries of creativity by
-        exploring the vast potential of crafting a unique and immersive
-        experience within the expansive canvas of virtual reality (VR).
+        textContent={`Reimagining Shibuya,  a bustling and iconic district in Tokyo, as a space brimming with millions of illuminated particles, inviting dynamic interaction. This project explores the potential of virtual reality (VR) to craft a unique and immersive experience. Central to this work is visualized point cloud data, transforming the virtual landscape into a dynamic environment. Participants actively engage with this digital spectacle, not just as observers but as creators. 
         <br />
-        <br />
-        Central to this endeavor is the utilization of visualized point cloud
-        data, a sophisticated technique that transforms the virtual landscape
-        into a dynamic and responsive environment. Participants are not mere
-        observers; they are active participants in this digital spectacle.
-        <br />
-        <br />
-        
-
-        
         `}
         imagePaths={[
           {
@@ -47,11 +32,11 @@ const Page = () => {
           },
         ]}
         textAdditional={
-          " A key element facilitating this interactive journey is a specially designed UI tablet. This device serves as the gateway for participants to exercise their creative agency, allowing them to customize various aspects of the luminous particles. From selecting vibrant colors to fine-tuning performance dynamics and adjusting geometric sizes, the UI table empowers individuals to shape the aesthetic and experiential dimensions of this virtual wonderland."
+          "A specially designed UI menu serves as the gateway, enabling users to customize the luminous particles. From selecting vibrant colors to adjusting performance dynamics and geometric sizes, the UI tablet empowers individuals to shape the aesthetic and experiential dimensions of this virtual wonderland."
         }
         creditsText={[
           "C R E D I T S",
-          "YIFAN ZHUANG <b>Interaction Design & System Development</b>",
+          "YIFAN ZHUANG <b>Interaction Designer & Developer</b>",
           "It is a research project for aircord.inc.",
         ]}
         videoCreditsText={[]}

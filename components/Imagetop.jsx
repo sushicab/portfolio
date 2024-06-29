@@ -13,7 +13,7 @@ const Imagetop = () => {
           className="image_top_main "
         />
         <div className="imageContainer-text">
-          <p>© Yifan Zhuang 2024. </p>
+          <p>Yifan Zhuang © 2024 </p>
         </div>
       </div>
 
@@ -82,6 +82,28 @@ const Imagetop = () => {
           <Link href="/work/shibuyaVR" passHref>
             <span className="overlay-text">view the project</span>
           </Link>
+        </div>
+      </div>
+      <div className="imageContainer">
+        <Image
+          src="/img/top/placeholder.png"
+          alt="Your Image Alt Text"
+          layout="fill"
+          objectFit="cover"
+          className="image_top_main "
+        />
+        <div className="imageContainer-text">
+          <p> YIFAN ZHUANG ©2024 </p>
+        </div>
+        <div className="imageContainer-text-footer2">
+          <p> HELLO! </p>
+        </div>
+        <div className="imageContainer-text-footer">
+          <h1>
+            <a href="hi@yifanzhuang.com" className="underline">
+              LET‘S WORK TOGETHER
+            </a>
+          </h1>
         </div>
       </div>
     </div>
