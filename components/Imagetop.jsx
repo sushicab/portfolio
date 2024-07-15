@@ -12,9 +12,7 @@ const Imagetop = () => {
           objectFit="cover"
           className="image_top_main "
         />
-        <div className="imageContainer-text">
-          <p>Yifan Zhuang © 2024 </p>
-        </div>
+        <div className="imageContainer-text"></div>
       </div>
 
       <Image
