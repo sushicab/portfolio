@@ -8,15 +8,6 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "YIFAN ZHUANG",
   description: "portfolio。",
-  icons: {
-    icon: [
-      { rel: "icon", href: "/favicon.ico" },
-      { rel: "icon", href: "/favicon-16x16.png", sizes: "16x16" },
-      { rel: "icon", href: "/favicon-32x32.png", sizes: "32x32" },
-      { rel: "icon", href: "/android-chrome-192x192.png", sizes: "192x192" },
-      { rel: "icon", href: "/apple-touch-icon.png", sizes: "180x180" },
-    ],
-  },
 };
 
 export default function RootLayout({
@@ -33,7 +24,12 @@ export default function RootLayout({
         <link rel="icon" href="/favicon-16x16.png" sizes="16x16" />
         <link rel="icon" href="/favicon-32x32.png" sizes="32x32" />
         <link rel="icon" href="/android-chrome-192x192.png" sizes="192x192" />
-        <link rel="icon" href="/apple-touch-icon.png" sizes="180x180" />
+        <link rel="icon" href="/android-chrome-512x512.png" sizes="512x512" />
+        <link
+          rel="apple-touch-icon"
+          href="/apple-touch-icon.png"
+          sizes="180x180"
+        />
       </head>
       <body
         style={{
