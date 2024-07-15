@@ -6,8 +6,17 @@ import Navbar from "@/components/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "YIFAN ZHUANG",
+  title: "YIFAN  ZHUANG",
   description: "portfolio。",
+  icons: {
+    icon: [
+      { rel: "icon", url: "/favicon.ico" },
+      { rel: "icon", url: "/favicon-16x16.png", sizes: "16x16" },
+      { rel: "icon", url: "/favicon-32x32.png", sizes: "32x32" },
+      { rel: "icon", url: "/favicon-64x64.png", sizes: "64x64" },
+      { rel: "icon", url: "/favicon-128x128.png", sizes: "128x128" },
+    ],
+  },
 };
 
 export default function RootLayout({
@@ -17,24 +26,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <title>{metadata.title}</title>
-        <meta name="description" content={metadata.description} />
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" href="/favicon-16x16.png" sizes="16x16" />
-        <link rel="icon" href="/favicon-32x32.png" sizes="32x32" />
-        <link rel="icon" href="/android-chrome-192x192.png" sizes="192x192" />
-        <link rel="icon" href="/android-chrome-512x512.png" sizes="512x512" />
-        <link
-          rel="apple-touch-icon"
-          href="/apple-touch-icon.png"
-          sizes="180x180"
-        />
-      </head>
       <body
         style={{
+          //paddingTop: "80px",
           width: "100vw",
-          height: "100vh",
+          height: "100wh",
           backgroundColor: "#E3E3E3",
         }}
         className={inter.className}
@@ -45,3 +41,5 @@ export default function RootLayout({
     </html>
   );
 }
+
+// command + > 0 auto import library
