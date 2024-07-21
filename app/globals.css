@@ -171,11 +171,12 @@ nav {
   padding: 1rem;
 }
 
-/* Logo */
 .logo {
   font-size: 1.5rem;
   font-weight: 600;
   color: black;
+  letter-spacing: 0.1em;
+  mix-blend-mode: difference;
 }
 
 /* Menu */
@@ -585,6 +586,11 @@ nav {
   /* Logo */
   .logo {
     margin-bottom: 1rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: black;
+    letter-spacing: 0.1em;
+    mix-blend-mode: difference;
   }
 
   /* Menu */

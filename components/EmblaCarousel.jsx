@@ -1,12 +1,12 @@
-'use client';
+"use client";
 
-import React, { useEffect, useCallback } from 'react';
-import useEmblaCarousel from 'embla-carousel-react';
+import React, { useEffect, useCallback } from "react";
+import useEmblaCarousel from "embla-carousel-react";
 import {
   PrevButton,
   NextButton,
   usePrevNextButtons,
-} from '@/components/EmblaCarouselArrowButton';
+} from "@/components/EmblaCarouselArrowButton";
 
 const EmblaCarousel = ({ images = [] }) => {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true });
@@ -33,52 +33,52 @@ const EmblaCarousel = ({ images = [] }) => {
   }, [emblaApi]);
 
   return (
-    <div style={{ width: '100vw', height: 'auto' }}>
+    <div style={{ width: "100vw", height: "auto" }}>
       <div
         style={{
-          width: '40%',
-          margin: '0 auto',
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'center',
+          width: "40%",
+          margin: "0 auto",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
         }}
       >
-        <div className='embla' ref={emblaRef} style={{ marginBottom: '10px' }}>
-          <div className='embla__container'>
+        <div className="embla" ref={emblaRef} style={{ marginBottom: "10px" }}>
+          <div className="embla__container">
             {images.map((imageUrl, index) => (
-              <div className='embla__slide' key={index}>
+              <div className="embla__slide" key={index}>
                 <img
                   src={imageUrl}
                   alt={`Slide ${index}`}
                   style={{
-                    display: 'block',
-                    margin: '0 auto',
-                    maxWidth: '100%',
-                    maxHeight: '100%',
-                    objectFit: 'contain', // Maintain aspect ratio
+                    display: "block",
+                    margin: "0 auto",
+                    maxWidth: "100%",
+                    maxHeight: "100%",
+                    objectFit: "contain", // Maintain aspect ratio
                   }}
                 />
               </div>
             ))}
           </div>
           <div
-            className='embla__controls absolute '
+            className="embla__controls absolute "
             style={{
-              display: 'flex',
-              justifyContent: 'space-between',
-              width: '90%',
-              alignItems: 'center',
+              display: "flex",
+              justifyContent: "space-between",
+              width: "90%",
+              alignItems: "center",
             }}
           >
             <PrevButton
               onClick={onPrevButtonClick}
               disabled={prevBtnDisabled}
-              style={{ marginRight: 'auto' }}
+              style={{ marginRight: "auto" }}
             />
             <NextButton
               onClick={onNextButtonClick}
               disabled={nextBtnDisabled}
-              style={{ marginLeft: 'auto' }}
+              style={{ marginLeft: "auto" }}
             />
           </div>
         </div>

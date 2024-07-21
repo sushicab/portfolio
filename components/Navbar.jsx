@@ -25,12 +25,11 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-10 ">
       <div className=" flex justify-betweenmx-auto p-3 px-4">
         <div className="grid grid-cols-5 lg:grid-cols-12">
-          <Link
-            href={"/"}
-            className="text-lg md:text-2xl text-black font-semibold tracking-widest"
-          >
-            YIFAN ZHUANG
-          </Link>
+          <div className="logo-wrapper">
+            <Link href={"/"} className="logo">
+              YIFAN ZHUANG
+            </Link>
+          </div>
         </div>
         <div className="menu md:w-auto" id="navbar">
           <ul className="flex p-4 md:p-6 sm:flex-row md:space-x-8 mt-0">

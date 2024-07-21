@@ -36,8 +36,8 @@ const Page = () => {
         }
         creditsText={[
           "C R E D I T S",
-          "YIFAN ZHUANG <b>Interaction Designer & Developer</b>",
-          "It is a research project for aircord.inc.",
+          "YIFAN ZHUANG <b>Creative Director & Interaction Designer & Developer</b>",
+          "This is a research project for aircord.inc.",
         ]}
         videoCreditsText={[]}
         specialThanksText={[]}
