@@ -63,8 +63,19 @@ export default function About() {
         <br />
         148 x 105mm, liquid paints on paper board.
         <br />
-        <br />A practice for a generative visual research project
-        &apos;Remix&apos; created by theshift.tokyo
+        <br />
+        Three liquid painting created as the foundational material for a
+        generative visual research project &apos;
+        <a
+          href="https://theshift.tokyo/research/remix/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ textDecoration: "underline", fontStyle: "italic" }}
+        >
+          Remix
+        </a>
+        &apos; created by theshift.tokyo, exploring the dynamic interplay of
+        organic forms and computational processes.
       </p>
     </main>
   );

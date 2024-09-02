@@ -17,7 +17,7 @@ const Aboutpageinfo = () => {
           {/* Adjust font size here */}
           <p className="mb-2">
             <span>2019 - 2021</span> MA at Graduate School of Keio University,
-            major HCI (Human-Computer Interaction) & Interaction Design
+            major HCI (Human-Computer Interaction) & Interactive Design
           </p>
           <p className="mb-2">
             <span>2014 - 2018</span> BA at Shanghai University, major Digital
@@ -30,7 +30,7 @@ const Aboutpageinfo = () => {
           {" "}
           {/* Adjust font size here */}
           <p className="mb-2">
-            <span>2022 - Present</span> Interaction Designer, aircord.inc,
+            <span>2022 - Present</span> Interactive Designer, aircord.inc,
             Tokyo, JP
           </p>
           <p className="mb-2">
