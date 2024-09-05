@@ -36,8 +36,8 @@ const Page = () => {
         }
         creditsText={[
           "C R E D I T S",
-          "YIFAN ZHUANG <b>Creative Director & Interaction Designer & Developer</b>",
-          "This is a research project for aircord.inc.",
+          "YIFAN ZHUANG <b> Interactive Designer & Developer</b>",
+          "This is a research project for <a href='https://www.aircord.co.jp/' target='_blank' rel='noopener noreferrer' style={{ textDecoration: 'underline' }}>aircord.inc</a>.",
         ]}
         videoCreditsText={[]}
         specialThanksText={[]}

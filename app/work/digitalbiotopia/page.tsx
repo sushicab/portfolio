@@ -69,7 +69,7 @@ const About = () => {
         }
         creditsText={[
           "C R E D I T S",
-          "YIFAN ZHUANG <b>Creative Director & 3D Artist<b/>",
+          "YIFAN ZHUANG <b>Concept & 3D Artist<b/>",
           "This is a research project for theshift.tokyo",
         ]}
         videoCreditsText={[]}
