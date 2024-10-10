@@ -12,12 +12,6 @@ const Rows = [
     rowTitle: "(Interactive Experience)",
     Cards: [
       {
-        title: "Shibuya in VR",
-        description: "VR Point Cloud Experience/ 2022",
-        imgUrl: "/img/workpage/shibuyaVR1.png",
-        path: "/work/shibuyaVR",
-      },
-      {
         title: "i dream, i dreamt",
         description: "Interactive Installation/ 2021 ",
         imgUrl: "/img/workpage/idream4.jpg",
@@ -26,8 +20,14 @@ const Rows = [
       {
         title: "Emolleia",
         description: "Interactive Wearable Device/ 2021 ",
-        imgUrl: "/img/projects/interactive design/emolleia/emolleia1.jpg",
+        imgUrl: "/img/workpage/emolleia4.png",
         path: "/work/emolleia",
+      },
+      {
+        title: "Shibuya in VR",
+        description: "VR Point Cloud Experience/ 2022",
+        imgUrl: "/img/workpage/shibuyaVR1.png",
+        path: "/work/shibuyaVR",
       },
       {
         title: "AR Experience",

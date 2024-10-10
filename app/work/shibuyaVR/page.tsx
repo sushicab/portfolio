@@ -10,7 +10,9 @@ const Page = () => {
         title="Shibuya VR <br />Immersive Point Cloud Adventure"
         subtitle="
         "
-        textContent={`Reimagining Shibuya,  a bustling and iconic district in Tokyo, as a space brimming with millions of illuminated particles, inviting dynamic interaction. This project explores the potential of virtual reality (VR) to craft a unique and immersive experience. Central to this work is visualized point cloud data, transforming the virtual landscape into a dynamic environment. Participants actively engage with this digital spectacle, not just as observers but as creators. 
+        textContent={`When we open our eyes and take in the world around us, imagine everything dissolving into the smallest particles, each one floating and interacting in the vast fabric of the universe.
+
+ <br /> <br />Reimagining Shibuya, the bustling heart of Tokyo, as a universe of illuminated particles, this project invites participants to step into a dynamic, immersive world. By transforming a 3D model into point cloud data, the virtual landscape becomes alive with interaction.
         <br />
         `}
         imagePaths={[
@@ -32,7 +34,7 @@ const Page = () => {
           },
         ]}
         textAdditional={
-          "A specially designed UI menu serves as the gateway, enabling users to customize the luminous particles. From selecting vibrant colors to adjusting performance dynamics and geometric sizes, the UI tablet empowers individuals to shape the aesthetic and experiential dimensions of this virtual wonderland."
+          "The 3D model is transformed into point cloud data using MeshLab, then brought into Unity for further development. To enhance the user experience, a custom interface allows for seamless exploration through continuous movement or teleportation, with three pre-selected spots offering hero views of the scene. <br/> <br/>Two shaders shape the visual experience: one adds an illuminated, dreamlike effect, while the other allows users to adjust the size of the points. Additionally, four distinct point movements, driven by sine and cosine functions, create dynamic interactions. A color palette is also included, inviting users to explore various color possibilities."
         }
         creditsText={[
           "C R E D I T S",

@@ -42,7 +42,7 @@ const Page = () => {
           },
         ]}
         textAdditional={
-          "Various layers of animation and sound are activated through contact with 3D-printed eye, nose, lips, ear, and hand replicas representing surrounding body organs. Equipped with cameras, electroacoustic transducers, and touch sensors, the installation processes live video and audience voices, fostering real-time interaction with participants. In this immersive journey, participants not only experience but also shape the dream generating process, blurring the lines between experiencer and creator. </br></br>"
+          "The installation features 3D-printed body parts (eye, nose, lips, ear, hand) equipped with sensors, which trigger layered animations and soundscapes. As participants interact with these components, their voices and movements are captured and processed in real-time, becoming part of the dream itself—blurring the line between subject and object, reality and imagination. Through this interaction, the piece reveals the role of the body as a mediator of perception and cognition. </br></br>"
         }
         creditsText={[
           "C R E D I T S",
