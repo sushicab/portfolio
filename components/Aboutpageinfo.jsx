@@ -16,12 +16,14 @@ const Aboutpageinfo = () => {
         <div className="mb-8">
           {/* Adjust font size here */}
           <p className="mb-2">
-            <span>2019 - 2021</span> MA at Graduate School of Keio University,
-            major HCI (Human-Computer Interaction) & Interactive Design
+            <span style={{ marginRight: "50px" }}>2019 - 2021</span> MA at
+            Graduate School of Keio University, major HCI (Human-Computer
+            Interaction) & Interactive Design
           </p>
           <p className="mb-2">
-            <span>2014 - 2018</span> BA at Shanghai University, major Digital
-            Communication and Media/Multimedia
+            <span style={{ marginRight: "50px" }}>2014 - 2018</span> BA at
+            Shanghai University, major Digital Communication and
+            Media/Multimedia
           </p>
         </div>
 
@@ -30,22 +32,24 @@ const Aboutpageinfo = () => {
           {" "}
           {/* Adjust font size here */}
           <p className="mb-2">
-            <span>2022 - Present</span> Interactive Designer, aircord.inc,
-            Tokyo, JP
+            <span style={{ marginRight: "30px" }}>2022 - Present</span>{" "}
+            Interactive Designer, aircord.inc, Tokyo, JP
           </p>
           <p className="mb-2">
-            <span>2022 - Present</span> 3D Artist/Researcher, The Shift, Tokyo,
-            JP
+            <span style={{ marginRight: "30px" }}>2022 - Present</span> 3D
+            Artist/Researcher, The Shift, Tokyo, JP
           </p>
           <p className="mb-2">
-            <span>2021 - 2022</span> Research Assistant, Graduate School of Keio
-            University, Kanagawa, JP
+            <span style={{ marginRight: "30px" }}>2021 - 2022</span> Research
+            Assistant, Graduate School of Keio University, Kanagawa, JP
           </p>
           <p className="mb-2">
-            <span>2020 - 2021</span> Account Executive, Helixes.inc , Tokyo, JP
+            <span style={{ marginRight: "30px" }}>2020 - 2021</span> Account
+            Executive, Helixes.inc , Tokyo, JP
           </p>
           <p className="mb-2">
-            <span>2018 - 2019</span> Account Executive, GTB (WPP), Shanghai, CN
+            <span style={{ marginRight: "30px" }}>2018 - 2019</span> Account
+            Executive, GTB (WPP), Shanghai, CN
           </p>
         </div>
       </div>
