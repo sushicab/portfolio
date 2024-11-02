@@ -59,7 +59,7 @@ const EmolleiaPageInfo = ({
         }}
       >
         <img
-          src="/img/projects/interactive design/emolleia/f2motion.png"
+          src="/img/projects/interactive design/emolleia/emoSystem.png"
           alt="Description of image 1"
           style={{
             width: "80%",

@@ -23,16 +23,12 @@ const Page = () => {
               pink-white colors
               <br />
               for the butterfly she drew'
-        textContent={`        Three blooming transparent flowers form an accessory that can be worn
-              around the shoulder. With a webcam turned on, the onlooker's facial
-              expression will be detected and categorized. Depending on the facial
-              expression, the Emolleia will perform five predefined correlated
-              motions.
+        textContent={`       Emolleia is an emotive 3D-printed wearable that recognise and response to onlooker’s facial expressions by dynamically moves and illuminated. This project explores how wearable technology can support our unconscious emotional expression and enhance social interaction, while also emphasising a fashionable, aesthetically engaging design approach. 
+
+
               <br />
               <br />
-              Each of the three flowers has been equipped with an LED light unit
-              inside to enable color changes, aiding in better expressing the wearer's
-              emotions.`}
+              Inspired by the natural world, where animals shift their hues and plants morph in form to communicate or survive, this project ventures into the unspoken language of emotions. Like nature’s own silent dialogue, the wearable device mirrors these transformations, allowing users to express their inner feelings through fluid changes in colour, shape, and movement. We aim to explore the possibility between fashion garments, technology and design. `}
         imagePaths={[
           {
             type: "image",
@@ -73,11 +69,16 @@ const Page = () => {
           "'Emolleia' project is in collaboration with NTT Media Intelligence Laboratories.",
         ]}
         textAdditional={
-          "We sought to explore more possibilities that people can do to express their emotion through not only facial or body language, but also non-verbal language and wearable devices.  <br />  <br />The aim of this study is to explore more possibilities utilizing wearables to assist on emotion expressing, ultimately enhance our conversation efficiency or even social life."
+          "Three blooming transparent flowers form an accessory that can be worn around the shoulder. With a webcam turned on, the onlooker's facial expression will be detected and categorized.  Each of the three flowers has been equipped with an LED light unit inside to enable color changes, aiding in better expressing the wearer's emotions."
         }
       />
+    </div>
+  );
+};
+export default Page;
 
-      {/* <PageInfo
+{
+  /* <PageInfo
         iframeSrc="https://player.vimeo.com/video/626239850?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
         title=" Emolleia"
         subtitle='
@@ -270,9 +271,8 @@ const Page = () => {
           <p>
             This project is in collaboration with NTT Media Intelligence
             Laboratory.
-          </p> */}
-      {/* </div> */}
-    </div>
-  );
-};
-export default Page;
+          </p> */
+}
+{
+  /* </div> */
+}

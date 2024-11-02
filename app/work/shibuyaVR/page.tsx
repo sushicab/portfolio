@@ -36,6 +36,9 @@ const Page = () => {
         textAdditional={
           "The 3D model is transformed into point cloud data using MeshLab, then brought into Unity for further development. To enhance the user experience, a custom interface allows for seamless exploration through continuous movement or teleportation, with three pre-selected spots offering hero views of the scene. <br/> <br/>Two shaders shape the visual experience: one adds an illuminated, dreamlike effect, while the other allows users to adjust the size of the points. Additionally, four distinct point movements, driven by sine and cosine functions, create dynamic interactions. A color palette is also included, inviting users to explore various color possibilities."
         }
+        imageAdditional={[
+          { src: "/img/projects/interactive design/shibuya VR/shibuya7.png" },
+        ]}
         creditsText={[
           "C R E D I T S",
           "YIFAN ZHUANG <b> Interactive Designer & Developer</b>",

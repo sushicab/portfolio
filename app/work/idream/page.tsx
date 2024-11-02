@@ -12,13 +12,7 @@ const Page = () => {
         Is but a dream within a dream?"
         
         </br></br>-- <i>A Dream Within a Dream</i> Allan Kaprow'
-        textContent={` <em>i dream, i dreamt</em> unfolds as an immersive interactive
-        artistic creation of mine, inviting you into the realm of dream
-        generation through the artificial brain 'no.01'. By responding to
-        stimuli from the external world initiated by participants, this
-        installation unveils the subjective interplay of memory and brain
-        activities. The surreal experience of transforming disconnected and
-        incongruent signals into a visually cohesive narrative is rekindled.
+        textContent={` <em>i dream, i dreamt</em> is an immersive, interactive installation that invites you into the dreamscape of the artificial brain, "no.01." Responding to external stimuli from participants, this piece explores the subjective dance between memory and neural activity. Through this surreal transformation of fragmented signals into a cohesive visual narrative, the installation rekindles the delicate interplay between perception and imagination, drawing viewers into the elusive process of dream creation.
         </br></br>
 
         We exist as components within the dreams of others, just as we perceive
@@ -44,6 +38,9 @@ const Page = () => {
         textAdditional={
           "The installation features 3D-printed body parts (eye, nose, lips, ear, hand) equipped with sensors, which trigger layered animations and soundscapes. As participants interact with these components, their voices and movements are captured and processed in real-time, becoming part of the dream itself—blurring the line between subject and object, reality and imagination. Through this interaction, the piece reveals the role of the body as a mediator of perception and cognition. </br></br>"
         }
+        imageAdditional={[
+          { src: "/img/projects/interactive design/idream/dream8.png" },
+        ]}
         creditsText={[
           "C R E D I T S",
           "YIFAN ZHUANG <b>Creative Director & Interactive Designer & CG Artist<b/>",

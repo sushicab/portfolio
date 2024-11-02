@@ -8,6 +8,7 @@ const PageInfo = ({
   textContent,
   imagePaths,
   textAdditional,
+  imageAdditional,
   creditsText,
   videoCreditsText,
   specialThanksText,
@@ -17,7 +18,7 @@ const PageInfo = ({
     <main style={{ paddingTop: "80px" }}>
       <div
         style={{
-          maxWidth: "1440px",
+          maxWidth: "100vw",
           display: "flex",
           justifyContent: "center",
           margin: "0 auto",
@@ -57,6 +58,23 @@ const PageInfo = ({
         )}
       </div>
       <p className="page-info-text-additional">{parse(textAdditional)}</p>
+      {imageAdditional.map((image, index) => (
+        <div
+          key={index}
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            marginTop: "100px",
+          }}
+        >
+          <img
+            className="page-info-image-fullwidth"
+            src={image.src}
+            alt={`Additional Image ${index + 1}`}
+            style={{ width: "80%", marginBottom: "20px" }}
+          />
+        </div>
+      ))}
 
       <div
         style={{

@@ -5,14 +5,18 @@ const MirrorCarousel = () => {
   const images = [
     "/img/projects/photography/mirror mirror/mirror3.jpg",
     "/img/projects/photography/mirror mirror/mirror31.png",
-    "/img/projects/photography/mirror mirror/mirror12.png",
+
     "/img/projects/photography/mirror mirror/mirror13.png",
+
     "/img/projects/photography/mirror mirror/mirror43.png",
     "/img/projects/photography/mirror mirror/mirror17.png",
     "/img/projects/photography/mirror mirror/mirror19.png",
     "/img/projects/photography/mirror mirror/mirror32.png",
     "/img/projects/photography/mirror mirror/mirror33.png",
+    "/img/projects/photography/mirror mirror/mirror45.jpg",
+    "/img/projects/photography/mirror mirror/mirror46.jpg",
     "/img/projects/photography/mirror mirror/mirror21.jpg",
+    "/img/projects/photography/mirror mirror/mirror12.png",
     "/img/projects/photography/mirror mirror/mirror38.png",
     "/img/projects/photography/mirror mirror/mirror42.png",
     "/img/projects/photography/mirror mirror/mirror1.png",

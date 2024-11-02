@@ -8,12 +8,7 @@ const About = () => {
         iframeSrc="https://player.vimeo.com/video/925335453?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
         title="Digital Biotopia"
         subtitle=""
-        textContent={`Overview In major metropolises like Tokyo, concrete buildings often
-        dominate, making integrating nature into the daily experience
-        challenging. In this project, we embark on a creative journey where
-        artificial intelligence takes center stage in creativity to imagine an
-        indoor experience that mimics the senses of nature. This is an
-        exploration of embedding AI into creative workflows by The Shift..
+        textContent={`During the early rise of Midjourney, as it gained popularity in the creative world, debates emerged about AI’s potential to replace human creativity. While many viewed AI as a threat to artistic expression, I found it difficult to align with that perspective.
         <br />
         <br />
         <br />
@@ -67,6 +62,9 @@ const About = () => {
         textAdditional={
           "4. AI Integration in Creative Workflow <br /> A core objective of this project is to embed AI generation into our creative workflow. We seek to redefine how AI can be an integral collaborator, influencing and enhancing our traditional creative processes. The symbiosis between human ingenuity and artificial intelligence becomes a driving force behind the project's evolution.  <br /><br /><br />5. Enhancing Imaginative Capabilities<br /> Beyond experimentation, our project aims to explore the transformative potential of AI in augmenting imaginative capabilities. We inspect how AI-driven insights and perspectives can push the boundaries of our creative thinking."
         }
+        imageAdditional={[
+          { src: "/img/projects/CG/digital biotopia/bio6.png" },
+        ]}
         creditsText={[
           "C R E D I T S",
           "YIFAN ZHUANG <b>Concept & 3D Artist<b/>",
