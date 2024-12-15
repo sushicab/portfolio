@@ -7,9 +7,9 @@ const Page = () => {
     <div style={{ paddingTop: "80px" }}>
       <EmolleiaPageInfo
         iframeSrc="https://player.vimeo.com/video/626239850?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-        title=" Emolleia"
+        title="Emolleia"
         subtitle='
-              Emolleia was inspired by a poem titled "Shy Flower"
+               "Shy Flower"
               <br />
               <br />
               To the little shy flower;
@@ -23,12 +23,12 @@ const Page = () => {
               pink-white colors
               <br />
               for the butterfly she drew'
-        textContent={`       Emolleia is an emotive 3D-printed wearable that recognise and response to onlooker’s facial expressions by dynamically moves and illuminated. This project explores how wearable technology can support our unconscious emotional expression and enhance social interaction, while also emphasising a fashionable, aesthetically engaging design approach. 
+        textContent={`<em>Emolleia</em> is a 3D-printed wearable that dynamically responds to onlookers' facial expressions through motions and light. This project investigates how wearable technology can enhance emotional expression and social interaction, with an attempt to bridge fashion, design and technology. 
 
 
               <br />
               <br />
-              Inspired by the natural world, where animals shift their hues and plants morph in form to communicate or survive, this project ventures into the unspoken language of emotions. Like nature’s own silent dialogue, the wearable device mirrors these transformations, allowing users to express their inner feelings through fluid changes in colour, shape, and movement. We aim to explore the possibility between fashion garments, technology and design. `}
+              Drawing inspiration from nature—where animals shift hues and plants transform to communicate or adapt—this project explores the unspoken language of emotions. <em>Emolleia</em> reflects these transformations, enabling users to express emotions through fluid changes in color, shape, and movement. `}
         imagePaths={[
           {
             type: "image",

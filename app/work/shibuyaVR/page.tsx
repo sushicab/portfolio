@@ -10,9 +10,9 @@ const Page = () => {
         title="Shibuya VR <br />Immersive Point Cloud Adventure"
         subtitle="
         "
-        textContent={`When we open our eyes and take in the world around us, imagine everything dissolving into the smallest particles, each one floating and interacting in the vast fabric of the universe.
+        textContent={`When we open our eyes and take in the world around us, imagine everything dissolving into the smallest particles, each one floating and interacting within the vast fabric of the universe.
 
- <br /> <br />Reimagining Shibuya, the bustling heart of Tokyo, as a universe of illuminated particles, this project invites participants to step into a dynamic, immersive world. By transforming a 3D model into point cloud data, the virtual landscape becomes alive with interaction.
+ <br /> <br />Inspired by the idea that everything in the physical world—from people to architecture—is composed of atoms dancing in cosmic waves during every interaction, this project reimagines Shibuya, the bustling heart of Tokyo, as a universe of illuminated particles. By abstracting Shibuya’s familiar urban landscape into point cloud data, I sought to present my imagination of this atomic dance and immerse participants in it.
         <br />
         `}
         imagePaths={[
@@ -34,7 +34,7 @@ const Page = () => {
           },
         ]}
         textAdditional={
-          "The 3D model is transformed into point cloud data using MeshLab, then brought into Unity for further development. To enhance the user experience, a custom interface allows for seamless exploration through continuous movement or teleportation, with three pre-selected spots offering hero views of the scene. <br/> <br/>Two shaders shape the visual experience: one adds an illuminated, dreamlike effect, while the other allows users to adjust the size of the points. Additionally, four distinct point movements, driven by sine and cosine functions, create dynamic interactions. A color palette is also included, inviting users to explore various color possibilities."
+          "The 3D model is transformed into point cloud data using MeshLab, then brought into Unity for further development. To enhance the user experience, I designed a user interface (UI) for exploring the visual possibilities, featuring three pre-selected hero views of the scene. Four distinct point movements, driven by sine and cosine functions, introduce dynamic interactivity. A customizable color palette further invites users to explore and experiment with a variety of visual possibilities. <br><br>Two shaders define the visual experience: one creates an illuminated, dreamlike aesthetic, while the other with a more realistic sense and allows users to adjust point sizes. "
         }
         imageAdditional={[
           { src: "/img/projects/interactive design/shibuya VR/shibuya7.png" },

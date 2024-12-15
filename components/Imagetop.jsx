@@ -30,7 +30,7 @@ const Imagetop = () => {
             <br />
             creating <br />
             <span className="imageContainer-emphasis">
-              digital experiences
+              interactive experiences
             </span>{" "}
             <br />
             <span className="imageContainer-emphasis">

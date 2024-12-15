@@ -12,9 +12,11 @@ const Page = () => {
         Is but a dream within a dream?"
         
         </br></br>-- <i>A Dream Within a Dream</i> Allan Kaprow'
-        textContent={` <em>i dream, i dreamt</em> is an immersive, interactive installation that invites you into the dreamscape of the artificial brain, "no.01." Responding to external stimuli from participants, this piece explores the subjective dance between memory and neural activity. Through this surreal transformation of fragmented signals into a cohesive visual narrative, the installation rekindles the delicate interplay between perception and imagination, drawing viewers into the elusive process of dream creation.
-        </br></br>
+        textContent={` <em>i dream, i dreamt</em> is an immersive interactive installation that explores the dreamscape of an artificial brain, 'no.01." The installation responds to participants’ input, creating a dynamic interplay between dream, memory and brain activity. 
 
+        </br></br>
+        Inspired by Sigmund Freud's psychoanalysis, Edgar Allan Poe's poetry, and Dalí's surrealism, this installation captures the abstract essence of dreams as a synthesis of fragmented daily experience and their connection to body. It invites participants to explore how external stimuli may influence the dream-generation process.
+        </br></br>
         We exist as components within the dreams of others, just as we perceive
         others' existence as integral elements in our own dreams.`}
         imagePaths={[
@@ -36,10 +38,10 @@ const Page = () => {
           },
         ]}
         textAdditional={
-          "The installation features 3D-printed body parts (eye, nose, lips, ear, hand) equipped with sensors, which trigger layered animations and soundscapes. As participants interact with these components, their voices and movements are captured and processed in real-time, becoming part of the dream itself—blurring the line between subject and object, reality and imagination. Through this interaction, the piece reveals the role of the body as a mediator of perception and cognition. </br></br>"
+          "The installation features key elements such as 3D-printed organs, a transparent brain, a webcam, a microphone, and interactive film. The organs are 3D-printed with white resin, while the brain is made from Elastic 50A.<br><br> We incorporated conductive materials into the organs, enabling touch-triggered interactions.Four animations, one effect, real-time visual changes, and sound alterations can be triggered through these organs. All visual interactions are controlled using Arduino and TouchDesigner."
         }
         imageAdditional={[
-          { src: "/img/projects/interactive design/idream/dream8.png" },
+          { src: "/img/projects/interactive design/idream/dream10.png" },
         ]}
         creditsText={[
           "C R E D I T S",

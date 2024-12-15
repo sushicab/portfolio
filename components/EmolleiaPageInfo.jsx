@@ -72,14 +72,51 @@ const EmolleiaPageInfo = ({
       <div>
         <p className="page-info-text-content">
           <br></br>
-          <br></br>- PROTOTYPE <br></br>
-          <br></br>The device was constructed by three main parts, flowers,
-          servo motors case and a steel chain to fix the device on the body. The
-          3d printing flowers are fixed at the stem and consist of five petals
-          with a diameter of 6 [cm]. We chose Elastic 50A resin as flower’s
-          material since the softness allows the prototype to bend over and
-          reform motion freely, the special transparency of this material also
-          matched our designed sketch.
+          <br></br>
+          <strong>
+            <em>[ DESIGN SKTCH ]</em>
+          </strong>{" "}
+          <br></br>
+          <br></br>Three transparent, blooming flowers form a wearable shoulder
+          accessory equipped with a webcam that detects and categorizes
+          onlookers' facial expressions. Each flower contains an LED unit that
+          changes color to better express the wearer’s emotions. The design's
+          outlook was inspired by the skeleton flower, a unique blossom with
+          transparent petals that turn white when raindrops fall on it. Through
+          this design, I aim to highlight how interaction creates change, just
+          as we live within a delicate web of connections, constantly shaped and
+          reshaped by our interactions with one another.
+        </p>
+
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            marginBottom: "60px",
+            marginTop: "60px",
+          }}
+        >
+          <img
+            src="/img/projects/interactive design/emolleia/design4.png"
+            alt="Description of image 1"
+            style={{
+              width: "80%",
+              height: "auto",
+              marginRight: "10px",
+            }}
+          />
+        </div>
+        <p className="page-info-text-content">
+          <br></br>
+          <br></br>
+          <strong>
+            <em>[ MATERIAL EXPLORATION ]</em>
+          </strong>{" "}
+          <br></br>
+          <br></br>To achieve natural blooming motions, we experimented with
+          Shape Memory Alloy on paper petals, silicone, and 3D-printed Elastic
+          50A material. We also tested resistive strings to control motion speed
+          and improve performance dynamics.
         </p>
         <div
           style={{
@@ -90,15 +127,50 @@ const EmolleiaPageInfo = ({
           }}
         >
           <img
-            src="/img/projects/interactive design/emolleia/flower_base.jpg"
+            src="/img/projects/interactive design/emolleia/material.png"
+            alt="Description of image 1"
+            style={{
+              width: "75%",
+              height: "auto",
+              marginRight: "10px",
+            }}
+          />
+        </div>
+
+        <p className="page-info-text-content">
+          <br></br>
+          <br></br>
+          <strong>
+            <em>[ PROTOTYPE ]</em>
+          </strong>{" "}
+          <br></br>
+          <br></br>The prototype consists of three main components: flowers, a
+          servo motor casing, and a steel chain to secure the device on the
+          body. Each flower features five 3D-printed petals, made from soft
+          Elastic 50A resin. This material was chosen for its flexibility,
+          enabling smooth bending motions, and its transparency, aligning with
+          the design's aesthetic vision.
+        </p>
+
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            marginBottom: "60px",
+            marginTop: "60px",
+          }}
+        >
+          <img
+            src="/img/projects/interactive design/emolleia/flower_base.png"
             alt="Description of image 1"
             style={{
               width: "40%",
               height: "auto",
+              marginRight: "10px",
             }}
           />
           <img
-            src="/img/projects/interactive design/emolleia/sketch.jpg"
+            src="/img/projects/interactive design/emolleia/flower_base2.png"
             alt="Description of image 2"
             style={{
               width: "40%",
@@ -108,16 +180,27 @@ const EmolleiaPageInfo = ({
         </div>
 
         <p className="page-info-text-content">
-          - USER STUDY <br></br>
-          <br></br>To explore potential use cases, self-expression possibilities
-          and the general perception of the prototype, We conducted a user
-          survey with 50 participants to elicit potential use and application
-          cases. We evaluated 8 designed animated motions of Emolleia regarding
-          their perceived emotional qualities using the self-assessment Manikin.
-          Several animated motions show significant differences for perceived
-          valence and arousal. Based on the mapping to the emotion model, we
-          picked three obviously distinguishable animated motions for our next
-          stage user studies.
+          <strong>
+            <em>[ USER STUDY 1: ELICITATION SURVEY ]</em>
+          </strong>{" "}
+          <br></br>
+          <br></br>The study involved 50 participants and assessed personality
+          traits using the I-E scale (27 average, 15 introverted, 8
+          extroverted). Most participants (69%) responded positively to wearing
+          the device, with one highlighting its potential for mood tracking.
+          Concerns about size and convenience were noted, but social acceptance
+          was promising, with 62% willing to wear it at home and 47% among
+          friends.
+          <br></br>
+          <br></br>
+          Extroverts showed a greater willingness to wear the <em>
+            Emolleia
+          </em>{" "}
+          device compared to introverts and participants with average
+          personality traits. The primary use cases involved self-expression
+          (mood, emotions) and notifications (weather, reminders). Most feedback
+          focused on using <em>Emolleia</em> for emotional communication and
+          social interaction, such as monitoring family members’ well-being.
         </p>
         <div
           style={{
@@ -135,6 +218,31 @@ const EmolleiaPageInfo = ({
             }}
           />
         </div>
+        <p className="page-info-text-content">
+          <strong>
+            <em>[ USER STUDY 2: CONVERSATIONAL USE CASE ]</em>
+          </strong>{" "}
+          <br></br>
+          <br></br>This study evaluated Emolleia's potential to improve
+          conversational efficiency and encourage self-expression. A facial
+          tracking camera was used to recognize seven facial expressions (e.g.,
+          happy, sad, surprise) and trigger Emolleia's motion in three ways:
+          correlated, contrary, or reflecting the onlooker's expression. Due to
+          limitations from a prior study, only five emotions (happy, sad,
+          surprise, neutral, and disgust) were selected and linked to
+          corresponding motions (a, g, c, d). The device's color scheme was
+          inspired by Robert Plutchik's Emotional Wheel, visually representing
+          emotions.
+          <br></br>
+          <br></br>
+          Six new participants (4 female, aged 21-28) was recruited. Most of
+          Participants were from Asia countries. In post-conversation
+          interviews, participants praised Emolleia for encouraging emotional
+          expression and enhancing conversational enjoyment. Some found the
+          device helpful for recognizing others' emotions, while others felt
+          more at ease during interactions. Overall, Emolleia was perceived as a
+          valuable tool for fostering comfort and connection in social settings.
+        </p>
         <div
           style={{
             display: "flex",

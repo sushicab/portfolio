@@ -12,28 +12,15 @@ const About = () => {
         <br />
         <br />
         <br />
-        1. AI Imagination         <br /> Using the power of artificial intelligence
-        (Midjourney), we task the system with imagining a digital garden that
-        transcends the boundaries of conventional creativity. AI becomes the
-        visionary architect, imagining a space where the organic and the indoor
-        experience converge.
+  This tension inspired me to explore how  AI could enhance, rather than diminish, creativity. Using Midjourney, I envisioned an indoor world where nature and humanity peacefully coexist. I expanded this concept in Blender, adding imaginative elements—moss, tiny creatures, and other micro-level details—to a larger macro-scale environment. This attention to both the intimate and expansive aspects enriched the scene, bringing it to life.
         <br />
         <br />
         <br />
-        2. 3D Recreation         <br />Translating the AI-generated concepts into an
-        ecosystem, we recreated the imagined visual in 3d software (blender).
-        Every element, from the flora to the intricate microcosms, is crafted to
-        breathe life into this futuristic space.
+        My goal was to explore how AI can be integrated into the creative process, finding ways to collaborate with it to reach our full potential while ensuring that human creativity remains central. 
         <br />
         <br />
         <br />
-        3. Microscopic Exploration <br /> Exploring beyond the macroscopic view, we
-        dig into the micro level of this intricate ecosystem. This microscopic
-        exploration adds layers of complexity and richness to the orginic int
-        erior experience.
-        <br />
-        <br />
-        <br />
+  
 `}
         // imagePaths={[
         //   "/img/projects/CG/digital biotopia/bio2.png",
@@ -60,7 +47,7 @@ const About = () => {
           },
         ]}
         textAdditional={
-          "4. AI Integration in Creative Workflow <br /> A core objective of this project is to embed AI generation into our creative workflow. We seek to redefine how AI can be an integral collaborator, influencing and enhancing our traditional creative processes. The symbiosis between human ingenuity and artificial intelligence becomes a driving force behind the project's evolution.  <br /><br /><br />5. Enhancing Imaginative Capabilities<br /> Beyond experimentation, our project aims to explore the transformative potential of AI in augmenting imaginative capabilities. We inspect how AI-driven insights and perspectives can push the boundaries of our creative thinking."
+          "Much like the invention of photography and the washing machine, which initially raised fears of replacing painters and workers, technological advancements often open new possibilities and redefine the meaning of the work we do. I believe AI, too, can serve as a mirror to better understand ourselves and our creativity, allowing us to embrace it as a collaborator rather than an adversary."
         }
         imageAdditional={[
           { src: "/img/projects/CG/digital biotopia/bio6.png" },
