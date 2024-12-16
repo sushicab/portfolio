@@ -154,12 +154,18 @@
 }
 
 nav {
-  max-width: 100vw;
   position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 50;
+  mix-blend-mode: difference;
+}
 
-  right: 0;
-  z-index: 10;
-  background-color: rgba(227, 227, 227, 0); /* Adjust opacity as needed */
+.logo-wrapper {
+  position: relative;
+  z-index: 51; /* Higher z-index to ensure visibility */
+  mix-blend-mode: normal; /* Avoid blending for the logo */
 }
 
 /* Navbar inner container */
@@ -169,20 +175,26 @@ nav {
   align-items: center;
   margin: 0 auto;
   padding: 1rem;
-}
-
-.logo {
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: black;
-  letter-spacing: 0.1em;
   mix-blend-mode: difference;
 }
 
-/* Menu */
+.logo {
+  font-size: 2rem;
+  font-weight: 600;
+  color: black;
+  letter-spacing: 0.1em;
+}
+
+.menu a,
 .menu {
+  mix-blend-mode: difference;
   width: auto; /* Adjust as needed */
   display: flex;
+}
+
+.logo-wrapper a {
+  color: white; /* Ensure logo text is visible */
+  mix-blend-mode: normal; /* Override blending */
 }
 
 /* Menu items */
@@ -199,14 +211,15 @@ nav {
 
 /* Menu link */
 .menu a {
-  font-size: 1rem;
-  font-weight: 500;
-  color: black;
-  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 350;
+  color: white; /* White text initially for blending */
+  mix-blend-mode: difference;
+  transition: color 0.3s ease;
 }
 
 .menu a:hover {
-  color: gray; /* Adjust hover color as needed */
+  color: hsl(0, 0%, 40%);
 }
 
 /* Styles for the content container */
