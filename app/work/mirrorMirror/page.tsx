@@ -42,7 +42,6 @@ export default function About() {
         in the photos, they are my dear friends, roommates, classmates, and
         occasionally, strangers whose paths intersect with mine.In capturing
         their existence and emotional landscapes, I find myself in their eyes.
-        <br />
       </p>
     </main>
   );
