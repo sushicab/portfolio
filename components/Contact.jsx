@@ -9,7 +9,7 @@ const Contact = () => {
       <div className="contact-links">
         <ul>
           <li>
-            <a href="mailto:hi@yifanzhuang.com" className="contact-link">
+            <a href="mailto:hi@yifanzhuang.com&quot;className="contact-link">
               Mail
             </a>
           </li>
@@ -22,7 +22,7 @@ const Contact = () => {
             </a>
           </li>
           <li>
-            <a href="https://vimeo.com/your_vimeo" className="contact - link">
+            <a href="https://vimeo.com/your_vimeo&quot;className="contact - link">
               Vimeo
             </a>
           </li>

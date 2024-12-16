@@ -94,7 +94,7 @@ const Rows = [
       },
       {
         title: "Liquid Painting",
-        description: "for 'Remix'/ 2023",
+        description: "for ' Remix' / 2023",
         imgUrl: "/img/workpage/liquid1.jpg",
         path: "/work/liquidPainting",
       },

@@ -8,7 +8,7 @@ const Page = () => {
       <EmolleiaPageInfo
         iframeSrc="https://player.vimeo.com/video/626239850?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
         title="Emolleia"
-        subtitle='
+        subtitle=' 
                "Shy Flower"
               <br />
               <br />
@@ -23,9 +23,7 @@ const Page = () => {
               pink-white colors
               <br />
               for the butterfly she drew'
-        textContent={`<em>Emolleia</em> is a 3D-printed wearable that dynamically responds to onlookers' facial expressions through motions and light. This project investigates how wearable technology can enhance emotional expression and social interaction, with an attempt to bridge fashion, design and technology. 
-
-
+        textContent={`<em>Emolleia</em> is a 3D-printed wearable that dynamically responds to onlookers'  facial expressions through motions and light. This project investigates how wearable technology can enhance emotional expression and social interaction, with an attempt to bridge fashion, design and technology. 
               <br />
               <br />
               Drawing inspiration from nature—where animals shift hues and plants transform to communicate or adapt—this project explores the unspoken language of emotions. <em>Emolleia</em> reflects these transformations, enabling users to express emotions through fluid changes in color, shape, and movement. `}
@@ -66,10 +64,10 @@ const Page = () => {
           "GEIST LAB",
           "Graduate School of Keio Media Design",
           "C O L L A B O R A T I O N:",
-          "'Emolleia' project is in collaboration with NTT Media Intelligence Laboratories.",
+          "' Emolleia'  project is in collaboration with NTT Media Intelligence Laboratories.",
         ]}
         textAdditional={
-          "Three blooming transparent flowers form an accessory that can be worn around the shoulder. With a webcam turned on, the onlooker's facial expression will be detected and categorized.  Each of the three flowers has been equipped with an LED light unit inside to enable color changes, aiding in better expressing the wearer's emotions."
+          "Three blooming transparent flowers form an accessory that can be worn around the shoulder. With a webcam turned on, the onlooker' s facial expression will be detected and categorized.  Each of the three flowers has been equipped with an LED light unit inside to enable color changes, aiding in better expressing the wearer' s emotions."
         }
       />
     </div>
@@ -81,7 +79,7 @@ export default Page;
   /* <PageInfo
         iframeSrc="https://player.vimeo.com/video/626239850?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
         title=" Emolleia"
-        subtitle='
+        subtitle=' 
         Emolleia was inspired by a poem titled "Shy Flower"
         <br />
         <br />
@@ -95,16 +93,16 @@ export default Page;
         <br />
         pink-white colors
         <br />
-        for the butterfly she drew'
+        for the butterfly she drew' 
         textContent={`        Three blooming transparent flowers form an accessory that can be worn
-        around the shoulder. With a webcam turned on, the onlooker's facial
+        around the shoulder. With a webcam turned on, the onlooker' s facial
         expression will be detected and categorized. Depending on the facial
         expression, the Emolleia will perform five predefined correlated
         motions.
         <br />
         <br />
         Each of the three flowers has been equipped with an LED light unit
-        inside to enable color changes, aiding in better expressing the wearer's
+        inside to enable color changes, aiding in better expressing the wearer' s
         emotions.`}
         imagePaths={[
           {
@@ -148,7 +146,7 @@ export default Page;
             // "GEIST LAB",
             // "Graduate School of Keio Media Design",
             // "C O L L A B O R A T I O N:",
-            // "'Emolleia' project is in collaboration with NTT Media Intelligence Laboratories.",
+            // "' Emolleia'  project is in collaboration with NTT Media Intelligence Laboratories.",
           ]
         }
         additionalVideoSrc={[]}

@@ -33,7 +33,7 @@ const EmblaCarousel = ({ images = [] }) => {
   }, [emblaApi]);
 
   return (
-    <div style={{ width: "100vw", height: "auto" }}>
+    <div style={{ width: "100vw", height: "auto&quot;}}>
       <div
         style={{
           width: "40%",
@@ -43,10 +43,10 @@ const EmblaCarousel = ({ images = [] }) => {
           alignItems: "center",
         }}
       >
-        <div className="embla" ref={emblaRef} style={{ marginBottom: "10px" }}>
+        <div className="embla&quot;ref={emblaRef} style={{ marginBottom: "10px&quot;}}>
           <div className="embla__container">
             {images.map((imageUrl, index) => (
-              <div className="embla__slide" key={index}>
+              <div className="embla__slide&quot;key={index}>
                 <img
                   src={imageUrl}
                   alt={`Slide ${index}`}
@@ -73,12 +73,12 @@ const EmblaCarousel = ({ images = [] }) => {
             <PrevButton
               onClick={onPrevButtonClick}
               disabled={prevBtnDisabled}
-              style={{ marginRight: "auto" }}
+              style={{ marginRight: "auto&quot;}}
             />
             <NextButton
               onClick={onNextButtonClick}
               disabled={nextBtnDisabled}
-              style={{ marginLeft: "auto" }}
+              style={{ marginLeft: "auto&quot;}}
             />
           </div>
         </div>

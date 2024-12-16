@@ -7,18 +7,18 @@ const Page = () => {
       <PageInfo
         iframeSrc="https://player.vimeo.com/video/638304049?h=369837fcf8"
         title="i dream, i dreamt"
-        subtitle='"All that we all see or seem </br></br>
+        subtitle=' "All that we all see or seem </br></br>
         
         Is but a dream within a dream?"
         
         </br></br>-- <i>A Dream Within a Dream</i> Allan Kaprow'
-        textContent={` <em>i dream, i dreamt</em> is an immersive interactive installation that explores the dreamscape of an artificial brain, 'no.01." The installation responds to participants’ input, creating a dynamic interplay between dream, memory and brain activity. 
+        textContent={` <em>i dream, i dreamt</em> is an immersive interactive installation that explores the dreamscape of an artificial brain, ' no.01." The installation responds to participants’ input, creating a dynamic interplay between dream, memory and brain activity. 
 
         </br></br>
-        Inspired by Sigmund Freud's psychoanalysis, Edgar Allan Poe's poetry, and Dalí's surrealism, this installation captures the abstract essence of dreams as a synthesis of fragmented daily experience and their connection to body. It invites participants to explore how external stimuli may influence the dream-generation process.
+        Inspired by Sigmund Freud' s psychoanalysis, Edgar Allan Poe' s poetry, and Dalí' s surrealism, this installation captures the abstract essence of dreams as a synthesis of fragmented daily experience and their connection to body. It invites participants to explore how external stimuli may influence the dream-generation process.
         </br></br>
         We exist as components within the dreams of others, just as we perceive
-        others' existence as integral elements in our own dreams.`}
+        others'  existence as integral elements in our own dreams.`}
         imagePaths={[
           {
             type: "image",
@@ -103,9 +103,9 @@ export default Page;
 //           fontStyle: "italic",
 //         }}
 //       >
-//         &quot;All that we all see or seem
+//         "All that we all see or seem
 //         <br />
-//         Is but a dream within a dream?&quot;
+//         Is but a dream within a dream?"
 //         <br />
 //         -- <i>A Dream Within a Dream</i> Allan Kaprow
 //       </p>
@@ -118,9 +118,9 @@ export default Page;
 //           marginBottom: "100px",
 //         }}
 //       >
-//         &quot;<i>Dreamt, I Dream</i>&quot; unfolds as an immersive interactive
+//         "<i>Dreamt, I Dream</i>" unfolds as an immersive interactive
 //         artistic creation of mine, inviting you into the realm of dream
-//         generation through the artificial brain 'no.01'. By responding to
+//         generation through the artificial brain ' no.01' . By responding to
 //         stimuli from the external world initiated by participants, this
 //         installation unveils the subjective interplay of memory and brain
 //         activities. The surreal experience of transforming disconnected and
@@ -138,7 +138,7 @@ export default Page;
 //         <br />
 //         <br />
 //         We exist as components within the dreams of others, just as we perceive
-//         others' existence as integral elements in our own dreams.
+//         others'  existence as integral elements in our own dreams.
 //       </p>
 //       <div
 //         style={{

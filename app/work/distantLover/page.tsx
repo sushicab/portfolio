@@ -2,7 +2,7 @@ import { Autour_One } from "next/font/google";
 
 export default function About() {
   return (
-    <main style={{ paddingTop: "80px" }}>
+    <main style={{ paddingTop: "80px&quot;}}>
       <h1
         style={{
           fontSize: "40px",
@@ -14,11 +14,11 @@ export default function About() {
       >
         Distant Lover
       </h1>
-      <div style={{ justifyContent: "center", display: "flex" }}>
+      <div style={{ justifyContent: "center", display: "flex&quot;}}>
         <img
           src="/img/projects/fine arts/distantlover.jpg"
           alt="lotus"
-          style={{ width: "50%", height: "auto" }}
+          style={{ width: "50%", height: "auto&quot;}}
         />
       </div>
       <p

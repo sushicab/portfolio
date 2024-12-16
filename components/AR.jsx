@@ -49,10 +49,10 @@ const AboutPage = () => {
           <br />
           <br />
           Technology is a product of humanity, reflecting the collective views
-          of society. Under this premise, what kind of 'body shell' should we
+          of society. Under this premise, what kind of ' body shell' should we
           embody? How does the majority of datasets perceive our biological
           appearance? Confronted with the reflection of societal expectations,
-          which 'gender shell' would our biological sex be associated with?
+          which ' gender shell' would our biological sex be associated with?
           <br />
           <br />
           This project explores these questions by classifying participants'
@@ -83,7 +83,7 @@ const AboutPage = () => {
             <em>[ DESIGN IDEA ]</em>
           </strong>
           <br />
-          In this setup, when the camera detects a participant's face, the
+          In this setup, when the camera detects a participant' s face, the
           answers are displayed as text in a Windows 2007-style interface.
           Random facial expressions trigger varying on-screen responses. The
           semi-transparent glitch texture in the background blurs the line
@@ -209,20 +209,20 @@ const AboutPage = () => {
           beginning with the iconic lines:
           <br />
           <br />
-          &quot;Good afternoon, gentlemen.
+          "Good afternoon, gentlemen.
           <br />
           <br />
           I am a HAL 9000 computer.
           <br />
           <br />
           I became operational at the H.A.L. plant in Urbana, Illinois on the
-          12th of January 1992.&quot;
+          12th of January 1992."
           <br />
           <br />
           The face covering was designed with a transparent, half-concealed
           metal mask illuminated by two reflective lights. A black stone near
           the ear pays homage to the monolith in <em>2001: A Space Odyssey</em>,
-          symbolizing enlightenment and humanity's relentless pursuit of
+          symbolizing enlightenment and humanity' s relentless pursuit of
           technological advancement and space exploration.
         </p>{" "}
       </div>

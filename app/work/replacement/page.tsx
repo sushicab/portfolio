@@ -48,8 +48,8 @@ export default function About() {
         &apos;existing impressions&apos; we hold in the memories of others. The
         image of &apos;You&apos; has been obscured, dismantled, and
         reconstructed, replaced by the intentional identities we assume.
-        &quot;Replacement&quot; delves into how the cyber world has supplanted
-        our authentic identities, weaving alternate narratives.
+        "Replacement" delves into how the cyber world has supplanted our
+        authentic identities, weaving alternate narratives.
       </p>
     </main>
   );

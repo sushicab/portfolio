@@ -65,7 +65,7 @@ const About = () => {
           },
         ]}
         textAdditional={
-          "4. AI Integration in Creative Workflow <br /> A core objective of this project is to embed AI generation into our creative workflow. We seek to redefine how AI can be an integral collaborator, influencing and enhancing our traditional creative processes. The symbiosis between human ingenuity and artificial intelligence becomes a driving force behind the project's evolution.  <br /><br /><br />5. Enhancing Imaginative Capabilities<br /> Beyond experimentation, our project aims to explore the transformative potential of AI in augmenting imaginative capabilities. We inspect how AI-driven insights and perspectives can push the boundaries of our creative thinking."
+          "4. AI Integration in Creative Workflow <br /> A core objective of this project is to embed AI generation into our creative workflow. We seek to redefine how AI can be an integral collaborator, influencing and enhancing our traditional creative processes. The symbiosis between human ingenuity and artificial intelligence becomes a driving force behind the project' s evolution.  <br /><br /><br />5. Enhancing Imaginative Capabilities<br /> Beyond experimentation, our project aims to explore the transformative potential of AI in augmenting imaginative capabilities. We inspect how AI-driven insights and perspectives can push the boundaries of our creative thinking."
         }
         imageAdditional={[]}
         creditsText={[

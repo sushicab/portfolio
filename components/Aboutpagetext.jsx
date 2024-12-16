@@ -10,7 +10,7 @@ const Aboutpagetext = () => {
               href="https://dl.acm.org/doi/abs/10.1145/3490149.3505581"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ textDecoration: "underline" }}
+              style={{ textDecoration: "underline&quot;}}
             >
               [1] Yifan Zhuang, Keitaro Tsuchiya, Takuro Nakao, Jiawen Han,
               Megumi Isoga, Shinya Shimizu, and Kai Kunze. 2022. Emolleia –
@@ -25,7 +25,7 @@ const Aboutpagetext = () => {
               href="https://dl.acm.org/doi/abs/10.1145/3393914.3395900"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ textDecoration: "underline" }}
+              style={{ textDecoration: "underline&quot;}}
             >
               [2]Labeling: The Reflective Design of Socialized Gender
               Classification
@@ -55,7 +55,7 @@ const Aboutpagetext = () => {
           }}
         >
           <p>
-            Instagram:{" "}
+            Instagram:{&quot;"}
             <a
               href="https://www.instagram.com/wandanle.z/"
               target="_blank"
@@ -64,12 +64,12 @@ const Aboutpagetext = () => {
               @wandanle.z
             </a>
           </p>
-          <div style={{ marginBottom: "100px" }}>
+          <div style={{ marginBottom: "100px&quot;}}>
             <p>
               Mail: <a href="mailto:hi@yifanzhuang.com">hi@yifanzhuang.com</a>
             </p>
           </div>
-          <p style={{ textDecoration: "underline" }}>
+          <p style={{ textDecoration: "underline&quot;}}>
             <a href="mailto:hi@yifanzhuang.com"> CV upon request</a>
           </p>
           <div>
@@ -84,7 +84,7 @@ const Aboutpagetext = () => {
               Website design & developed by herself
             </p>
             {/* <div className="about-page-text-image">
-              <img src="/img/about/meme.png" />
+              <img src="/img/about/meme.png&quot;/>
             </div> */}
           </div>
         </div>

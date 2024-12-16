@@ -2,7 +2,7 @@ import { Autour_One } from "next/font/google";
 
 export default function About() {
   return (
-    <main style={{ paddingTop: "80px" }}>
+    <main style={{ paddingTop: "80px&quot;}}>
       <h1
         style={{
           fontSize: "40px",
@@ -15,7 +15,7 @@ export default function About() {
         Lotus
       </h1>
       <div
-        style={{ justifyContent: "center", display: "flex", marginTop: "40px" }}
+        style={{ justifyContent: "center", display: "flex", marginTop: "40px&quot;}}
       >
         <img
           src="/img/projects/fine arts/lotus/lotus1.jpg"

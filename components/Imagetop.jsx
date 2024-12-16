@@ -25,18 +25,18 @@ const Imagetop = () => {
       <div className="imagetop-container">
         <div className="imageContainer-intro">
           <p className="imageContainer-introText">
-            a <span className="imageContainer-emphasis">creative</span> &{" "}
-            <span className="imageContainer-emphasis">curious</span> human{" "}
+            a <span className="imageContainer-emphasis">creative</span> &{&quot;"}
+            <span className="imageContainer-emphasis">curious</span> human{&quot;"}
             <br />
             creating <br />
             <span className="imageContainer-emphasis">
               interactive experiences
-            </span>{" "}
+            </span>{&quot;"}
             <br />
             <span className="imageContainer-emphasis">
-              {" "}
+              {&quot;"}
               & visual expressions
-            </span>{" "}
+            </span>{&quot;"}
             <br />
             <br />
             Based in <span className="imageContainer-emphasis">Tokyo</span>
@@ -53,31 +53,31 @@ const Imagetop = () => {
         </div>
       </div>
       <div className="imageContainer">
-        <video className="imageContainer-video" autoPlay loop muted playsInline>
-          <source src="/img/top/11.22.mp4" type="video/mp4" />
+        <video className="imageContainer-video&quot;autoPlay loop muted playsInline>
+          <source src="/img/top/11.22.mp4&quot;type="video/mp4&quot;/>
         </video>
         <div className="overlay">
-          <Link href="/work/digitalbiotopia" passHref>
+          <Link href="/work/digitalbiotopia&quot;passHref>
             <span className="overlay-text">view the project</span>
           </Link>
         </div>
       </div>
       <div className="imageContainer">
-        <video className="imageContainer-video" autoPlay loop muted playsInline>
-          <source src="/img/top/CG2.mp4" type="video/mp4" />
+        <video className="imageContainer-video&quot;autoPlay loop muted playsInline>
+          <source src="/img/top/CG2.mp4&quot;type="video/mp4&quot;/>
         </video>
         <div className="overlay">
-          <Link href="/work/idream" passHref>
+          <Link href="/work/idream&quot;passHref>
             <span className="overlay-text">view the project</span>
           </Link>
         </div>
       </div>
       <div className="imageContainer">
-        <video className="imageContainer-video" autoPlay loop muted playsInline>
-          <source src="/img/top/VR.mp4" type="video/mp4" />
+        <video className="imageContainer-video&quot;autoPlay loop muted playsInline>
+          <source src="/img/top/VR.mp4&quot;type="video/mp4&quot;/>
         </video>
         <div className="overlay">
-          <Link href="/work/shibuyaVR" passHref>
+          <Link href="/work/shibuyaVR&quot;passHref>
             <span className="overlay-text">view the project</span>
           </Link>
         </div>
@@ -98,7 +98,7 @@ const Imagetop = () => {
         </div>
         <div className="imageContainer-text-footer">
           <h1>
-            <a href="hi@yifanzhuang.com" className="underline">
+            <a href="hi@yifanzhuang.com&quot;className="underline">
               LET‘S WORK TOGETHER
             </a>
           </h1>

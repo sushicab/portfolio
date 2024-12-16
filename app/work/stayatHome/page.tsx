@@ -2,7 +2,7 @@ import { Autour_One } from "next/font/google";
 
 export default function About() {
   return (
-    <main style={{ paddingTop: "80px" }}>
+    <main style={{ paddingTop: "80px&quot;}}>
       <h1
         style={{
           fontSize: "40px",
@@ -14,7 +14,7 @@ export default function About() {
       >
         Stay at Home
       </h1>
-      <div style={{ justifyContent: "center", display: "flex" }}>
+      <div style={{ justifyContent: "center", display: "flex&quot;}}>
         <img
           src="/img/projects/short film/screenshot/stayathome1.png"
           alt="lotus"

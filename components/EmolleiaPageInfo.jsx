@@ -80,7 +80,7 @@ const EmolleiaPageInfo = ({
           <br></br>Three transparent, blooming flowers form a wearable shoulder
           accessory equipped with a webcam that detects and categorizes
           onlookers' facial expressions. Each flower contains an LED unit that
-          changes color to better express the wearer’s emotions. The design's
+          changes color to better express the wearer’s emotions. The design' s
           outlook was inspired by the skeleton flower, a unique blossom with
           transparent petals that turn white when raindrops fall on it. Through
           this design, I aim to highlight how interaction creates change, just
@@ -149,7 +149,7 @@ const EmolleiaPageInfo = ({
           body. Each flower features five 3D-printed petals, made from soft
           Elastic 50A resin. This material was chosen for its flexibility,
           enabling smooth bending motions, and its transparency, aligning with
-          the design's aesthetic vision.
+          the design' s aesthetic vision.
         </p>
 
         <div
@@ -223,15 +223,15 @@ const EmolleiaPageInfo = ({
             <em>[ USER STUDY 2: CONVERSATIONAL USE CASE ]</em>
           </strong>{" "}
           <br></br>
-          <br></br>This study evaluated Emolleia's potential to improve
+          <br></br>This study evaluated Emolleia' s potential to improve
           conversational efficiency and encourage self-expression. A facial
           tracking camera was used to recognize seven facial expressions (e.g.,
-          happy, sad, surprise) and trigger Emolleia's motion in three ways:
-          correlated, contrary, or reflecting the onlooker's expression. Due to
+          happy, sad, surprise) and trigger Emolleia' s motion in three ways:
+          correlated, contrary, or reflecting the onlooker' s expression. Due to
           limitations from a prior study, only five emotions (happy, sad,
           surprise, neutral, and disgust) were selected and linked to
-          corresponding motions (a, g, c, d). The device's color scheme was
-          inspired by Robert Plutchik's Emotional Wheel, visually representing
+          corresponding motions (a, g, c, d). The device' s color scheme was
+          inspired by Robert Plutchik' s Emotional Wheel, visually representing
           emotions.
           <br></br>
           <br></br>
