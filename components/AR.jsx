@@ -1,6 +1,6 @@
 import React from "react";
 
-const AboutPage = () => {
+const ARPage = () => {
   return (
     <main>
       <div className="AR-container">
@@ -257,4 +257,4 @@ const AboutPage = () => {
   );
 };
 
-export default AboutPage;
+export default ARPage;

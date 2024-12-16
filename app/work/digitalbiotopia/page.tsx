@@ -19,8 +19,7 @@ const About = () => {
         My goal was to explore how AI can be integrated into the creative process, finding ways to collaborate with it to reach our full potential while ensuring that human creativity remains central. 
         <br />
         <br />
-        <br />
-`}
+        <br />`}
         // imagePaths={[
         //   "/img/projects/CG/digital biotopia/bio2.png",
         //   "/img/projects/CG/digital biotopia/bio5.png",
@@ -48,19 +47,17 @@ const About = () => {
         textAdditional={
           "Much like the invention of photography and the washing machine, which initially raised fears of replacing painters and workers, technological advancements often open new possibilities and redefine the meaning of the work we do. I believe AI, too, can serve as a mirror to better understand ourselves and our creativity, allowing us to embrace it as a collaborator rather than an adversary."
         }
-        imageAdditional={}
-        creditsText={
+        imageAdditional={[]}
+        creditsText={[
           "C R E D I T S",
-          "YIFAN ZHUANG <b>Creative Director & 3D Artist<b/>",
-          "YIFAN ZHUANG <b>Concept & 3D Artist<b/>",
-          "This is a research project for theshift.tokyo",
-        }
-        videoCreditsText={}
-        specialThanksText={}
+          "YIFAN ZHUANG <b>Concept & 3D Artist</b>",
+          "This is a research project for the shift.tokyo.",
+        ]}
+        videoCreditsText={[]}
+        specialThanksText={[]}
         additionalVideoSrc="/img/projects/CG/digital biotopia/1211_2.mp4"
       />
     </div>
   );
 };
-
 export default About;
