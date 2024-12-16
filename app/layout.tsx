@@ -5,16 +5,15 @@ import Navbar from "@/components/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: "YIFAN  ZHUANG",
+export const metadata = {
   description: "portfolio。",
   icons: {
     icon: [
-      { rel: "icon", url: "/favicon.ico&quot;},
-      { rel: "icon", url: "/favicon-16x16.png", sizes: "16x16&quot;},
-      { rel: "icon", url: "/favicon-32x32.png", sizes: "32x32&quot;},
-      { rel: "icon", url: "/favicon-64x64.png", sizes: "64x64&quot;},
-      { rel: "icon", url: "/favicon-128x128.png", sizes: "128x128&quot;},
+      { rel: "icon", url: "/favicon.ico" },
+      { rel: "icon", url: "/favicon-16x16.png", sizes: "16x16" },
+      { rel: "icon", url: "/favicon-32x32.png", sizes: "32x32" },
+      { rel: "icon", url: "/favicon-64x64.png", sizes: "64x64" },
+      { rel: "icon", url: "/favicon-128x128.png", sizes: "128x128" },
     ],
   },
 };

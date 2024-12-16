@@ -9,7 +9,7 @@ const Page = () => {
         iframeSrc="https://player.vimeo.com/video/626239850?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
         title="Emolleia"
         subtitle=' 
-               "Shy Flower"
+               Shy Flower
               <br />
               <br />
               To the little shy flower;

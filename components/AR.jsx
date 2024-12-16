@@ -25,73 +25,44 @@ const AboutPage = () => {
           </h2>
         </div>
         <p className="AR-text">
-          <em>”Gender Shell”</em> is an AR installation designed to visualize
-          the experience of gender classification. It is part of the research
-          project{" "}
-          <a
-            href="https://dl.acm.org/doi/abs/10.1145/3393914.3395900"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ textDecoration: "underline" }}
-          >
-            <em>
-              Labeling: The Reflective Design of Socialized Gender
-              Classification
-            </em>
-          </a>
-          , which includes three reflective design and social experiment
-          installations.
+          “Gender Shell” is an AR installation to visualize gender
+          classification experience, as one of the three Reflective design and
+          social experiment installations in the research project Labeling: The
+          Reflective Design of Socialized Gender Classification.
           <br />
           <br />
           <br />
-          Installation 1: <em>&ldquo;Gender Shell&rdquo;</em>
+          Installation 1: &ldquo;Gender Shell&rdquo;
           <br />
           <br />
           <br />
-          Technology is a product of humanity, reflecting the collective views
-          of society. Under this premise, what kind of ' body shell' should we
-          embody? How does the majority of datasets perceive our biological
-          appearance? Confronted with the reflection of societal expectations,
-          which ' gender shell' would our biological sex be associated with?
-          <br />
-          <br />
-          This project explores these questions by classifying participants'
-          gender through an unsupervised machine learning algorithm. The system
-          analyzes the participant’s image and displays it alongside a mosaic of
-          faces it identifies as similar. Without relying on human-created
-          labels, the machine autonomously groups faces, offering a reflection
-          of how it interprets patterns in biological appearance and societal
-          expectations.
+          Technology comes from humanity, what it build is a reflection of
+          majority view. In this premise, what "body shell" (should) we be? What
+          will majority of databases thinks about our biological appearance?
+          Facing the reflection of social expectation, Which "gender shell"
+          would our biological sex be linked to? Based on the concept of this
+          work above, participant’s gender will be classified by an unsupervised
+          machine learning algorithm, that shows the participant’s picture
+          together with a mosaic of faces it thinks it’s similar. Showing how,
+          without using human made labels of faces from a dataset, the machine
+          would divide these faces into groups.
           <br />
           <br />
           <br />
-          <strong>
-            <em>[ DESIGN PROCESS ]</em>
-          </strong>
-          <br />
-          We gathered responses from 61 participants about the first
-          descriptions that came to mind when they saw the words <em>
-            “Male”
-          </em>{" "}
-          and
-          <em>“Female”.</em> To minimize bias, we used a questionnaire for data
-          collection.
+          We collected 61 participants’ answers about what is the first
+          description pop up in their minds when they saw the words ‘Male’ and
+          ‘Female’. We used a questionnaire to collect answers to try to avoid
+          bias.
           <br />
           <br />
           <br />
-          <strong>
-            <em>[ DESIGN IDEA ]</em>
-          </strong>
-          <br />
-          In this setup, when the camera detects a participant' s face, the
-          answers are displayed as text in a Windows 2007-style interface.
-          Random facial expressions trigger varying on-screen responses. The
-          semi-transparent glitch texture in the background blurs the line
-          between reality and the virtual. Inspired by facial recognition system
-          and the theory of Gender Performativity by Judith Butler, the mosaic
-          mask design transitions from blurry to clear as faces are detected, as
-          is neither essential nor biologically determined, but rather it is
-          created by its own performance ’.
+          In this setup, answers appear as text in a Windows 2007 style when the
+          camera detects the participant’s face. Random facial expressions
+          trigger different responses on-screen. The background features a
+          semi-transparent glitch texture, blurring the line between reality and
+          virtual. The mosaic mask design, inspired by face recognition,
+          transitions from blurry to clear as faces are detected, symbolizing
+          equality amidst gender classification.
         </p>
       </div>
       <div className="AR-image-item-grid">
@@ -118,7 +89,7 @@ const AboutPage = () => {
       <div className="AR-credits-container">
         <div>
           <h2 className="text-1xl font-bold mb-4">
-            <em>More details in related publication</em>:
+            More details in related publication:
           </h2>
           <div className="AR-credits">
             <p>
@@ -135,11 +106,10 @@ const AboutPage = () => {
           </div>
           <p className="AR-credits">C R E D I T S</p>
           <p className="AR-credits">
-            CHIA-HSIN CHEN <strong> Lead Designer </strong>{" "}
+            CHIA-HSIN CHEN <strong> Lead Designer/ Researcher </strong>{" "}
           </p>
           <p className="AR-credits">
-            YIFAN ZHUANG{" "}
-            <strong> Interaction Designer/ System Developer </strong>{" "}
+            YIFAN ZHUANG <strong> Interaction Designer/ Developer </strong>{" "}
           </p>
         </div>
       </div>
@@ -147,31 +117,29 @@ const AboutPage = () => {
       <h2 className="AR-title">2. AR Filter Collection</h2>
       <div className="AR-text-content">
         <p className="AR-text">
-          In today’s digital age, social media platforms serve as vibrant spaces
-          for self-expression and creativity. Augmented Reality (AR) filters, in
-          particular, have emerged as a captivating medium, enabling users to
-          transform their photos and videos with interactive and playful
-          effects.
+          In today’s digital age, social media platforms have become vibrant
+          hubs for self-expression and creativity. One of the most engaging
+          forms of expression on these platforms is the use of augmented reality
+          (AR) filters, which allow users to transform their photos and videos
+          with interactive and playful effects.
           <br />
           <br />
           <br />
-          This experimental project explores the concept of expanded cyber
-          identity through a series of AR filters, all of which were designed
-          and developed by me.
+          An experimental project to explore the expanded cyber identity, all
+          filters designed and developed by me.
           <br />
           <br />
           <br />
           <br />
           <strong>
-            <em> One More Robot </em>
+            <em> - One More Robot </em>
           </strong>
           <br />
           <br />
-          Inspired by <em>Ghost in the Shell</em>, I became fascinated with the
-          concept of cybernetics and the interplay between identity and
-          technology. Driven by a desire to explore this realm, I developed an
-          augmented reality effect that visually splits the face, reflecting the
-          fragmentation and redefinition of self in a digital age.
+          Influenced by "Ghost in the Shell," I found myself drawn to the idea
+          of exploring the world of cybernetics. With a longing to understand
+          this realm, I experimented with creating an augmented reality effect
+          that splits the face.
         </p>{" "}
       </div>
       <div className="AR-image-item">
@@ -196,17 +164,17 @@ const AboutPage = () => {
       <div className="AR-text-content">
         <p className="AR-text">
           <strong>
-            <em> /ǫᴎiɘdoɘᴎ/ </em>
+            <em> - /ǫᴎiɘdoɘᴎ/ </em>
           </strong>
           <br />
           <br />
-          Neo Being: Reflections on Growth" offers a glimpse into the lives of
-          humans in the futuristic world of 2047.
+          "Neo being: Reflections on Growth" offers glimpses into the lives of
+          humans living in the futuristic world of 2047.
           <br />
           <br />
-          The experience opens with poignant screen text, featuring quotes from
-          one of my favorite sci-fi films,<em> 2001: A Space Odyssey</em>,
-          beginning with the iconic lines:
+          Featuring poignant screen text quotes from one of my favorite sci-fi
+          movies, "2001: A Space Odyssey," the experience begins with the iconic
+          words:
           <br />
           <br />
           "Good afternoon, gentlemen.
@@ -219,11 +187,11 @@ const AboutPage = () => {
           12th of January 1992."
           <br />
           <br />
-          The face covering was designed with a transparent, half-concealed
-          metal mask illuminated by two reflective lights. A black stone near
-          the ear pays homage to the monolith in <em>2001: A Space Odyssey</em>,
-          symbolizing enlightenment and humanity' s relentless pursuit of
-          technological advancement and space exploration.
+          Face cover was selected to use transparent half concealed metal mask
+          with two lights reflecting on. Black stone around ear was paying
+          tribute  to monolith in the movie<em>2001; A  Space Odyssey</em>, as
+          the enlightenment to encourage humankind pursue the technological
+          development and space travel.
         </p>{" "}
       </div>
       <div className="AR-image-item">
