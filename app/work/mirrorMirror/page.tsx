@@ -4,7 +4,7 @@ import MirrorCarousel from "@/components/MirrorCarousel";
 
 export default function About() {
   return (
-    <main style={{ paddingTop: "80px&quot;}}>
+    <main style={{ paddingTop: "80px" }}>
       <h1
         style={{
           fontSize: "40px",
@@ -18,7 +18,7 @@ export default function About() {
       </h1>
       <MirrorCarousel />
       <div></div>
-      <div style={{ justifyContent: "center", display: "flex&quot;}}></div>
+      <div style={{ justifyContent: "center", display: "flex" }}></div>
       <p
         style={{
           textAlign: "left",
