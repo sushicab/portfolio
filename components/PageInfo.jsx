@@ -15,7 +15,7 @@ const PageInfo = ({
   additionalVideoSrc,
 }) => {
   return (
-    <main style={{ paddingTop: "80px&quot;}}>
+    <main style={{ paddingTop: "80px" }}>
       <div
         style={{
           maxWidth: "100vw",
@@ -37,7 +37,7 @@ const PageInfo = ({
       <p className="page-info-text-content">{parse(textContent)}</p>
       <div className="page-info-image-grid">
         {imagePaths.map((image, index) =>
-          image.type === "image&quot;? (
+          image.type === "image" ? (
             <img
               className="page-info-image"
               key={index}
@@ -52,7 +52,7 @@ const PageInfo = ({
               autoPlay
               loop
             >
-              <source src={image.src} type="video/mp4&quot;/>
+              <source src={image.src} type="video/mp4" />
             </video>
           )
         )}
@@ -71,7 +71,7 @@ const PageInfo = ({
             className="page-info-image-fullwidth"
             src={image.src}
             alt={`Additional Image ${index + 1}`}
-            style={{ width: "80%", marginBottom: "20px&quot;}}
+            style={{ width: "80%", marginBottom: "20px" }}
           />
         </div>
       ))}
@@ -85,7 +85,7 @@ const PageInfo = ({
           marginTop: "20px",
         }}
       >
-        {typeof additionalVideoSrc === "string&quot;&&
+        {typeof additionalVideoSrc === "string" &&
         additionalVideoSrc.endsWith(".mp4") ? (
           <video
             className="page-info-video"
@@ -93,7 +93,7 @@ const PageInfo = ({
             controls
             autoPlay
             loop
-            style={{ marginTop: "150px", maxWidth: "100%&quot;}}
+            style={{ marginTop: "150px", maxWidth: "100%" }}
           ></video>
         ) : (
           <iframe
@@ -101,7 +101,7 @@ const PageInfo = ({
             src={additionalVideoSrc}
             allow="autoplay; fullscreen; picture-in-picture"
             title="Vimeo video"
-            style={{ marginTop: "150px&quot;}}
+            style={{ marginTop: "150px" }}
           ></iframe>
         )}
       </div>
@@ -131,7 +131,7 @@ const PageInfo = ({
                 : specialThanksText[0]}
             </p>
             {specialThanksText.slice(1).map((thanks, index) => (
-              <p key={index} style={{ marginBottom: "15px&quot;}}>
+              <p key={index} style={{ marginBottom: "15px" }}>
                 {parse(thanks)}
               </p>
             ))}

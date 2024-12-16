@@ -22,7 +22,7 @@ const Contact = () => {
             </a>
           </li>
           <li>
-            <a href="https://vimeo.com/your_vimeo" className="contact-link">
+            <a href="https://vimeo.com/your_vimeo" className="contact - link">
               Vimeo
             </a>
           </li>
