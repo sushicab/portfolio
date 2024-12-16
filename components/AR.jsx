@@ -196,7 +196,7 @@ const AboutPage = () => {
       <div className="AR-text-content">
         <p className="AR-text">
           <strong>
-            <em> - /ǫᴎiɘdoɘᴎ/ </em>
+            <em> [ /ǫᴎiɘdoɘᴎ/ ] </em>
           </strong>
           <br />
           <br />
