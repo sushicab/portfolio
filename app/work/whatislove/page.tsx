@@ -2,7 +2,7 @@ import { Autour_One } from "next/font/google";
 
 export default function About() {
   return (
-    <main style={{ paddingTop: "80px&quot;}}>
+    <main style={{ paddingTop: "80px" }}>
       <h1
         style={{
           fontSize: "40px",
@@ -14,7 +14,7 @@ export default function About() {
       >
         What is love?
       </h1>
-      <div style={{ justifyContent: "center", display: "flex&quot;}}>
+      <div style={{ justifyContent: "center", display: "flex" }}>
         <img
           src="/img/projects/fine arts/what is love/whatislove1.jpg"
           alt="whatislove"
