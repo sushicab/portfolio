@@ -38,7 +38,7 @@ const Page = () => {
           },
           {
             type: "image",
-            src: "/img/projects/interactive design/emolleia/2.jpg",
+            src: "/img/projects/interactive design/emolleia/emo11.png",
           },
           {
             type: "image",
