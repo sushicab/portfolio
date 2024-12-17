@@ -192,7 +192,7 @@ nav {
 }
 
 .logo {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 600;
   color: black;
   letter-spacing: 0.1em;
@@ -595,19 +595,26 @@ nav {
 
 .AR-image-item {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  object-fit: cover;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 900px;
+  justify-content: center; /* Centers content */
+  flex-wrap: wrap; /* Ensures items wrap to next row */
+  margin: 0 5vw; /* Margin for spacing */
 }
 
+/* Shared styles for images and iframes */
 .AR-image {
-  width: calc(30% - 10px);
-  margin-bottom: 10px;
+  width: calc(30% - 20px); /* Default width for MacBook view */
+  height: auto;
+  margin: 10px; /* Small spacing around items */
 }
 
+.AR-image-left {
+  width: calc(30% - 20px); /* Ensures it’s responsive */
+  max-width: 400px; /* Optional: Define a max width */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Prevent unwanted inline spacing */
+  object-fit: contain; /* Ensures original aspect ratio is preserved */
+  margin: 10px;
+}
 .AR-credits-container {
   display: flex;
   justify-content: space-between;
@@ -902,38 +909,38 @@ nav {
   }
 
   .AR-text-content {
-    margin: 0 15vw;
+    margin: 0 5vw;
   }
 
-  .AR-image-item {
-    width: calc(100% - 100px);
-  }
-
+  /* .AR-image-item {
+    margin: 0 5vw;
+  } */
+  /* 
   .AR-image-iteme-grid {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 5vw 0;
-    margin-left: 20px;
-    margin-right: 20px;
+  } */
+
+  .AR-image-item {
+    flex-direction: column; /* Stack items vertically */
+    margin: 0; /* Remove side margins */
   }
 
   .AR-image {
-    width: 100%;
-    height: auto;
-    margin-bottom: 20px;
-    justify-content: center;
-    align-items: center;
+    width: 85vw; /* Set width to 85% of the viewport */
+    margin: 10px auto; /* Center the items with margins */
+  }
+
+  /* Ensure iframe behaves like a responsive element */
+  .AR-image iframe {
+    width: 100%; /* Full width inside its container */
+    height: auto; /* Automatically adjust height */
   }
 
   .AR-credits-container {
-    width: 90%;
     padding: 30px;
     margin: 0 5vw;
-  }
-
-  .AR-credits {
-    padding: 5px;
   }
 
   .image_top {
@@ -1002,6 +1009,6 @@ nav {
     display: none;
   }
   .work-cards-style {
-    padding: 30px;
+    padding: 40px;
   }
 }

@@ -117,8 +117,10 @@ const AboutPage = () => {
 
       <div className="AR-credits-container">
         <div>
-          <h2 className="text-1xl font-bold mb-4">
-            More details in related publication:
+          <h2>
+            <em>
+              <strong>More details in related publication:</strong>
+            </em>
           </h2>
           <div className="AR-credits">
             <p>
@@ -178,7 +180,7 @@ const AboutPage = () => {
         <img
           src="/img/projects/interactive design/gender shell/cover.jpg"
           alt="Image 2"
-          className="AR-image"
+          className="AR-image-left"
           style={{ maxWidth: "100%", height: "auto" }}
         />
         <iframe
@@ -231,7 +233,7 @@ const AboutPage = () => {
         <img
           src="/img/projects/interactive design/gender shell/icon.jpg"
           alt="Image 3"
-          className="AR-image"
+          className="AR-image-left"
         />
         <iframe
           src="https://player.vimeo.com/video/581714257?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
