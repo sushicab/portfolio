@@ -610,7 +610,7 @@ nav {
     position: fixed;
   }
 
-  .responsive-text {
+  .photograph-text {
     width: 85vw; /* Adjust width for mobile screens */
     margin-top: 50px; /* Adjust top margin for better spacing */
     margin-bottom: 100px; /* Adjust bottom margin */
