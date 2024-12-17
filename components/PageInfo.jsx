@@ -78,7 +78,7 @@ const PageInfo = ({
 
       <div
         style={{
-          maxWidth: "1440px",
+          maxWidth: "100vw",
           display: "flex",
           justifyContent: "center",
           margin: "0 auto",

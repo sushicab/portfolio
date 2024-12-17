@@ -47,7 +47,7 @@ const Page = () => {
         ]}
         creditsText={[
           "C R E D I T S",
-          "YIFAN ZHUANG <b>Concept & Interactive Designer & Researcher</b>",
+          "YIFAN ZHUANG <b> Research Leader & Concept & Designer </b>",
           "KEITARO TSUCHIYA <b>Electrical & Mechanical Designer </b>",
           "TAKURO NAKAO <b>3D Modeler & Technical Support</b>",
           "JIAWEN HAN <b>Data Analyst</b>",

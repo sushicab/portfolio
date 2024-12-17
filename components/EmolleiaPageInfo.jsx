@@ -16,7 +16,7 @@ const EmolleiaPageInfo = ({
     <main>
       <div
         style={{
-          maxWidth: "1440px",
+          maxWidth: "100vw",
           display: "flex",
           justifyContent: "center",
           margin: "0 auto",
@@ -271,11 +271,18 @@ const EmolleiaPageInfo = ({
         >
           EMOLLEIA DEMO AT KMD FORUM 2021:
         </h2>
-        <div className="page-info-iframe">
+        <div
+          style={{
+            maxWidth: "100vw",
+            display: "flex",
+            justifyContent: "center",
+            margin: "0 auto",
+            marginTop: "20px",
+          }}
+        >
           <iframe
+            className="page-info-iframe"
             src="https://player.vimeo.com/video/663887880?badge=0&amp;autopause=0&amp"
-            width="1200px"
-            height="auto"
             allow="autoplay; fullscreen; picture-in-picture"
             title="Vimeo video"
           ></iframe>

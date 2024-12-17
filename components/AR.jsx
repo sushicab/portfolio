@@ -1,6 +1,6 @@
 import React from "react";
 
-const ARPage = () => {
+const AboutPage = () => {
   return (
     <main>
       <div className="AR-container">
@@ -138,7 +138,7 @@ const ARPage = () => {
             CHIA-HSIN CHEN <strong> Lead Designer/ Researcher </strong>{" "}
           </p>
           <p className="AR-credits">
-            YIFAN ZHUANG <strong> Interaction Designer/ Developer </strong>{" "}
+            YIFAN ZHUANG <strong> Visual Designer/ AR Developer </strong>{" "}
           </p>
         </div>
       </div>
@@ -257,4 +257,4 @@ const ARPage = () => {
   );
 };
 
-export default ARPage;
+export default AboutPage;

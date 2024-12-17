@@ -31,17 +31,27 @@ export default function About() {
       >
         <em>mirror mirror</em> is a photography project that I continued doing
         from 2016 to 2022. This project documents the adolescent experiences of
-        my friends -- those tender time between 18 and 24 -- through a mosaic of
-        their photographs, reflections, doubts, and the spectrum of emotions
-        they lived through.
+        my friends -- those tender time between 18 and 24 -- through the
+        photographs of them, and their warmness, softness, and the spectrum of
+        emotions they lived through.
         <br />
         <br />
-        Thinking about the essence of adolescence has been a persistent pursuit
-        for me. It’s a phase rife with tumult, pain, confusion, fervor, and
-        affection—a whirlwind of emotions converging simultaneously. Those faces
-        in the photos, they are my dear friends, roommates, classmates, and
-        occasionally, strangers whose paths intersect with mine.In capturing
-        their existence and emotional landscapes, I find myself in their eyes.
+        Adolescence has always fascinated me. It is a time of turbulence,
+        confusion, pain, and fervent affection, where we begin questioning our
+        identities more than ever. It is also the transition from youth to
+        adulthood—a period marked by inevitable mistakes and learning the harsh
+        realities of the world in ways we never imagined. The faces in these
+        photos are my dear friends, roommates, classmates, and, at times,
+        strangers whose paths briefly crossed with mine. Through capturing their
+        existence and emotional landscapes, I found pieces of myself reflected
+        in their eyes.
+        <br />
+        <br />
+        When I revisit this project, I feel deeply moved. It reminds me of how
+        much my friends and I have grown, of the resilience we carried as we
+        navigated those uncertain years. I am proud that we made it
+        through—these images stand as a warm record of our experiences, our
+        growth, and the fleeting beauty of that shared chapter of life.
       </p>
     </main>
   );

@@ -33,23 +33,26 @@ export default function About() {
         own with 8 accounts.
         <br />
         <br />
-        What sets each account apart? I can’t say for certain. By simply
-        creating new profiles, I have the liberty to construct identities for
-        someone named &apos;Yifan,&apos; whether or not you know them in real
-        life. I can mold Yifan into an ambitious photographer with a penchant
-        for the arts, a run-of-the-mill student blending into the campus
-        scenery, or a social media enthusiast flooding feeds with 10 stories a
-        day, documenting every facet of life. It’s not about who Yifan truly is
-        or what they’re capable of, but rather, through this cyber persona, this
-        is the Yifan I choose to present to you.
+        What sets each account apart? It’s hard to say. By creating new
+        profiles, I have the freedom to construct different identities for
+        someone named “Yifan”—whether or not you know them in real life. I can
+        present Yifan as an ambitious photographer with an eye for the arts, a
+        quiet student blending seamlessly into campus life, or a social media
+        enthusiast documenting every moment with 10 stories a day. It’s not
+        about who Yifan truly is, or what they are capable of—it’s about the
+        Yifan I choose to present.
         <br />
         <br />
-        Cyber identity isn’t confined to screens; it has supplanted the
-        &apos;existing impressions&apos; we hold in the memories of others. The
-        image of &apos;You&apos; has been obscured, dismantled, and
-        reconstructed, replaced by the intentional identities we assume.
-        "Replacement" delves into how the cyber world has supplanted our
-        authentic identities, weaving alternate narratives.
+        This photography project was born from a curiosity to reflect on how
+        social media has altered our sense of identity and how we perceive
+        others. Cyber identity has transcended screens; it now replaces the
+        impressions we once held of each other in memory. The image of{" "}
+        <em>You</em> has become fragmented, dismantled, and reassembled,
+        replaced by carefully curated personas. Through this project, I aim to
+        explore how the digital world reshapes our authentic identities and,
+        more fundamentally, challenges the question: <em>Who are we?</em>
+        <br />
+        <br />
       </p>
     </main>
   );

@@ -14,7 +14,7 @@ export default function About() {
           marginBottom: "30px",
         }}
       >
-        fragment
+        Fragment
       </h1>
       <FragmentCarousel />
       <div></div>
@@ -29,14 +29,15 @@ export default function About() {
           marginBottom: "150px",
         }}
       >
-        <em>fragment</em> a tender film project crafted from the whispers of my
-        travels and the echoes of the cities I’ve called home. For in every
-        whisper of the wind and every ray of sunlight, we find solace in the
-        gentle embrace of the world around us.
+        <em>Fragment</em>, a tender film project born from the whispers of my
+        travels and the echoes of the cities I’ve called home. Just as I cherish
+        the memories shared with people, I’ve discovered an intimate, personal
+        connection with cities—each one leaving its mark, a soft trace of its
+        presence in my heart.
         <br />
         <br />
-        Films shot in Bangkok, Shanghai, Seoul, Changzhou, Chiang Mai, Tokyo,
-        Hang zhou, London, Yokohama, Margate
+        Films shot in Shanghai, Bangkok, Seoul, Changzhou, Chiang Mai, Tokyo,
+        Hang zhou, London, Yokohama, Margate..
         <br />
         <br />
       </p>
