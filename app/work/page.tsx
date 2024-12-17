@@ -182,14 +182,14 @@ function Row({ rowTitle, Cards }: any) {
         {" "}
         {/* Hide on medium and larger screens */}
         <h1
-          className="text-3xl text-center mt-10 mb-6"
+          className="text-3xl text-center mt-20 mb-6"
           style={{
             fontStyle: "italic",
           }}
         >
           {rowTitle}
         </h1>
-        <div className="flex flex-wrap justify-between mb-12">
+        <div>
           {Cards.map((card: any) => (
             <Card key={card.title} {...card} />
           ))}
@@ -202,7 +202,7 @@ function Row({ rowTitle, Cards }: any) {
 export default function Work() {
   return (
     <main>
-      <div style={{ padding: "50px" }}>
+      <div className="work-cards-style">
         {Rows.map((row) => (
           <Row key={row.rowTitle} {...row} />
         ))}

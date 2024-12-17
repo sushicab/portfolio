@@ -51,21 +51,10 @@ const EmolleiaPageInfo = ({
       </div>
       <p className="page-info-text-additional">{parse(textAdditional)}</p>
 
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          marginTop: "60px",
-        }}
-      >
+      <div className="page-info-image-additional-emolleia">
         <img
           src="/img/projects/interactive design/emolleia/emoSystem.png"
           alt="Description of image 1"
-          style={{
-            width: "80%",
-            height: "auto",
-            marginTop: "40px",
-          }}
         />
       </div>
 
@@ -88,22 +77,10 @@ const EmolleiaPageInfo = ({
           reshaped by our interactions with one another.
         </p>
 
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            marginBottom: "60px",
-            marginTop: "60px",
-          }}
-        >
+        <div className="page-info-image-additional-emolleia">
           <img
             src="/img/projects/interactive design/emolleia/design4.png"
             alt="Description of image 1"
-            style={{
-              width: "80%",
-              height: "auto",
-              marginRight: "10px",
-            }}
           />
         </div>
         <p className="page-info-text-content">
@@ -118,22 +95,10 @@ const EmolleiaPageInfo = ({
           50A material. We also tested resistive strings to control motion speed
           and improve performance dynamics.
         </p>
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            marginBottom: "60px",
-            marginTop: "60px",
-          }}
-        >
+        <div className="page-info-image-additional-emolleia">
           <img
             src="/img/projects/interactive design/emolleia/material.png"
             alt="Description of image 1"
-            style={{
-              width: "75%",
-              height: "auto",
-              marginRight: "10px",
-            }}
           />
         </div>
 
@@ -164,7 +129,7 @@ const EmolleiaPageInfo = ({
             src="/img/projects/interactive design/emolleia/flower_base.png"
             alt="Description of image 1"
             style={{
-              width: "40%",
+              width: "43%",
               height: "auto",
               marginRight: "10px",
             }}
@@ -173,7 +138,7 @@ const EmolleiaPageInfo = ({
             src="/img/projects/interactive design/emolleia/flower_base2.png"
             alt="Description of image 2"
             style={{
-              width: "40%",
+              width: "43%",
               height: "auto",
             }}
           />
@@ -202,20 +167,10 @@ const EmolleiaPageInfo = ({
           focused on using <em>Emolleia</em> for emotional communication and
           social interaction, such as monitoring family members’ well-being.
         </p>
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            marginTop: "60px",
-          }}
-        >
+        <div className="page-info-image-additional-emolleia">
           <img
             src="/img/projects/interactive design/emolleia/userstudy.jpg"
             alt="Description of image 1"
-            style={{
-              width: "80%",
-              height: "auto",
-            }}
           />
         </div>
         <p className="page-info-text-content">
@@ -243,20 +198,10 @@ const EmolleiaPageInfo = ({
           more at ease during interactions. Overall, Emolleia was perceived as a
           valuable tool for fostering comfort and connection in social settings.
         </p>
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            marginTop: "20px",
-          }}
-        >
+        <div className="page-info-image-additional-emolleia">
           <img
             src="/img/projects/interactive design/emolleia/userstudy2.jpg"
             alt="Description of image 1"
-            style={{
-              width: "80%",
-              height: "auto",
-            }}
           />
         </div>
       </div>

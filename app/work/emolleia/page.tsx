@@ -64,7 +64,7 @@ const Page = () => {
           "GEIST LAB",
           "Graduate School of Keio Media Design",
           "C O L L A B O R A T I O N:",
-          "' Emolleia'  project is in collaboration with NTT Media Intelligence Laboratories.",
+          "<em>Emolleia</ em>  project is in collaboration with NTT Media Intelligence Laboratories.",
         ]}
         textAdditional={
           "Three blooming transparent flowers form an accessory that can be worn around the shoulder. With a webcam turned on, the onlooker' s facial expression will be detected and categorized.  Each of the three flowers has been equipped with an LED light unit inside to enable color changes, aiding in better expressing the wearer' s emotions."

@@ -68,10 +68,10 @@ const PageInfo = ({
           }}
         >
           <img
-            className="page-info-image-fullwidth"
+            className="page-info-image-additional"
             src={image.src}
             alt={`Additional Image ${index + 1}`}
-            style={{ width: "80%", marginBottom: "20px" }}
+            // style={{ width: "80%", marginBottom: "20px" }}
           />
         </div>
       ))}
@@ -124,7 +124,7 @@ const PageInfo = ({
               <p key={index}>{parse(credit)}</p>
             ))}
           </div>
-          <div className="page-info-credits">
+          <div className="page-info-special-thanks">
             <p>
               {typeof specialThanksText[0] === "string"
                 ? parse(specialThanksText[0])
