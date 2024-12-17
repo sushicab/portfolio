@@ -24,16 +24,7 @@ export default function About() {
           }}
         />
       </div>
-      <p
-        style={{
-          textAlign: "left",
-          width: "60%",
-          height: "auto",
-          margin: "auto",
-          marginTop: "80px",
-          marginBottom: "150px",
-        }}
-      >
+      <p className="photograph-text">
         What is LOVE？
         <br />
         .

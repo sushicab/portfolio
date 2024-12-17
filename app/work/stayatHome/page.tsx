@@ -24,16 +24,7 @@ export default function About() {
           }}
         />
       </div>
-      <p
-        style={{
-          textAlign: "left",
-          width: "60%",
-          height: "auto",
-          margin: "auto",
-          marginTop: "80px",
-          marginBottom: "150px",
-        }}
-      >
+      <p className="photograph-text">
         <em>Stay at Home </em>
         is a short film that I directed, shot, and produced in 2023. Initially,
         my aim was to document the experience of staying at home while dealing

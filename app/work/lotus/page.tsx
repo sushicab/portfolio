@@ -26,16 +26,7 @@ export default function About() {
           }}
         />
       </div>
-      <p
-        style={{
-          textAlign: "left",
-          width: "70%",
-          height: "auto",
-          margin: "auto",
-          marginTop: "80px",
-          marginBottom: "150px",
-        }}
-      >
+      <p className="photograph-text">
         <em>Lotus</em> - Lacquer painting on the black board.
         <br />
         <br />

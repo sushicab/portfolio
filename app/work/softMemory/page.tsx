@@ -19,16 +19,7 @@ export default function About() {
       <SoftMemoryCarousel />
       <div></div>
       <div style={{ justifyContent: "center", display: "flex" }}></div>
-      <p
-        style={{
-          textAlign: "left",
-          width: "60%",
-          height: "auto",
-          margin: "auto",
-          marginTop: "80px",
-          marginBottom: "150px",
-        }}
-      >
+      <p className="photograph-text">
         <em>Soft Memory</em>, a Polaroid project born from my reverence for the
         ephemeral nature of memory. Photography, for me, transforms intangible
         and intimate moments into something tangible—a slice of time held in my

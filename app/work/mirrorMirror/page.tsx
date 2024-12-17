@@ -19,16 +19,7 @@ export default function About() {
       <MirrorCarousel />
       <div></div>
       <div style={{ justifyContent: "center", display: "flex" }}></div>
-      <p
-        style={{
-          textAlign: "left",
-          width: "60%",
-          height: "auto",
-          margin: "auto",
-          marginTop: "80px",
-          marginBottom: "200px",
-        }}
-      >
+      <p className="photograph-text">
         <em>mirror mirror</em> is a photography project that I continued doing
         from 2016 to 2022. This project documents the adolescent experiences of
         my friends -- those tender time between 18 and 24 -- through the

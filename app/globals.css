@@ -153,6 +153,15 @@
   max-height: 800px;
 }
 
+.photograph-text {
+  text-align: left;
+  width: 70%;
+  height: auto;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 150px;
+}
+
 nav {
   position: fixed;
   top: 0;
@@ -601,6 +610,11 @@ nav {
     position: fixed;
   }
 
+  .responsive-text {
+    width: 85vw; /* Adjust width for mobile screens */
+    margin-top: 50px; /* Adjust top margin for better spacing */
+    margin-bottom: 100px; /* Adjust bottom margin */
+  }
   /* Logo */
   .logo {
     margin-bottom: 1rem;
@@ -674,7 +688,6 @@ nav {
     letter-spacing: 3px;
     width: 100%;
     position: static;
-    bottom: 160;
   }
 
   .page-info-iframe {
@@ -704,6 +717,7 @@ nav {
   .page-info-text-content {
     margin: 0 10vw;
     margin-bottom: 60px;
+    margin-top: 60px;
   }
   .page-info-text-additional {
     margin: 0 10vw;

@@ -18,16 +18,7 @@ export default function About() {
       <ReplacementCarousel />
 
       <div style={{ justifyContent: "center", display: "flex" }}></div>
-      <p
-        style={{
-          textAlign: "left",
-          width: "70%",
-          height: "auto",
-          margin: "auto",
-          marginTop: "80px",
-          marginBottom: "150px",
-        }}
-      >
+      <p className="photograph-text">
         We’re obsessed with INSTAGRAM! Among us, I manage 4 accounts, Sara
         oversees 5, and Hope curates 3. As for Yumiko, she’s in a league of her
         own with 8 accounts.

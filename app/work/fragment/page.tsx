@@ -19,16 +19,7 @@ export default function About() {
       <FragmentCarousel />
       <div></div>
       <div style={{ justifyContent: "center", display: "flex" }}></div>
-      <p
-        style={{
-          textAlign: "left",
-          width: "60%",
-          height: "auto",
-          margin: "auto",
-          marginTop: "80px",
-          marginBottom: "150px",
-        }}
-      >
+      <p className="photograph-text">
         <em>Fragment</em>, a tender film project born from the whispers of my
         travels and the echoes of the cities I’ve called home. Just as I cherish
         the memories shared with people, I’ve discovered an intimate, personal

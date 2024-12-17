@@ -21,16 +21,7 @@ export default function About() {
           style={{ width: "50%", height: "auto" }}
         />
       </div>
-      <p
-        style={{
-          textAlign: "left",
-          width: "60%",
-          height: "auto",
-          margin: "auto",
-          marginTop: "80px",
-          marginBottom: "150px",
-        }}
-      >
+      <p className="photograph-text">
         <em>Distant Lover</em> / 2019
         <br />
         <br />
