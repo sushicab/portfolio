@@ -2,8 +2,8 @@ import React from "react";
 import parse from "html-react-parser";
 
 const PageInfo = ({
-  iframeSrc,
   title,
+  iframeSrc,
   subtitle,
   textContent,
   imagePaths,

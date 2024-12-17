@@ -5,8 +5,8 @@ const Page = () => {
   return (
     <div>
       <PageInfo
-        iframeSrc="https://player.vimeo.com/video/638304049?h=369837fcf8"
         title="i dream, i dreamt"
+        iframeSrc="https://player.vimeo.com/video/638304049?h=369837fcf8"
         subtitle=' "All that we all see or seem </br></br>
         
         Is but a dream within a dream?"
