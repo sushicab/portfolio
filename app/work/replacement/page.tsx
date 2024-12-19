@@ -13,7 +13,7 @@ export default function About() {
           marginBottom: "30px",
         }}
       >
-        replacement
+        Replacement
       </h1>
       <ReplacementCarousel />
 

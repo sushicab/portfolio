@@ -16,12 +16,11 @@ const AboutPage = () => {
       </div>
 
       <div className="AR-text-content">
-        <div className="AR-title">
+        <div className="page-info-title">
           <h2>
-            Augmented Reality Projects
+            AR Projects
             <br />
-            <br />
-            1. Gender Shell
+            1.Gender Shell
           </h2>
         </div>
         <p className="AR-text">
@@ -145,7 +144,7 @@ const AboutPage = () => {
         </div>
       </div>
 
-      <h2 className="AR-title">2. AR Filter Collection</h2>
+      <h2 className="page-info-title">2.AR Filter Collection</h2>
       <div className="AR-text-content">
         <p className="AR-text">
           In today’s digital age, social media platforms have become key spaces

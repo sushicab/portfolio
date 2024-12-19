@@ -6,7 +6,7 @@ const About = () => {
     <div>
       <PageInfo
         iframeSrc="https://player.vimeo.com/video/925335453?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-        title="Digital Biotopia"
+        title="DIGITAL BIOTOPIA"
         subtitle=""
         textContent={`During the early rise of <em>Midjourney</ em>, as it gained popularity in the creative world, debates emerged about AI’s potential to replace human creativity. While many viewed AI as a threat to artistic expression, I found it difficult to align with that perspective.
         <br />

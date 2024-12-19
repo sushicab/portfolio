@@ -7,7 +7,7 @@ const Page = () => {
     <div>
       <PageInfo
         iframeSrc="https://player.vimeo.com/video/929541977?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=584799"
-        title="Shibuya VR <br />Immersive Point Cloud Adventure"
+        title="Shibuya in VR <br />Immersive Point Cloud Adventure"
         subtitle="
         "
         textContent={`When we open our eyes and take in the world around us, imagine everything dissolving into the smallest particles, each one floating and interacting within the vast fabric of the universe.
@@ -42,7 +42,7 @@ const Page = () => {
         creditsText={[
           "C R E D I T S",
           "YIFAN ZHUANG <b> Concept & Interactive Designer & Developer</b>",
-          "This is a personal research project for <a href=' https://www.aircord.co.jp/'  target=' _blank'  rel=' noopener noreferrer'  style={{ textDecoration: ' underline'  }}><em>aircord.inc</em></a>.",
+          "This is a personal research project for <a href=' https://www.aircord.co.jp/'  target=' _blank'  rel=' noopener noreferrer' ><em>aircord.inc</em></a>.",
         ]}
         videoCreditsText={[]}
         specialThanksText={[]}

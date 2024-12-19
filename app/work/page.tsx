@@ -70,7 +70,7 @@ const Rows = [
         path: "/work/mirrorMirror",
       },
       {
-        title: "fragment",
+        title: "Fragment",
         description: "2018 ",
         imgUrl: "/img/workpage/fragment8.jpg",
         path: "/work/fragment",
