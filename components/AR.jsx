@@ -79,6 +79,11 @@ const AboutPage = () => {
           <br />
           <br />
           <strong>
+            <img
+              src="/img/projects/interactive design/gender shell/gender6.png"
+              alt="Image 3"
+              className="AR-image-additional"
+            />
             <em>[DESIGN IDEA]</em>
           </strong>{" "}
           <br />

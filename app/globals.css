@@ -503,6 +503,11 @@ nav {
   margin-bottom: 20px;
 }
 
+.AR-image-additional {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
 .page-info-image-additional-emolleia {
   width: 85%; /* Image width */
   margin: 20px auto; /* Centers horizontally with 'auto' */
@@ -774,6 +779,10 @@ nav {
     width: 91vw;
   }
 
+  .AR-image-additional {
+    width: 91vw;
+  }
+
   .image-item {
     width: calc(100% - 40px);
     margin-left: 20px;
@@ -854,21 +863,21 @@ nav {
   }
 
   .about-page-info .items-left {
-    width: 50vw;
-    margin-right: 10px;
+    width: 100vw;
     margin-top: 30px;
     margin-bottom: 60px;
-    width: 120%;
+    margin: 5vw 0;
   }
   .about-page-info .items-right {
     width: 100%;
     font-size: 14px;
-    margin-right: 0;
+    /* margin-right: 0 5vw; */
   }
 
   .about-page-text {
     flex-direction: column; /* Display content in a single column */
     font-size: 14px;
+    /* margin-right: 0 5vw; */
   }
 
   .about-page-text-image {
@@ -876,6 +885,7 @@ nav {
     width: 100%;
     margin-bottom: 150px;
     margin-top: 80px;
+    /* margin-right: 0 5vw; */
   }
 
   .contact-title {
