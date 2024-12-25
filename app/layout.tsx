@@ -3,6 +3,7 @@ import { Autour_One, Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -37,6 +38,7 @@ export default function RootLayout({
       >
         <Navbar />
         <Analytics />
+        <SpeedInsights />
         {children}
       </body>
     </html>
