@@ -30,7 +30,7 @@ const AboutPage = () => {
             <a href="mailto:hi@yifanzhuang.com"> CV upon request</a>
           </p> */}
           <p className="about-page-italic">
-            Website design & developed by herself
+            Website designed & developed by herself
           </p>
           {/* <div className="about-page-text-image">
               <img src="/img/about/meme.png" />

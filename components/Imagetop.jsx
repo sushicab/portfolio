@@ -4,7 +4,7 @@ import Link from "next/link";
 const Imagetop = () => {
   return (
     <div>
-      <div className="imageContainer">
+      {/* <div className="imageContainer">
         <Image
           src="/img/top/render2.jpg"
           alt="Your Image Alt Text"
@@ -21,7 +21,7 @@ const Imagetop = () => {
         alt="Your Image Alt Text"
         width={250}
         height={200}
-      />
+      /> */}
       <div className="imagetop-container">
         <div className="imagetop-container">
           <div className="imageContainer-intro">
