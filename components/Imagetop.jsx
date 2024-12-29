@@ -4,7 +4,7 @@ import Link from "next/link";
 const Imagetop = () => {
   return (
     <div>
-      {/* <div className="imageContainer">
+      <div className="imageContainer">
         <Image
           src="/img/top/render2.jpg"
           alt="Your Image Alt Text"
@@ -21,7 +21,7 @@ const Imagetop = () => {
         alt="Your Image Alt Text"
         width={250}
         height={200}
-      /> */}
+      />
       <div className="imagetop-container">
         <div className="imagetop-container">
           <div className="imageContainer-intro">
@@ -69,6 +69,16 @@ const Imagetop = () => {
       </div>
       <div className="imageContainer">
         <video className="imageContainer-video" autoPlay loop muted playsInline>
+          <source src="/img/top/11.22.mp4" type="video/mp4" />
+        </video>
+        <div className="overlay">
+          <Link href="/work/digitalbiotopia" passHref>
+            <span className="overlay-text">view the project</span>
+          </Link>
+        </div>
+      </div>
+      <div className="imageContainer">
+        <video className="imageContainer-video" autoPlay loop muted playsInline>
           <source src="/img/top/CG2.mp4" type="video/mp4" />
         </video>
         <div className="overlay">
@@ -87,16 +97,7 @@ const Imagetop = () => {
           </Link>
         </div>
       </div>
-      <div className="imageContainer">
-        <video className="imageContainer-video" autoPlay loop muted playsInline>
-          <source src="/img/top/11.22.mp4" type="video/mp4" />
-        </video>
-        <div className="overlay">
-          <Link href="/work/digitalbiotopia" passHref>
-            <span className="overlay-text">view the project</span>
-          </Link>
-        </div>
-      </div>
+
       <div className="imageContainer">
         <Image
           src="/img/top/placeholder.png"
