@@ -12,16 +12,16 @@ const Rows = [
     rowTitle: "(Interactive Experience)",
     Cards: [
       {
-        title: "i dream, i dreamt",
-        description: "Interactive Installation/ 2021 ",
-        imgUrl: "/img/workpage/idream4.jpg",
-        path: "/work/idream",
-      },
-      {
         title: "Emolleia",
         description: "Interactive Wearable Device/ 2021 ",
         imgUrl: "/img/workpage/emolleia4.png",
         path: "/work/emolleia",
+      },
+      {
+        title: "i dream, i dreamt",
+        description: "Interactive Installation/ 2021 ",
+        imgUrl: "/img/workpage/idream4.jpg",
+        path: "/work/idream",
       },
       {
         title: "Shibuya in VR",

@@ -264,6 +264,24 @@ const EmolleiaPageInfo = ({
               </p>
             ))}
           </div>
+          <h2>
+            <em>
+              <strong>More details in related publication:</strong>
+            </em>
+          </h2>
+          <div className="AR-credits">
+            <p>
+              <a
+                href="https://dl.acm.org/doi/10.1145/3490149.3505581"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ textDecoration: "underline" }}
+              >
+                Emolleia – Wearable Kinetic Flower Display for Expressing
+                Emotions
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </main>

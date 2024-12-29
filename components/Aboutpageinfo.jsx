@@ -6,13 +6,13 @@ const Aboutpageinfo = () => {
           alt={"yifan"}
           src="/img/about/about.jpg"
           // fill
-          style={{ maxWidth: "70%" }}
+          style={{ maxWidth: "70%", marginTop: "10px" }}
         />
       </div>
 
       <div className="items-right">
         {/* Add fixed dimensions and overflow properties */}
-        <h2 className="text-1xl font-bold mb-1">Education Background:</h2>
+        <h2 className="about-page-h2">EDUCATION BACKGROUND:</h2>
         <div className="mb-8">
           {/* Adjust font size here */}
           <p className="mb-2">
@@ -27,7 +27,7 @@ const Aboutpageinfo = () => {
           </p>
         </div>
 
-        <h2 className="text-1xl font-bold mb-2">Work Experience:</h2>
+        <h2 className="about-page-h2">PROFESSIONAL EXPERIENCE:</h2>
         <div>
           {" "}
           {/* Adjust font size here */}

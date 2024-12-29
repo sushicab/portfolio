@@ -1,9 +1,8 @@
 const Aboutpagetext = () => {
   return (
     <div className="about-page-text">
-      {/* Left Side - Text */}
-      <div className="text-column">
-        <h2 className="text-1xl font-bold mb-4">Conference Publication:</h2>
+      <div>
+        <h2 className="about-page-h2">CONFERENCE PUBLICATION:</h2>
         <div className="mb-8">
           <p className="mb-2">
             <a
@@ -33,7 +32,7 @@ const Aboutpagetext = () => {
           </p>
         </div>
 
-        <h2 className="text-1xl font-bold mb-4">Exhibition Experience:</h2>
+        <h2 className="about-page-h2">EXHIBITION EXPERIENCE:</h2>
         <div>
           <p>2021 Keio Media Design Forum, Tokyo, JP</p>
           <p>2020 ‘Boys Lovelife’ at PR Picaresque Gallery, Tokyo, JP</p>
@@ -42,7 +41,7 @@ const Aboutpagetext = () => {
           <br></br>
         </div>
 
-        <h2 className="text-1xl font-bold mb-4">Language:</h2>
+        <h2 className="about-page-h2">LANGUAGE:</h2>
         <p>English, Japanese, Chinese</p>
       </div>
 
@@ -54,7 +53,7 @@ const Aboutpagetext = () => {
             height: "auto",
           }}
         >
-          <p>
+          {/* <p>
             Instagram:{" "}
             <a
               href="https://www.instagram.com/wandanle.z/"
@@ -71,7 +70,7 @@ const Aboutpagetext = () => {
           </div>
           <p style={{ textDecoration: "underline" }}>
             <a href="mailto:hi@yifanzhuang.com"> CV upon request</a>
-          </p>
+          </p> */}
           <div>
             <p
               style={{
@@ -79,6 +78,7 @@ const Aboutpagetext = () => {
                 fontWeight: "lighter",
                 fontSize: "30px",
                 marginTop: "50px",
+                marginLeft: "80px",
               }}
             >
               Website design & developed by herself

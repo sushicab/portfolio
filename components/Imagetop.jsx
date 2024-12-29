@@ -56,12 +56,13 @@ const Imagetop = () => {
           />
         </div>
       </div>
+
       <div className="imageContainer">
         <video className="imageContainer-video" autoPlay loop muted playsInline>
-          <source src="/img/top/11.22.mp4" type="video/mp4" />
+          <source src="/img/top/emolleia3.mp4" type="video/mp4" />
         </video>
         <div className="overlay">
-          <Link href="/work/digitalbiotopia" passHref>
+          <Link href="/work/emolleia" passHref>
             <span className="overlay-text">view the project</span>
           </Link>
         </div>
@@ -82,6 +83,16 @@ const Imagetop = () => {
         </video>
         <div className="overlay">
           <Link href="/work/shibuyaVR" passHref>
+            <span className="overlay-text">view the project</span>
+          </Link>
+        </div>
+      </div>
+      <div className="imageContainer">
+        <video className="imageContainer-video" autoPlay loop muted playsInline>
+          <source src="/img/top/11.22.mp4" type="video/mp4" />
+        </video>
+        <div className="overlay">
+          <Link href="/work/digitalbiotopia" passHref>
             <span className="overlay-text">view the project</span>
           </Link>
         </div>
