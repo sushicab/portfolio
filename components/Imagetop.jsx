@@ -57,7 +57,7 @@ const Imagetop = () => {
         </div>
       </div>
 
-      <div className="imageContainer">
+      {/* <div className="imageContainer">
         <video className="imageContainer-video" autoPlay loop muted playsInline>
           <source src="/img/top/emolleia3.mp4" type="video/mp4" />
         </video>
@@ -66,7 +66,7 @@ const Imagetop = () => {
             <span className="overlay-text">view the project</span>
           </Link>
         </div>
-      </div>
+      </div> */}
       <div className="imageContainer">
         <video className="imageContainer-video" autoPlay loop muted playsInline>
           <source src="/img/top/11.22.mp4" type="video/mp4" />

@@ -12,7 +12,7 @@ const Page = () => {
         Is but a dream within a dream?"
         
         </br></br>-- <i>A Dream Within a Dream</i> Allan Kaprow'
-        textContent={` <em>i dream, i dreamt</em> is an immersive interactive installation that explores the dreamscape of an artificial brain, ' no.01." The installation responds to participants’ input, creating a dynamic interplay between dream, memory and brain activity. 
+        textContent={` <em>i dream, i dreamt</em> is an immersive interactive installation that explores the dreamscape of an artificial brain, "no.01". The installation responds to participants’ actions to createa a dynamic interplay between dream, memory and brain activity. 
 
         </br></br>
         Inspired by Sigmund Freud' s psychoanalysis, Edgar Allan Poe' s poetry, and Dalí' s surrealism, this installation captures the abstract essence of dreams as a synthesis of fragmented daily experience and their connection to body. It invites participants to explore how external stimuli may influence the dream-generation process.

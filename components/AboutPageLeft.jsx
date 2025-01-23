@@ -52,7 +52,7 @@ const AboutPage = () => {
           <span className="special-font">
             Emotion, Identity, Social Interaction, and Human Connection{" "}
           </span>{" "}
-          . Whether creating fine art, wearable devices, or interactiive
+          . Whether creating fine art, wearable devices, or interactive
           experiences, she aims to translate intangible concepts into tangible
           realities that resonate with diverse audiences. Her approach is
           informed by a deep curiosity about how technology can foster empathy,
@@ -72,10 +72,8 @@ const AboutPage = () => {
 
         <p className="introduction-text">
           Yifan holds a Master’s degree in{" "}
-          <span className="special-font">
-            Human-Computer Interaction and Interactive Design
-          </span>{" "}
-          from the Graduate School of Keio University and a Bachelor’s degree in{" "}
+          <span className="special-font">Human-Computer Interaction</span> from
+          the Graduate School of Keio University and a Bachelor’s degree in{" "}
           <span className="special-font">
             Digital Communication and Media/ Multimedia{" "}
           </span>
