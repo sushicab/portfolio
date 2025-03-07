@@ -8,6 +8,10 @@
   text-decoration: underline;
   font-size: 17px;
 }
+.dark-grey-text {
+  color: #555;
+  font-weight: normal; /* Ensures it's not bold */
+}
 .about-page {
   display: flex;
   padding: 20px;

@@ -12,6 +12,12 @@ const Rows = [
     rowTitle: "(Interactive Experience)",
     Cards: [
       {
+        title: "Shibuya in VR",
+        description: "VR Point Cloud Experience/ 2022",
+        imgUrl: "/img/workpage/shibuyaVR1.png",
+        path: "/work/shibuyaVR",
+      },
+      {
         title: "Emolleia",
         description: "Interactive Wearable Device/ 2021 ",
         imgUrl: "/img/workpage/emolleia4.png",
@@ -23,12 +29,7 @@ const Rows = [
         imgUrl: "/img/workpage/idream4.jpg",
         path: "/work/idream",
       },
-      {
-        title: "Shibuya in VR",
-        description: "VR Point Cloud Experience/ 2022",
-        imgUrl: "/img/workpage/shibuyaVR1.png",
-        path: "/work/shibuyaVR",
-      },
+
       {
         title: "AR Experience",
         description: "Augmented Reality projects",
@@ -38,11 +39,23 @@ const Rows = [
     ],
   },
   {
-    rowTitle: "(3D Visuals)",
+    rowTitle: "(3D Visual)",
     Cards: [
       {
+        title: "3D:Mix",
+        description: "3D Printing Experiment/ 2024",
+        imgUrl: "/img/workpage/render1.png",
+        path: "/work/3DMix",
+      },
+      {
+        title: "Live Identity",
+        description: "Data Visualisation/ 2024",
+        imgUrl: "/img/workpage/5.png",
+        path: "/work/aircordLogo",
+      },
+      {
         title: "Digital Biotopia  ",
-        description: "3D Art Work/ AI Research/ 2023",
+        description: "3D Art Work/ 2023",
         imgUrl: "/img/workpage/bio1.png",
         path: "/work/digitalbiotopia",
       },
