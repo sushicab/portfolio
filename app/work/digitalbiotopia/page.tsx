@@ -50,7 +50,8 @@ const About = () => {
         imageAdditional={[]}
         creditsText={[
           "C R E D I T S",
-          "YIFAN ZHUANG <b>Concept & 3D Artist</b>",
+          "TOSHIYUKI HASHIMOTO <b>Creative Director/ Producer</b>",
+          "YIFAN ZHUANG <b>Art Director & 3D Artist</b>",
           "This is a personal research project for theshift.tokyo.",
         ]}
         videoCreditsText={[]}

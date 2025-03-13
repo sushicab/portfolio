@@ -34,6 +34,7 @@ const About = () => {
         imageAdditional="/img/projects/CG/3Dmix/15.png"
         creditsText={[
           "C R E D I T S",
+          "TOSHIYUKI HASHIMOTO <b>Creative Director/ Producer</b>",
           "YIFAN ZHUANG <b>3D Artist & Photographer</b>",
           "JIYU PARK (The Shift) <b>3D Artist & Art Director</b>",
           "SHOYA DOZONO (The Shift) <b>Machine Learning Artist</b>",

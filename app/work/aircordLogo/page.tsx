@@ -42,10 +42,11 @@ The design is rooted in the idea that identity—whether human or brand—is eve
         // {["/img/projects/CG/aircordLogo/5.png"]}
         creditsText={[
           "C R E D I T S",
-          "YIFAN ZHUANG <b>Interactive Designer & System Developer</b>",
+          "TOSHIYUKI HASHIMOTO <b>Creative Director/ Producer</b>",
+          "YIFAN ZHUANG <b>Interactive VIsual Designer & System Developer</b>",
           "JIYU PARK (theshift) <b>UI Designer</b>",
           "IWASAKI OSAMU (aircord) <b>Techinical Director</b>",
-          "Garden Eight <b>Art Direction</b><br/>",
+          "Garden Eight <b>Art Director</b><br/>",
           "This project is part of the  <a href=' https://www.aircord.co.jp/branding/'  target=' _blank'  rel=' noopener noreferrer' style='text-decoration:underline' ><em>aircord Visual Identity System</em></a> which has been awarded <br/>in the Company Branding category at the <a href='https://ifdesign.com/en/winner-ranking/project/aircord-visual-identity-system/688989'  target=' _blank'  rel=' noopener noreferrer' style='text-decoration:underline' ><em>iF DESIGN AWARD 2025</em></a> .",
         ]}
         videoCreditsText={[]}
