@@ -14,7 +14,7 @@ const Page = () => {
         imagePaths={[
           {
             type: "image",
-            src: "/img/projects/performance/exit/exit1.jpg",
+            src: "/img/projects/performance/exit/exit1.JPG",
           },
           {
             type: "image",
@@ -35,18 +35,11 @@ const Page = () => {
         imageAdditional={[{ src: "/img/projects/performance/exit/exit4.png" }]}
         creditsText={[
           "C R E D I T S",
-          "YIFAN ZHUANG & YAN HE <b>Concept & Visual Artist & Editor<b/>",
+          "YIFAN ZHUANG & YAN HE <b>Concept & Videographer & CG Artist & Editor<b/>",
           "Haruna <b>Sound Designer<b/>",
         ]}
-        videoCreditsText={[
-          "V I D E O   C R E D I T S",
-          "YIFAN ZHUANG <b>Director & Videographer & Editor</b>",
-          "YINGTING HUANG <b>Sound Designer</b>",
-        ]}
-        specialThanksText={[
-          "S P E C I A L   T H A N K S",
-          "Ultra Super New KURA",
-        ]}
+        videoCreditsText={[]}
+        specialThanksText={[]}
         additionalVideoSrc="https://www.youtube.com/embed/E0a-dcXvA9E?si=9MIbvPyokfIbj9xK"
       />
     </div>
