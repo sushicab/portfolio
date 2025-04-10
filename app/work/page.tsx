@@ -9,14 +9,21 @@ import { link } from "fs";
 
 const Rows = [
   {
-    rowTitle: "(Interactive Experience)",
+    rowTitle: "(Interactive Experiences)",
     Cards: [
+      {
+        title: "How to Be A Cloud",
+        description: "WebAR project/ 2025",
+        imgUrl: "/img/workpage/webAR.png",
+        path: "/work/webAR",
+      },
       {
         title: "Shibuya in VR",
         description: "VR Point Cloud Experience/ 2022",
         imgUrl: "/img/workpage/shibuyaVR1.png",
         path: "/work/shibuyaVR",
       },
+
       {
         title: "Emolleia",
         description: "Interactive Wearable Device/ 2021 ",
@@ -30,14 +37,15 @@ const Rows = [
         path: "/work/idream",
       },
 
-      {
-        title: "AR Experience",
-        description: "Augmented Reality projects",
-        imgUrl: "/img/workpage/gender1.png",
-        path: "/work/AR",
-      },
+      // {
+      //   title: "AR Experience",
+      //   description: "Augmented Reality projects",
+      //   imgUrl: "/img/workpage/gender1.png",
+      //   path: "/work/AR",
+      // },
     ],
   },
+
   {
     rowTitle: "(3D Visual)",
     Cards: [
