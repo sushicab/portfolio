@@ -12,11 +12,17 @@ const Rows = [
     rowTitle: "(Interactive Experiences)",
     Cards: [
       {
-        title: "How to Be A Cloud",
-        description: "WebAR project/ 2025",
-        imgUrl: "/img/workpage/webAR.png",
-        path: "/work/webAR",
+        title: "A-Un",
+        description: "Interactive Insallation/ 2025",
+        imgUrl: "/img/workpage/lexus3.png",
+        path: "/work/lexus",
       },
+      // {
+      //   title: "How to Be A Cloud",
+      //   description: "WebAR project/ 2025",
+      //   imgUrl: "/img/workpage/webAR.png",
+      //   path: "/work/webAR",
+      // },
       {
         title: "Shibuya in VR",
         description: "VR Point Cloud Experience/ 2022",

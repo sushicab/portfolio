@@ -18,11 +18,17 @@ const Rows = [
         path: "/performance/Exit",
       },
       {
-        title: "0328",
-        description: "VJ/ 2025 ",
-        imgUrl: "/img/workpage/1.webp",
-        path: "/performance/0328VJ",
+        title: "18:17",
+        description: "Audio-Visual Performance, Saxophone Live/ 2025 ",
+        imgUrl: "/img/workpage/Danny.png",
+        path: "/performance/1817",
       },
+      // {
+      //   title: "0328",
+      //   description: "VJ/ 2025 ",
+      //   imgUrl: "/img/workpage/1.webp",
+      //   path: "/performance/0328VJ",
+      // },
     ],
   },
 ];

@@ -10,7 +10,7 @@ const navLinks = [
   },
 
   {
-    title: "PERFORMANCE",
+    title: "SHOW",
     path: "/contact",
   },
 
