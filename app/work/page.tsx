@@ -163,7 +163,7 @@ function Card({ title, description, imgUrl, path }: any) {
           width={1280}
           height={1280}
         />
-        <div style={{ fontWeight: "bold" }}>
+        <div style={{ fontWeight: "bold", marginTop: "12px" }}>
           <h2>{title}</h2>
         </div>
         <div className="text-gray-500 text-base">

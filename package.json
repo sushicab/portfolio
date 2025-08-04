@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier --write 'src/**/*.+(js|te|jsx|tsx)' " 
+"format": "prettier --write '**/*.{js,ts,jsx,tsx}'"
   }, 
   "dependencies": {
     "@vercel/analytics": "^1.4.1",

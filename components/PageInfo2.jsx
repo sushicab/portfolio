@@ -50,28 +50,10 @@ const PageInfo2 = ({
             >
               <source src={image.src} type="video/mp4" />
             </video>
-          )
+          ),
         )}
       </div>
       <p className="page-info-text-additional">{parse(textAdditional)}</p>
-      {/* {Array.isArray(imageAdditional) &&
-        imageAdditional.length > 0 &&
-        imageAdditional.map((image, index) => (
-          <div
-            key={index}
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              marginTop: "100px",
-            }}
-          >
-            <img
-              className="page-info-image-additional"
-              src={image.src}
-              alt={`Additional Image ${index + 1}`}
-            />
-          </div>
-        ))} */}
       <div
         style={{
           maxWidth: "100vw",

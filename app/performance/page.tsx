@@ -42,19 +42,13 @@ function Card({ title, description, imgUrl, path }: any) {
   return (
     <div style={{ padding: "8px", width: "100%" }}>
       <Link href={path}>
-        <Image
-          src={imgUrl}
-          alt={`${title} - ${description} card`}
-          style={{ height: "426px", width: "100%", objectFit: "cover" }}
-          width={1280}
-          height={1280}
-        />
-        <div style={{ fontWeight: "bold" }}>
-          <h2>{title}</h2>
-        </div>
-        <div className="text-gray-500 text-base">
-          <p>{description}</p>
-        </div>
+        <Image src={imgUrl} alt={`${title} - ${description} card`} />
+
+        {/* Title with spacing above image */}
+        <h2>{title}</h2>
+
+        {/* Description with subtle spacing */}
+        <p>{description}</p>
       </Link>
     </div>
   );
@@ -66,24 +60,8 @@ function Row({ rowTitle, Cards }: any) {
       <div className="hidden md:block">
         {" "}
         {/* Hide on small screens */}
-        <h1
-          style={{
-            fontSize: "50px",
-            textAlign: "center",
-            fontStyle: "italic",
-            marginBottom: "60px",
-            marginTop: "100px",
-          }}
-        >
-          {rowTitle}
-        </h1>
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "space-between",
-            width: "100%",
-          }}
-        >
+        <h1>{rowTitle}</h1>
+        <div>
           {Cards.map((card: any) => (
             <Card key={card.title} {...card} />
           ))}
@@ -94,14 +72,7 @@ function Row({ rowTitle, Cards }: any) {
       <div className="md:hidden">
         {" "}
         {/* Hide on medium and larger screens */}
-        <h1
-          className="text-3xl text-center mt-20 mb-6"
-          style={{
-            fontStyle: "italic",
-          }}
-        >
-          {rowTitle}
-        </h1>
+        <h1>{rowTitle}</h1>
         <div>
           {Cards.map((card: any) => (
             <Card key={card.title} {...card} />
@@ -120,7 +91,7 @@ export default function Work() {
           <Row key={row.rowTitle} {...row} />
         ))}
       </div>
-      <div style={{ marginTop: "50px" }}> </div>
+      <div> </div>
     </main>
   );
 }

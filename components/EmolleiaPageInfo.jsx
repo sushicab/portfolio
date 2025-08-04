@@ -46,7 +46,7 @@ const EmolleiaPageInfo = ({
             <video className="page-info-image" key={index} controls autoPlay>
               <source src={image.src} type="video/mp4" />
             </video>
-          )
+          ),
         )}
       </div>
       <p className="page-info-text-additional">{parse(textAdditional)}</p>

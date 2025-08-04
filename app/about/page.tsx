@@ -1,5 +1,3 @@
-// import Aboutpageinfo from "@/components/Aboutpageinfo";
-// import Aboutpagetext from "@/components/Aboutpagetext";
 import AboutPageLeft from "@/components/AboutPageLeft";
 
 export default function About() {
@@ -8,8 +6,6 @@ export default function About() {
       className="flex min-h-screen flex-col bg-[#E3E3E3] container-color-[#E3E3E3]  mx-auto px-3"
       style={{ paddingTop: "80px" }}
     >
-      {/* <Aboutpageinfo />
-      <Aboutpagetext /> */}
       <AboutPageLeft />
     </main>
   );
