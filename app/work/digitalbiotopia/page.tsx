@@ -12,7 +12,7 @@ const About = () => {
         <br />
         <br />
         <br />
-        This tension inspired me to explore how  AI could enhance, rather than diminish, creativity. Using <em>Midjourney</ em>, I envisioned an indoor world where nature and humanity peacefully coexist. I expanded this concept in Blender, adding imaginative elements—moss, tiny creatures, and other micro-level details—to a larger macro-scale environment. This attention to both the intimate and expansive aspects enriched the scene, bringing it to life.
+        This tension inspired me to explore how AI could enhance, rather than diminish, creativity. Using <em>Midjourney</ em>, I envisioned an indoor world where nature and humanity peacefully coexist. I expanded this concept in Blender, adding imaginative elements—moss, tiny creatures, and other micro-level details—to a larger macro-scale environment. This attention to both the intimate and expansive aspects enriched the scene, bringing it to life.
         <br />
         <br />
         <br />
@@ -50,8 +50,7 @@ const About = () => {
         imageAdditional={[]}
         creditsText={[
           "C R E D I T S",
-          "TOSHIYUKI HASHIMOTO <b>Creative Director/ Producer</b>",
-          "YIFAN ZHUANG <b>Art Director & 3D Artist</b>",
+          "YIFAN ZHUANG <b>Concept & 3D Artist</b>",
           "This is a personal research project for theshift.tokyo.",
         ]}
         videoCreditsText={[]}
