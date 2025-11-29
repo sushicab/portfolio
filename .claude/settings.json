@@ -1,0 +1,38 @@
+{
+  "project_type": "nextjs-react-typescript",
+  "language": "typescript",
+  "framework": "nextjs",
+  "ui_library": "react",
+  "styling": ["tailwindcss", "bootstrap"],
+  "package_manager": "npm",
+  "node_version": "20",
+  "tools": {
+    "formatter": "prettier",
+    "linter": "eslint",
+    "bundler": "nextjs",
+    "type_checker": "typescript"
+  },
+  "conventions": {
+    "file_naming": "kebab-case",
+    "component_naming": "PascalCase",
+    "indent_size": 2,
+    "quotes": "single",
+    "semicolons": true,
+    "trailing_comma": "es5"
+  },
+  "directories": {
+    "source": "app",
+    "components": "components",
+    "public": "public",
+    "styles": "app"
+  },
+  "commands": {
+    "dev": "npm run dev",
+    "build": "npm run build",
+    "start": "npm start",
+    "lint": "npm run lint",
+    "format": "npm run format",
+    "typecheck": "npm run typecheck",
+    "test": "npm test"
+  }
+}
