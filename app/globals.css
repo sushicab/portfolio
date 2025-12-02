@@ -2,6 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 .special-font {
   font-family: 'Times New Roman', 'Playfair Display', serif; /* Example font */
   font-style: italic; /* Italicize the text */
@@ -195,9 +212,9 @@ a:hover {
 }
 
 .work-cards-style {
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 100px;
+  padding: 100px 10px 10px 10px;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .overlay {
@@ -1100,7 +1117,7 @@ nav {
     display: none;
   }
   .work-cards-style {
-    padding: 15px;
+    padding: 5px;
   }
 
   .about-page {

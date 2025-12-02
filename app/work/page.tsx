@@ -1,13 +1,8 @@
 'use client';
 
-import { Covered_By_Your_Grace } from 'next/font/google';
-import Image from 'next/image';
-import { useState } from 'react';
 import Link from 'next/link';
-import WorkPageLink from '@/components/WorkPageLink';
 import IntroductionComp from '@/components/IntroductionComp';
 import React from 'react';
-import { link } from 'fs';
 
 const Rows = [
   {
@@ -29,7 +24,7 @@ const Rows = [
       {
         title: '1817',
         description: 'Audio Visual Performance/ 2025',
-        imgUrl: '/img/workpage/1817.mp4',
+        imgUrl: '/img/workpage/18172.mp4',
         path: '/performance/1817',
       },
     ],

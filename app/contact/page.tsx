@@ -58,8 +58,20 @@ function Card({ imgUrl, path, onClick }: CardProps) {
       imgUrl.endsWith('.mov') ||
       imgUrl.endsWith('.avi'));
 
+  // Detect if mobile
+  const [isMobile, setIsMobile] = React.useState(false);
+
+  React.useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
+
   return (
-    <div style={{ padding: '2px', width: '100%' }}>
+    <div style={{ padding: isMobile ? '1px' : '2px', width: '100%' }}>
       <div
         onClick={(e: React.MouseEvent) => {
           e.stopPropagation();
@@ -211,8 +223,8 @@ export default function Work() {
       <style jsx global>{`
         .masonry-gallery {
           display: flex;
-          gap: 16px;
-          padding: 1rem;
+          gap: 8px;
+          padding: 0 1rem;
           width: 100%;
           margin: 6rem auto 2rem auto;
         }
@@ -297,7 +309,7 @@ export default function Work() {
         @media (max-width: 768px) {
           .masonry-gallery {
             flex-direction: column;
-            padding: 1.5rem;
+            padding: 0.8rem;
             gap: 12px;
             margin: 4rem auto 2rem auto;
           }
@@ -314,20 +326,20 @@ export default function Work() {
 
         @media (min-width: 769px) and (max-width: 1024px) {
           .masonry-gallery {
-            padding: 2rem;
-            gap: 14px;
+            padding: 0 0.75rem;
+            gap: 10px;
             margin: 5rem auto 2rem auto;
           }
 
           .column {
-            gap: 14px;
+            gap: 10px;
           }
         }
 
         @media (min-width: 1025px) and (max-width: 1280px) {
           .masonry-gallery {
-            padding: 2.5rem;
-            gap: 15px;
+            padding: 0 1rem;
+            gap: 12px;
           }
         }
       `}</style>

@@ -33,9 +33,10 @@ export default function RootLayout({
       <body
         style={{
           //paddingTop: "80px",
-          width: '100vw',
-          height: '100wh',
+          width: '100%',
+          minHeight: '100vh',
           backgroundColor: 'white',
+          overflowX: 'hidden',
         }}
         className={inter.className}
       >
