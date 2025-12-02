@@ -1,5 +1,5 @@
-import React from "react";
-import PageInfo from "@/components/PageInfo";
+import React from 'react';
+import PageInfo from '@/components/PageInfo';
 
 const About = () => {
   return (
@@ -19,34 +19,34 @@ The design is rooted in the idea that identity—whether human or brand—is eve
         // ]}
         imagePaths={[
           {
-            type: "image",
-            src: "/img/projects/CG/aircordLogo/6.png",
+            type: 'image',
+            src: '/img/projects/CG/aircordLogo/6.png',
           },
           {
-            type: "image",
-            src: "/img/projects/CG/aircordLogo/2.png",
+            type: 'image',
+            src: '/img/projects/CG/aircordLogo/2.png',
           },
           {
-            type: "image",
-            src: "/img/projects/CG/aircordLogo/3.png",
+            type: 'image',
+            src: '/img/projects/CG/aircordLogo/3.png',
           },
           {
-            type: "image",
-            src: "/img/projects/CG/aircordLogo/4.png",
+            type: 'image',
+            src: '/img/projects/CG/aircordLogo/4.png',
           },
         ]}
         textAdditional={
-          "Our design visually reflects current conditions: the blooming level responds to humidity and visibility, transparency mirrors cloud cover, colors shift with temperature, and wind speed gently influences the logo’s shape. Real-time environmental data is automatically pulled from VisualCrossing and updated every 30 minutes. This project is developed in Touchdesigner."
+          'Our design visually reflects current conditions: the blooming level responds to humidity and visibility, transparency mirrors cloud cover, colors shift with temperature, and wind speed gently influences the logo’s shape. Real-time environmental data is automatically pulled from VisualCrossing and updated every 30 minutes. This project is developed in Touchdesigner.'
         }
-        imageAdditional={[{ src: "/img/projects/CG/aircordLogo/5.png" }]}
+        imageAdditional={[{ src: '/img/projects/CG/aircordLogo/5.png' }]}
         // {["/img/projects/CG/aircordLogo/5.png"]}
         creditsText={[
-          "C R E D I T S",
-          "TOSHIYUKI HASHIMOTO <b>Creative Director/ Producer</b>",
-          "YIFAN ZHUANG <b>Interactive VIsual Designer & System Developer</b>",
-          "JIYU PARK (theshift) <b>UI Designer</b>",
-          "IWASAKI OSAMU (aircord) <b>Techinical Director</b>",
-          "Garden Eight <b>Art Director</b><br/>",
+          'C R E D I T S',
+          'TOSHIYUKI HASHIMOTO <b>Creative Director/ Producer</b>',
+          'YIFAN ZHUANG <b>Interactive VIsual Designer & System Developer</b>',
+          'JIYU PARK (theshift) <b>UI Designer</b>',
+          'IWASAKI OSAMU (aircord) <b>Techinical Director</b>',
+          'Garden Eight <b>Art Director</b><br/>',
           "This project is part of the  <a href=' https://www.aircord.co.jp/branding/'  target=' _blank'  rel=' noopener noreferrer' style='text-decoration:underline' ><em>aircord Visual Identity System</em></a> which has been awarded <br/>in the Company Branding category at the <a href='https://ifdesign.com/en/winner-ranking/project/aircord-visual-identity-system/688989'  target=' _blank'  rel=' noopener noreferrer' style='text-decoration:underline' ><em>iF DESIGN AWARD 2025</em></a> .",
         ]}
         videoCreditsText={[]}

@@ -1,5 +1,5 @@
-import Link from " next/link";
-import { useState } from " react";
+import Link from ' next/link';
+import { useState } from ' react';
 
 const WorkPageLink = ({ href, title, imgUrl }) => {
   const [isHovered, setIsHovered] = useState(false);
@@ -15,7 +15,7 @@ const WorkPageLink = ({ href, title, imgUrl }) => {
           src={imgUrl}
           alt={title}
           className={`w-full transition-opacity duration-300 ${
-            isHovered ? " opacity-80" : " opacity-100"
+            isHovered ? ' opacity-80' : ' opacity-100'
           }`}
         />
       </a>

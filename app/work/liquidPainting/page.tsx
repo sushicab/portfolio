@@ -1,50 +1,46 @@
-import { Autour_One } from "next/font/google";
+import { Autour_One } from 'next/font/google';
 
 export default function About() {
   return (
-    <main style={{ paddingTop: "80px" }}>
+    <main style={{ paddingTop: '80px' }}>
       <h1
         style={{
-          fontSize: "40px",
-          fontStyle: "italic",
-          textAlign: "center",
-          marginTop: "100px",
-          marginBottom: "30px",
+          fontSize: '40px',
+          fontStyle: 'italic',
+          textAlign: 'center',
+          marginTop: '100px',
+          marginBottom: '30px',
         }}
       >
         Liquid Painting
       </h1>
-      <div style={{ justifyContent: "center", display: "flex" }}>
+      <div style={{ justifyContent: 'center', display: 'flex' }}>
         <img
           src="/img/projects/fine arts/liquid painting/liquid1.jpg"
           alt="lotus"
           style={{
-            width: "70%",
-            height: "auto",
+            width: '70%',
+            height: 'auto',
           }}
         />
       </div>
-      <div
-        style={{ justifyContent: "center", display: "flex", marginTop: "50px" }}
-      >
+      <div style={{ justifyContent: 'center', display: 'flex', marginTop: '50px' }}>
         <img
           src="/img/projects/fine arts/liquid painting/liquid2.jpg"
           alt="lotus"
           style={{
-            width: "70%",
-            height: "auto",
+            width: '70%',
+            height: 'auto',
           }}
         />
       </div>
-      <div
-        style={{ justifyContent: "center", display: "flex", marginTop: "50px" }}
-      >
+      <div style={{ justifyContent: 'center', display: 'flex', marginTop: '50px' }}>
         <img
           src="/img/projects/fine arts/liquid painting/liquid3.jpg"
           alt="lotus"
           style={{
-            width: "70%",
-            height: "auto",
+            width: '70%',
+            height: 'auto',
           }}
         />
       </div>
@@ -55,18 +51,18 @@ export default function About() {
         148 x 105mm, liquid paints on paper board.
         <br />
         <br />
-        Three liquid painting created as the foundational material for a
-        generative visual research project
+        Three liquid painting created as the foundational material for a generative visual research
+        project
         <a
           href="https://theshift.tokyo/research/remix/"
           target="_blank"
           rel="noopener noreferrer"
-          style={{ textDecoration: "underline", fontStyle: "italic" }}
+          style={{ textDecoration: 'underline', fontStyle: 'italic' }}
         >
           Remix
         </a>
-        created by theshift.tokyo, exploring the dynamic interplay of organic
-        forms and computational processes.
+        created by theshift.tokyo, exploring the dynamic interplay of organic forms and
+        computational processes.
       </p>
     </main>
   );

@@ -1,5 +1,5 @@
-import React from "react";
-import parse from "html-react-parser";
+import React from 'react';
+import parse from 'html-react-parser';
 
 const PageInfo2 = ({
   title,
@@ -12,14 +12,14 @@ const PageInfo2 = ({
   creditsText,
 }) => {
   return (
-    <main style={{ paddingTop: "80px" }}>
+    <main style={{ paddingTop: '80px' }}>
       <div
         style={{
-          maxWidth: "100vw",
-          display: "flex",
-          justifyContent: "center",
-          margin: "0 auto",
-          marginTop: "20px",
+          maxWidth: '100vw',
+          display: 'flex',
+          justifyContent: 'center',
+          margin: '0 auto',
+          marginTop: '20px',
         }}
       >
         <img
@@ -33,7 +33,7 @@ const PageInfo2 = ({
       <p className="page-info-text-content">{parse(textContent)}</p>
       <div className="page-info-image-grid">
         {imagePaths.map((image, index) =>
-          image.type === "image" ? (
+          image.type === 'image' ? (
             <img
               className="page-info-image"
               key={index}
@@ -41,26 +41,20 @@ const PageInfo2 = ({
               alt={`Image ${index + 1}`}
             />
           ) : (
-            <video
-              className="page-info-image"
-              key={index}
-              controls
-              autoPlay
-              loop
-            >
+            <video className="page-info-image" key={index} controls autoPlay loop>
               <source src={image.src} type="video/mp4" />
             </video>
-          ),
+          )
         )}
       </div>
       <p className="page-info-text-additional">{parse(textAdditional)}</p>
       <div
         style={{
-          maxWidth: "100vw",
-          display: "flex",
-          justifyContent: "center",
-          margin: "0 auto",
-          marginTop: "20px",
+          maxWidth: '100vw',
+          display: 'flex',
+          justifyContent: 'center',
+          margin: '0 auto',
+          marginTop: '20px',
         }}
       >
         <img
@@ -72,11 +66,7 @@ const PageInfo2 = ({
 
       <div className="page-info-credits-container">
         <div className="page-info-credits">
-          <p>
-            {typeof creditsText === "string"
-              ? parse(creditsText[0])
-              : creditsText[0]}
-          </p>
+          <p>{typeof creditsText === 'string' ? parse(creditsText[0]) : creditsText[0]}</p>
           {creditsText.slice(1).map((credit, index) => (
             <p key={index}>{parse(credit)}</p>
           ))}

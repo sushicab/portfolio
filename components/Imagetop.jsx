@@ -1,5 +1,5 @@
-import Image from "next/image";
-import Link from "next/link";
+import Image from 'next/image';
+import Link from 'next/link';
 
 const Imagetop = () => {
   return (
@@ -26,19 +26,14 @@ const Imagetop = () => {
         <div className="imagetop-container">
           <div className="imageContainer-intro">
             <p className="imageContainer-introText">
-              a <span className="imageContainer-emphasis">creative</span> &{" "}
+              a <span className="imageContainer-emphasis">creative</span> &{' '}
               <span className="imageContainer-emphasis">curious</span> human
               <br />
               creating
               <br />
-              <span className="imageContainer-emphasis">
-                interactive experiences
-              </span>
+              <span className="imageContainer-emphasis">interactive experiences</span>
               <br />
-              <span className="imageContainer-emphasis">
-                {" "}
-                & visual expressions
-              </span>
+              <span className="imageContainer-emphasis"> & visual expressions</span>
               <br />
               <br />
               Based in <span className="imageContainer-emphasis">Tokyo</span>

@@ -1,5 +1,5 @@
-import React from "react";
-import parse from "html-react-parser";
+import React from 'react';
+import parse from 'html-react-parser';
 
 const PageInfo = ({
   title,
@@ -15,14 +15,14 @@ const PageInfo = ({
   additionalVideoSrc,
 }) => {
   return (
-    <main style={{ paddingTop: "80px" }}>
+    <main style={{ paddingTop: '80px' }}>
       <div
         style={{
-          maxWidth: "100vw",
-          display: "flex",
-          justifyContent: "center",
-          margin: "0 auto",
-          marginTop: "20px",
+          maxWidth: '100vw',
+          display: 'flex',
+          justifyContent: 'center',
+          margin: '0 auto',
+          marginTop: '20px',
         }}
       >
         <iframe
@@ -37,7 +37,7 @@ const PageInfo = ({
       <p className="page-info-text-content">{parse(textContent)}</p>
       <div className="page-info-image-grid">
         {imagePaths.map((image, index) =>
-          image.type === "image" ? (
+          image.type === 'image' ? (
             <img
               className="page-info-image"
               key={index}
@@ -45,16 +45,10 @@ const PageInfo = ({
               alt={`Image ${index + 1}`}
             />
           ) : (
-            <video
-              className="page-info-image"
-              key={index}
-              controls
-              autoPlay
-              loop
-            >
+            <video className="page-info-image" key={index} controls autoPlay loop>
               <source src={image.src} type="video/mp4" />
             </video>
-          ),
+          )
         )}
       </div>
       <p className="page-info-text-additional">{parse(textAdditional)}</p>
@@ -62,9 +56,9 @@ const PageInfo = ({
         <div
           key={index}
           style={{
-            display: "flex",
-            justifyContent: "center",
-            marginTop: "100px",
+            display: 'flex',
+            justifyContent: 'center',
+            marginTop: '100px',
           }}
         >
           <img
@@ -78,22 +72,21 @@ const PageInfo = ({
 
       <div
         style={{
-          maxWidth: "100vw",
-          display: "flex",
-          justifyContent: "center",
-          margin: "0 auto",
-          marginTop: "20px",
+          maxWidth: '100vw',
+          display: 'flex',
+          justifyContent: 'center',
+          margin: '0 auto',
+          marginTop: '20px',
         }}
       >
-        {typeof additionalVideoSrc === "string" &&
-        additionalVideoSrc.endsWith(".mp4") ? (
+        {typeof additionalVideoSrc === 'string' && additionalVideoSrc.endsWith('.mp4') ? (
           <video
             className="page-info-video"
             src={additionalVideoSrc}
             controls
             autoPlay
             loop
-            style={{ marginTop: "150px", maxWidth: "100%" }}
+            style={{ marginTop: '150px', maxWidth: '100%' }}
           ></video>
         ) : (
           <iframe
@@ -101,18 +94,14 @@ const PageInfo = ({
             src={additionalVideoSrc}
             allow="autoplay; fullscreen; picture-in-picture"
             title="Vimeo video"
-            style={{ marginTop: "150px" }}
+            style={{ marginTop: '150px' }}
           ></iframe>
         )}
       </div>
 
       <div className="page-info-credits-container">
         <div className="page-info-credits">
-          <p>
-            {typeof creditsText === "string"
-              ? parse(creditsText[0])
-              : creditsText[0]}
-          </p>
+          <p>{typeof creditsText === 'string' ? parse(creditsText[0]) : creditsText[0]}</p>
           {creditsText.slice(1).map((credit, index) => (
             <p key={index}>{parse(credit)}</p>
           ))}
@@ -126,12 +115,12 @@ const PageInfo = ({
           </div>
           <div className="page-info-special-thanks">
             <p>
-              {typeof specialThanksText[0] === "string"
+              {typeof specialThanksText[0] === 'string'
                 ? parse(specialThanksText[0])
                 : specialThanksText[0]}
             </p>
             {specialThanksText.slice(1).map((thanks, index) => (
-              <p key={index} style={{ marginBottom: "15px" }}>
+              <p key={index} style={{ marginBottom: '15px' }}>
                 {parse(thanks)}
               </p>
             ))}

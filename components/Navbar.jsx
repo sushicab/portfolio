@@ -1,22 +1,22 @@
-import exp from "constants";
-import Link from "next/link";
-import React from "react";
-import NavLink from "./NavLink";
+import exp from 'constants';
+import Link from 'next/link';
+import React from 'react';
+import NavLink from './NavLink';
 
 const navLinks = [
   {
-    title: "WORK",
-    path: "/work",
+    title: 'WORK',
+    path: '/work',
   },
 
   {
-    title: "SHOW",
-    path: "/contact",
+    title: 'VISUAL',
+    path: '/contact',
   },
 
   {
-    title: "ABOUT",
-    path: "/about",
+    title: 'ABOUT',
+    path: '/about',
   },
 ];
 
@@ -26,7 +26,7 @@ const Navbar = () => {
       <div className=" flex justify-betweenmx-auto p-3 px-4">
         <div className="grid grid-cols-5 lg:grid-cols-12">
           <div className="logo-wrapper">
-            <Link href={"/"} className="logo">
+            <Link href={'/'} className="logo">
               YIFAN ZHUANG
             </Link>
           </div>

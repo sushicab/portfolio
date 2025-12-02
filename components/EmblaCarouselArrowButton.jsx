@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState } from "react";
+import React, { useCallback, useEffect, useState } from 'react';
 
 export const usePrevNextButtons = (emblaApi) => {
   const [prevBtnDisabled, setPrevBtnDisabled] = useState(true);
@@ -23,8 +23,8 @@ export const usePrevNextButtons = (emblaApi) => {
     if (!emblaApi) return;
 
     onSelect(emblaApi);
-    emblaApi.on("reInit", onSelect);
-    emblaApi.on("select", onSelect);
+    emblaApi.on('reInit', onSelect);
+    emblaApi.on('select', onSelect);
   }, [emblaApi, onSelect]);
 
   return {
@@ -39,11 +39,7 @@ export const PrevButton = (props) => {
   const { children, ...restProps } = props;
 
   return (
-    <button
-      className="embla__button embla__button--prev"
-      type="button"
-      {...restProps}
-    >
+    <button className="embla__button embla__button--prev" type="button" {...restProps}>
       <svg className="embla__button__svg" viewBox="0 0 532 532">
         <path
           fill="currentColor"
@@ -59,11 +55,7 @@ export const NextButton = (props) => {
   const { children, ...restProps } = props;
 
   return (
-    <button
-      className="embla__button embla__button--next"
-      type="button"
-      {...restProps}
-    >
+    <button className="embla__button embla__button--next" type="button" {...restProps}>
       <svg className="embla__button__svg" viewBox="0 0 532 532">
         <path
           fill="currentColor"

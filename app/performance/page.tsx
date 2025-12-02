@@ -1,38 +1,38 @@
-import { Covered_By_Your_Grace } from "next/font/google";
-import Image from "next/image";
-import { useState } from "react";
-import Link from "next/link";
-import React from "react";
-import { link } from "fs";
+import { Covered_By_Your_Grace } from 'next/font/google';
+import Image from 'next/image';
+import { useState } from 'react';
+import Link from 'next/link';
+import React from 'react';
+import { link } from 'fs';
 
 const Rows = [
   {
-    rowTitle: "(Interactive Experience)",
+    rowTitle: '(Interactive Experience)',
     Cards: [
       {
-        title: "Shibuya in VR",
-        description: "VR Point Cloud Experience/ 2022",
-        imgUrl: "/img/workpage/shibuyaVR1.png",
-        path: "/work/shibuyaVR",
+        title: 'Shibuya in VR',
+        description: 'VR Point Cloud Experience/ 2022',
+        imgUrl: '/img/workpage/shibuyaVR1.png',
+        path: '/work/shibuyaVR',
       },
       {
-        title: "Emolleia",
-        description: "Interactive Wearable Device/ 2021 ",
-        imgUrl: "/img/workpage/emolleia4.png",
-        path: "/work/emolleia",
+        title: 'Emolleia',
+        description: 'Interactive Wearable Device/ 2021 ',
+        imgUrl: '/img/workpage/emolleia4.png',
+        path: '/work/emolleia',
       },
       {
-        title: "i dream, i dreamt",
-        description: "Interactive Installation/ 2021 ",
-        imgUrl: "/img/workpage/idream4.jpg",
-        path: "/work/idream",
+        title: 'i dream, i dreamt',
+        description: 'Interactive Installation/ 2021 ',
+        imgUrl: '/img/workpage/idream4.jpg',
+        path: '/work/idream',
       },
 
       {
-        title: "AR Experience",
-        description: "Augmented Reality projects",
-        imgUrl: "/img/workpage/gender1.png",
-        path: "/work/AR",
+        title: 'AR Experience',
+        description: 'Augmented Reality projects',
+        imgUrl: '/img/workpage/gender1.png',
+        path: '/work/AR',
       },
     ],
   },
@@ -40,7 +40,7 @@ const Rows = [
 
 function Card({ title, description, imgUrl, path }: any) {
   return (
-    <div style={{ padding: "8px", width: "100%" }}>
+    <div style={{ padding: '8px', width: '100%' }}>
       <Link href={path}>
         <Image src={imgUrl} alt={`${title} - ${description} card`} />
 
@@ -58,7 +58,7 @@ function Row({ rowTitle, Cards }: any) {
     <>
       {/* Style for large screens */}
       <div className="hidden md:block">
-        {" "}
+        {' '}
         {/* Hide on small screens */}
         <h1>{rowTitle}</h1>
         <div>
@@ -70,7 +70,7 @@ function Row({ rowTitle, Cards }: any) {
 
       {/* Style for mobile screens */}
       <div className="md:hidden">
-        {" "}
+        {' '}
         {/* Hide on medium and larger screens */}
         <h1>{rowTitle}</h1>
         <div>

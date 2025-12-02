@@ -1,6 +1,6 @@
-import React from "react";
-import PageInfo from "@/components/PageInfo";
-import exp from "constants";
+import React from 'react';
+import PageInfo from '@/components/PageInfo';
+import exp from 'constants';
 
 const Page = () => {
   return (
@@ -17,31 +17,29 @@ const Page = () => {
         `}
         imagePaths={[
           {
-            type: "image",
-            src: "/img/projects/interactive design/shibuya VR/shibuya1.jpg",
+            type: 'image',
+            src: '/img/projects/interactive design/shibuya VR/shibuya1.jpg',
           },
           {
-            type: "image",
-            src: "/img/projects/interactive design/shibuya VR/shibuya5.jpg",
+            type: 'image',
+            src: '/img/projects/interactive design/shibuya VR/shibuya5.jpg',
           },
           {
-            type: "image",
-            src: "/img/projects/interactive design/shibuya VR/shibuya3.jpg",
+            type: 'image',
+            src: '/img/projects/interactive design/shibuya VR/shibuya3.jpg',
           },
           {
-            type: "image",
-            src: "/img/projects/interactive design/shibuya VR/shibuya4.jpg",
+            type: 'image',
+            src: '/img/projects/interactive design/shibuya VR/shibuya4.jpg',
           },
         ]}
         textAdditional={
-          "The 3D model is transformed into point cloud data using MeshLab, then brought into Unity for further development. To enhance the user experience, I designed a user interface (UI) for exploring the visual possibilities, featuring three pre-selected hero views of the scene. Four distinct point movements, driven by sine and cosine functions, introduce dynamic interactivity. A customizable color palette further invites users to explore and experiment with a variety of visual possibilities. <br><br>Two shaders define the visual experience: one creates an illuminated, dreamlike aesthetic, while the other with a more realistic sense and allows users to adjust point sizes. "
+          'The 3D model is transformed into point cloud data using MeshLab, then brought into Unity for further development. To enhance the user experience, I designed a user interface (UI) for exploring the visual possibilities, featuring three pre-selected hero views of the scene. Four distinct point movements, driven by sine and cosine functions, introduce dynamic interactivity. A customizable color palette further invites users to explore and experiment with a variety of visual possibilities. <br><br>Two shaders define the visual experience: one creates an illuminated, dreamlike aesthetic, while the other with a more realistic sense and allows users to adjust point sizes. '
         }
-        imageAdditional={[
-          { src: "/img/projects/interactive design/shibuya VR/shibuya7.png" },
-        ]}
+        imageAdditional={[{ src: '/img/projects/interactive design/shibuya VR/shibuya7.png' }]}
         creditsText={[
-          "C R E D I T S",
-          "YIFAN ZHUANG <b> Concept & Interactive Designer & Developer</b>",
+          'C R E D I T S',
+          'YIFAN ZHUANG <b> Concept & Interactive Designer & Developer</b>',
           "This is a personal research project for <a href=' https://www.aircord.co.jp/'  target=' _blank'  rel=' noopener noreferrer' ><em>aircord.inc</em></a>.",
         ]}
         videoCreditsText={[]}

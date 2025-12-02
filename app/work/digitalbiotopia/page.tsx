@@ -1,5 +1,5 @@
-import React from "react";
-import PageInfo from "@/components/PageInfo";
+import React from 'react';
+import PageInfo from '@/components/PageInfo';
 
 const About = () => {
   return (
@@ -28,30 +28,30 @@ const About = () => {
         // ]}
         imagePaths={[
           {
-            type: "image",
-            src: "/img/projects/CG/digital biotopia/bio2.png",
+            type: 'image',
+            src: '/img/projects/CG/digital biotopia/bio2.png',
           },
           {
-            type: "image",
-            src: "/img/projects/CG/digital biotopia/bio5.png",
+            type: 'image',
+            src: '/img/projects/CG/digital biotopia/bio5.png',
           },
           {
-            type: "image",
-            src: "/img/projects/CG/digital biotopia/bio4.png",
+            type: 'image',
+            src: '/img/projects/CG/digital biotopia/bio4.png',
           },
           {
-            type: "image",
-            src: "/img/projects/CG/digital biotopia/bio3.png",
+            type: 'image',
+            src: '/img/projects/CG/digital biotopia/bio3.png',
           },
         ]}
         textAdditional={
-          "Much like the invention of photography and the washing machine, which initially raised fears of replacing painters and workers, technological advancements often open new possibilities and redefine the meaning of the work we do. I believe AI, too, can serve as a mirror to better understand ourselves and our creativity, allowing us to embrace it as a collaborator rather than an adversary."
+          'Much like the invention of photography and the washing machine, which initially raised fears of replacing painters and workers, technological advancements often open new possibilities and redefine the meaning of the work we do. I believe AI, too, can serve as a mirror to better understand ourselves and our creativity, allowing us to embrace it as a collaborator rather than an adversary.'
         }
         imageAdditional={[]}
         creditsText={[
-          "C R E D I T S",
-          "YIFAN ZHUANG <b>Concept & 3D Artist</b>",
-          "This is a personal research project for theshift.tokyo.",
+          'C R E D I T S',
+          'YIFAN ZHUANG <b>Concept & 3D Artist</b>',
+          'This is a personal research project for theshift.tokyo.',
         ]}
         videoCreditsText={[]}
         specialThanksText={[]}

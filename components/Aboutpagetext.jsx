@@ -9,12 +9,11 @@ const Aboutpagetext = () => {
               href="https://dl.acm.org/doi/abs/10.1145/3490149.3505581"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ textDecoration: "underline" }}
+              style={{ textDecoration: 'underline' }}
             >
-              [1] Yifan Zhuang, Keitaro Tsuchiya, Takuro Nakao, Jiawen Han,
-              Megumi Isoga, Shinya Shimizu, and Kai Kunze. 2022. Emolleia –
-              Wearable Kinetic Flower Display for Expressing Emotions. In
-              Sixteenth International Conference on Tangible, Embedded, and
+              [1] Yifan Zhuang, Keitaro Tsuchiya, Takuro Nakao, Jiawen Han, Megumi Isoga, Shinya
+              Shimizu, and Kai Kunze. 2022. Emolleia – Wearable Kinetic Flower Display for
+              Expressing Emotions. In Sixteenth International Conference on Tangible, Embedded, and
               Embodied Interaction (TEI ’22), February 13–16, 2022
             </a>
           </p>
@@ -24,10 +23,9 @@ const Aboutpagetext = () => {
               href="https://dl.acm.org/doi/abs/10.1145/3393914.3395900"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ textDecoration: "underline" }}
+              style={{ textDecoration: 'underline' }}
             >
-              [2]Labeling: The Reflective Design of Socialized Gender
-              Classification
+              [2]Labeling: The Reflective Design of Socialized Gender Classification
             </a>
           </p>
         </div>
@@ -49,8 +47,8 @@ const Aboutpagetext = () => {
       <div className="image-column">
         <div
           style={{
-            width: "48vw",
-            height: "auto",
+            width: '48vw',
+            height: 'auto',
           }}
         >
           {/* <p>
@@ -74,11 +72,11 @@ const Aboutpagetext = () => {
           <div>
             <p
               style={{
-                fontStyle: "italic",
-                fontWeight: "lighter",
-                fontSize: "30px",
-                marginTop: "50px",
-                marginLeft: "80px",
+                fontStyle: 'italic',
+                fontWeight: 'lighter',
+                fontSize: '30px',
+                marginTop: '50px',
+                marginLeft: '80px',
               }}
             >
               Website design & developed by herself

@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const Contact = () => {
   return (
@@ -14,10 +14,7 @@ const Contact = () => {
             </a>
           </li>
           <li>
-            <a
-              href="https://www.instagram.com/wandanle.z/"
-              className="contact-link"
-            >
+            <a href="https://www.instagram.com/wandanle.z/" className="contact-link">
               Instagram
             </a>
           </li>

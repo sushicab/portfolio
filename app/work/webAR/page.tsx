@@ -1,5 +1,5 @@
-import React from "react";
-import PageInfo from "@/components/PageInfo"; // Adjust the path as per your project structure
+import React from 'react';
+import PageInfo from '@/components/PageInfo'; // Adjust the path as per your project structure
 
 const Page = () => {
   return (
@@ -16,43 +16,41 @@ const Page = () => {
         "How to be a cloud" was exhibited from Mar.13 to Mar.20 at Haneda Airport terminal1 as part of Tokyo Creative Salon 2025.`}
         imagePaths={[
           {
-            type: "image",
-            src: "/img/projects/interactive design/webAR/1.jpg",
+            type: 'image',
+            src: '/img/projects/interactive design/webAR/1.jpg',
           },
           {
-            type: "image",
-            src: "/img/projects/interactive design/webAR/2.jpg",
+            type: 'image',
+            src: '/img/projects/interactive design/webAR/2.jpg',
           },
           {
-            type: "image",
-            src: "/img/projects/interactive design/webAR/3.jpg",
+            type: 'image',
+            src: '/img/projects/interactive design/webAR/3.jpg',
           },
           {
-            type: "image",
-            src: "/img/projects/interactive design/webAR/5.png",
+            type: 'image',
+            src: '/img/projects/interactive design/webAR/5.png',
           },
         ]}
         textAdditional={
-          "Just like clouds, our thoughts are always shifting—soft, abstract, and fleeting. As we pass through the sky, our minds drift, reshaping and dissolving into something new, like vapor caught in the wind. We invite you to float with the clouds, weightless and untethered. With a tap, paper planes take flight—carrying thoughts, dreams, and fleeting moments, merging with the ever-changing sky."
+          'Just like clouds, our thoughts are always shifting—soft, abstract, and fleeting. As we pass through the sky, our minds drift, reshaping and dissolving into something new, like vapor caught in the wind. We invite you to float with the clouds, weightless and untethered. With a tap, paper planes take flight—carrying thoughts, dreams, and fleeting moments, merging with the ever-changing sky.'
         }
-        imageAdditional={[
-          { src: "/img/projects/interactive design/webAR/IG2.JPG" },
-        ]}
+        imageAdditional={[{ src: '/img/projects/interactive design/webAR/IG2.JPG' }]}
         creditsText={[
-          "C R E D I T S",
-          "YIFAN ZHUANG <b>Art Director & CG Designer & Graphic Designer<b/>",
-          "YAN HE <b>Creative Director & WebAR Developer</b>",
-          "Eleanor Ford <b>Art Curator</b>",
+          'C R E D I T S',
+          'YIFAN ZHUANG <b>Art Director & CG Designer & Graphic Designer<b/>',
+          'YAN HE <b>Creative Director & WebAR Developer</b>',
+          'Eleanor Ford <b>Art Curator</b>',
         ]}
         videoCreditsText={[
-          "V I D E O   C R E D I T S",
-          "YIFAN ZHUANG & YAN HE <b>Director & Videographer & Editor</b>",
+          'V I D E O   C R E D I T S',
+          'YIFAN ZHUANG & YAN HE <b>Director & Videographer & Editor</b>',
           ,
         ]}
         specialThanksText={[
-          "S P E C I A L   T H A N K S",
-          "Haneda Innovative City",
-          "Tokyo Creative Salon",
+          'S P E C I A L   T H A N K S',
+          'Haneda Innovative City',
+          'Tokyo Creative Salon',
         ]}
         additionalVideoSrc="https://player.vimeo.com/video/1071371202?h=999f493600&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
       />
