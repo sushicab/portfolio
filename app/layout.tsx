@@ -35,7 +35,7 @@ export default function RootLayout({
           //paddingTop: "80px",
           width: '100vw',
           height: '100wh',
-          backgroundColor: '#E3E3E3',
+          backgroundColor: 'white',
         }}
         className={inter.className}
       >

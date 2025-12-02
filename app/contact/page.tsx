@@ -19,11 +19,11 @@ const Rows = [
         path: '/performance/1817',
       },
       {
-        imgUrl: '/img/workpage/exit.exe East.PNG',
+        imgUrl: '/img/visualGallery/particles.mp4',
         path: '/performance/Exit',
       },
       {
-        imgUrl: '/img/workpage/Danny.png',
+        imgUrl: '/img/visualGallery/visual3.jpg',
         path: '/performance/1817',
       },
       {
@@ -211,10 +211,10 @@ export default function Work() {
       <style jsx global>{`
         .masonry-gallery {
           display: flex;
-          gap: 8px;
+          gap: 16px;
           padding: 1rem;
-          max-width: 1400px;
-          margin: 6rem 1rem 1rem 3rem;
+          width: 100%;
+          margin: 6rem auto 2rem auto;
         }
 
         .column {
@@ -297,11 +297,14 @@ export default function Work() {
         @media (max-width: 768px) {
           .masonry-gallery {
             flex-direction: column;
-            padding: 1rem;
+            padding: 1.5rem;
+            gap: 12px;
+            margin: 4rem auto 2rem auto;
           }
 
           .column {
             width: 100%;
+            gap: 12px;
           }
 
           .lightbox-content {
@@ -311,11 +314,20 @@ export default function Work() {
 
         @media (min-width: 769px) and (max-width: 1024px) {
           .masonry-gallery {
-            gap: 12px;
+            padding: 2rem;
+            gap: 14px;
+            margin: 5rem auto 2rem auto;
           }
 
           .column {
-            gap: 12px;
+            gap: 14px;
+          }
+        }
+
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          .masonry-gallery {
+            padding: 2.5rem;
+            gap: 15px;
           }
         }
       `}</style>
