@@ -1,4 +1,5 @@
 import AboutPageLeft from '@/components/AboutPageLeft';
+import NewsUpdates from '@/components/NewsUpdates';
 
 export default function About() {
   return (
@@ -7,6 +8,7 @@ export default function About() {
       style={{ paddingTop: '80px' }}
     >
       <AboutPageLeft />
+      <NewsUpdates />
     </main>
   );
 }

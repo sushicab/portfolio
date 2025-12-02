@@ -31,8 +31,7 @@ main {
 }
 .about-page {
   display: flex;
-  padding: 20px;
-  margin-top: 1vh;
+  padding: 1rem;
   color: black; /* White text */
 }
 
@@ -50,7 +49,6 @@ main {
 .about-left,
 .about-right {
   width: 100%; /* Split left and right sections equally */
-  padding: 10px;
 }
 
 .profile-image {
@@ -75,7 +73,6 @@ main {
 }
 
 .introduction-text {
-  margin-bottom: 20px;
   line-height: 1.6;
   text-align: justify;
   margin-right: 20px;
@@ -1128,7 +1125,7 @@ nav {
     color: #000; /* Change text color to black */
     background-color: transparent; /* Remove background color */
     padding: 0;
-    margin-bottom: 100px;
+    margin-bottom: 0;
   }
 
   .about-left,

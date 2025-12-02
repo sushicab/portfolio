@@ -8,7 +8,7 @@ const Rows = [
   {
     Cards: [
       {
-        title: 'Ai no Mori',
+        title: 'AINOMORI',
         description: 'Visual Design/ 2025',
         imgUrl: '/img/workpage/ainomori_video.mp4',
         path: '/work/shibuyaVR',
@@ -42,7 +42,7 @@ const Rows = [
         title: 'Exit',
         description: 'Audio Visual Performance/ 2025',
         imgUrl: '/img/workpage/exit.exe East.PNG',
-        path: '/work/webAR',
+        path: '/performance/Exit',
         originalRatio: true,
       },
       {
@@ -221,6 +221,13 @@ function Card({ title, description, imgUrl, path, smallSize, originalRatio }: an
                 width: '100%',
                 height: 'auto',
                 display: 'block',
+                transition: 'transform 0.3s ease',
+              }}
+              onMouseEnter={(e: React.MouseEvent<HTMLVideoElement>) => {
+                e.currentTarget.style.transform = 'scale(1.03)';
+              }}
+              onMouseLeave={(e: React.MouseEvent<HTMLVideoElement>) => {
+                e.currentTarget.style.transform = 'scale(1)';
               }}
             >
               Your browser does not support the video tag.
@@ -233,6 +240,13 @@ function Card({ title, description, imgUrl, path, smallSize, originalRatio }: an
                 width: '100%',
                 height: 'auto',
                 display: 'block',
+                transition: 'transform 0.3s ease',
+              }}
+              onMouseEnter={(e: React.MouseEvent<HTMLImageElement>) => {
+                e.currentTarget.style.transform = 'scale(1.03)';
+              }}
+              onMouseLeave={(e: React.MouseEvent<HTMLImageElement>) => {
+                e.currentTarget.style.transform = 'scale(1)';
               }}
               loading="lazy"
             />
@@ -240,13 +254,13 @@ function Card({ title, description, imgUrl, path, smallSize, originalRatio }: an
         </div>
         <div
           style={{
-            fontWeight: 'bold',
+            fontWeight: 'semi-bold',
             marginTop: '4px',
           }}
         >
           <h2>{title}</h2>
         </div>
-        <div className="text-gray-500 text-base">
+        <div className="text-black text-sm -mt-1">
           <p>{description}</p>
         </div>
       </Link>
@@ -263,7 +277,7 @@ function Row({ Cards }: any) {
             display: 'flex',
             justifyContent: 'space-between',
             width: '100%',
-            marginBottom: '40px',
+            marginBottom: '10px',
           }}
         >
           {Cards.map((card: any) => (
