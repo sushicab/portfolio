@@ -279,9 +279,10 @@ nav {
 
 .logo {
   font-size: 1.8rem;
-  font-weight: 600;
+  font-weight: 400;
   color: black;
   letter-spacing: 0.1em;
+  font-family: 'pf-videotext', sans-serif;
 }
 
 .menu a,
@@ -310,11 +311,12 @@ nav {
 
 /* Menu link */
 .menu a {
-  font-size: 1.5rem;
-  font-weight: 350;
+  font-size: 1.4rem;
+  font-weight: 400;
   color: white; /* White text initially for blending */
   mix-blend-mode: difference;
   transition: color 0.3s ease;
+  font-family: 'pf-videotext', sans-serif;
 }
 
 .menu a:hover {
@@ -755,6 +757,7 @@ nav {
     font-weight: 500;
     color: white;
     text-decoration: none;
+    font-family: 'pf-videotext', sans-serif;
   }
 
   .menu li {

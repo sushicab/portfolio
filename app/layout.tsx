@@ -27,6 +27,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="stylesheet" href="https://use.typekit.net/ads2rjj.css" />
+      </head>
       <body
         style={{
           //paddingTop: "80px",
