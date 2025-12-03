@@ -31,7 +31,7 @@ main {
 }
 .about-page {
   display: flex;
-  padding: 1rem;
+  padding: 10px;
   color: black; /* White text */
 }
 
@@ -48,7 +48,7 @@ main {
 
 .about-left,
 .about-right {
-  width: 100%; /* Split left and right sections equally */
+  width: 100%;
 }
 
 .profile-image {
@@ -292,11 +292,12 @@ nav {
 }
 
 .logo {
-  font-size: 1.8rem;
-  font-weight: 400;
+  font-family: Helveticaneue, Arial, sans-serif;
+  font-size: 2em;
+  font-weight: 600;
+  line-height: 0.9;
   color: black;
-  letter-spacing: 0.1em;
-  font-family: 'pf-videotext', sans-serif;
+  letter-spacing: 0.05em;
 }
 
 .menu a,
@@ -431,7 +432,7 @@ nav {
 .about-page-text {
   display: flex;
   font-size: 16px;
-  width: 90vw;
+  width: 100vw;
 }
 .about-page-h2 {
   font-size: 1.4rem;
@@ -731,8 +732,10 @@ nav {
   /* Logo */
   .logo {
     margin-bottom: 1rem;
-    font-size: 1.125rem;
-    font-weight: 600;
+    font-family: Helveticaneue, Arial, sans-serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 0.9;
     color: black;
     letter-spacing: 0.1em;
     mix-blend-mode: difference;
@@ -1178,4 +1181,38 @@ nav {
     font-weight: lighter;
     font-size: 18px;
   }
+
+  /* News Section Mobile Styles */
+  .news-section {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 !important;
+  }
+
+  .news-header {
+    font-family: argent-pixel-cf, sans-serif;
+    font-size: 2rem !important;
+    font-style: italic;
+    text-align: left;
+    color: black;
+    font-weight: normal;
+    margin: 0 0 10px 0 !important;
+  }
+}
+
+/* Desktop News Styles */
+.news-section {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.news-header {
+  font-family: argent-pixel-cf, sans-serif;
+  font-size: 3rem;
+  font-style: italic;
+  text-align: left;
+  color: black;
+  font-weight: normal;
+  margin: 20px 0 10px 0;
 }

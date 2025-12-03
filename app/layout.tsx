@@ -32,7 +32,6 @@ export default function RootLayout({
       </head>
       <body
         style={{
-          //paddingTop: "80px",
           width: '100%',
           minHeight: '100vh',
           backgroundColor: 'white',

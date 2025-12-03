@@ -1,0 +1,118 @@
+/* Project Header Container - 3 Column Layout */
+.container {
+  width: 100%;
+  max-width: 100%;
+  padding: 0.8rem;
+  display: grid;
+  grid-template-columns: minmax(150px, 20%) minmax(150px, 20%) minmax(0, 1fr);
+  grid-template-rows: auto auto;
+  gap: 2rem;
+  align-items: start;
+  grid-template-areas:
+    'title title description'
+    'metadata metadata description';
+  box-sizing: border-box;
+}
+
+/* Left Column - Project Title */
+.titleColumn {
+  grid-area: title;
+  align-self: start;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: Helveticaneue, Arial, sans-serif;
+  margin: 0;
+}
+
+/* Middle Column - Metadata */
+.metadataColumn {
+  grid-area: metadata;
+  align-self: start;
+}
+
+.metadata {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.metadataItem {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 1rem;
+  align-items: baseline;
+}
+
+.metadata dt {
+  font-family: argent-pixel-cf, sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 0.7rem;
+  color: gray;
+}
+
+.metadata dd {
+  font-weight: normal;
+  font-size: 0.9rem;
+  font-family: Helveticaneue, Arial, sans-serif;
+}
+
+/* Right Column - Description */
+.descriptionColumn {
+  grid-area: description;
+  align-self: start;
+  min-width: 0; /* Prevent overflow */
+  overflow-wrap: break-word;
+}
+
+.description {
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.6;
+  margin: 0 0 1.5rem 0;
+  font-family: Helveticaneue, Arial, sans-serif;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* Mobile Responsive - Stack vertically */
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 0.8rem 10px;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .description {
+    font-size: 0.7rem;
+    line-height: 1.4;
+  }
+
+  .metadata {
+    gap: 0.5rem;
+  }
+
+  .metadataItem {
+    gap: 0.1rem;
+  }
+  .descriptionColumn {
+    margin-right: 0;
+  }
+
+  .metadata dt {
+    font-weight: 600;
+  }
+
+  .metadata dd {
+    margin-bottom: 0.2rem;
+    font-size: 0.7rem;
+  }
+}

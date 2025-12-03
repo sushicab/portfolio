@@ -304,7 +304,7 @@ const NewsUpdates: React.FC<NewsUpdatesProps> = ({ items = defaultNewsItems }) =
   }, []);
 
   return (
-    <section style={{ width: '100%', margin: '0 auto', padding: isMobile ? '0' : '0 2rem' }}>
+    <section style={{ width: '100%', margin: '0 auto', padding: isMobile ? '0' : '0 10px' }}>
       {/* Section Header */}
       <h2
         className="tk-argent-pixel-cf"

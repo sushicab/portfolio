@@ -1,0 +1,110 @@
+/* Container */
+.container {
+  width: 100%;
+  padding: 10px;
+}
+
+/* Pair Layout */
+.pairRow {
+  display: flex;
+  gap: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.pairItem {
+  flex: 1;
+  width: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.fullWidthItem {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Grid Layout */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+}
+
+/* Media Items with different widths */
+.item {
+  position: relative;
+  overflow: hidden;
+}
+
+.item40 {
+  width: calc(40% - 5px);
+}
+
+.item50 {
+  width: calc(50% - 5px);
+}
+
+.item60 {
+  width: calc(60% - 5px);
+}
+
+.item100 {
+  width: 100%;
+}
+
+/* Media Wrapper for Aspect Ratio */
+.wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Media Content Positioning */
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Media Elements */
+.video,
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Responsive Design - Tablet */
+@media (max-width: 768px) {
+  .item40,
+  .item50,
+  .item60 {
+    width: calc(50% - 5px);
+  }
+}
+
+/* Responsive Design - Mobile */
+@media (max-width: 480px) {
+  .item40,
+  .item50,
+  .item60,
+  .item100 {
+    width: 100%;
+  }
+  
+  /* Pair layout stays side-by-side on mobile */
+  .pairRow {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .pairItem {
+    flex: 1;
+    width: 50%;
+  }
+}

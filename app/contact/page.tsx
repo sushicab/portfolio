@@ -1,9 +1,6 @@
 'use client';
 
-import { Covered_By_Your_Grace } from 'next/font/google';
-import Image from 'next/image';
 import { useState } from 'react';
-import Link from 'next/link';
 import React from 'react';
 
 const Rows = [

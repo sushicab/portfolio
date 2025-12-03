@@ -1,9 +1,7 @@
 import { Covered_By_Your_Grace } from 'next/font/google';
 import Image from 'next/image';
-import { useState } from 'react';
 import Link from 'next/link';
 import React from 'react';
-import { link } from 'fs';
 
 const Rows = [
   {
@@ -40,7 +38,7 @@ const Rows = [
 
 function Card({ title, description, imgUrl, path }: any) {
   return (
-    <div style={{ padding: '8px', width: '100%' }}>
+    <div style={{ width: '100%' }}>
       <Link href={path}>
         <Image src={imgUrl} alt={`${title} - ${description} card`} />
 

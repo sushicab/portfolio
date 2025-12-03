@@ -11,13 +11,13 @@ const Rows = [
         title: 'AINOMORI',
         description: 'Visual Design/ 2025',
         imgUrl: '/img/workpage/ainomori_video.mp4',
-        path: '/work/shibuyaVR',
+        path: '/work/ainomori',
       },
       {
         title: 'A Poem to Alien',
         description: 'Interactive Insallation/ 2025',
         imgUrl: '/img/workpage/img-3.jpg',
-        path: '/work/lexus',
+        path: '/work/ainomori',
         originalRatio: true,
       },
 
