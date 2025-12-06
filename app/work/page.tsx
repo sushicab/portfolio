@@ -49,7 +49,7 @@ const Rows = [
         title: 'Skyn--Soft Pulse',
         description: 'Interactive Insallation/ 2025',
         imgUrl: '/img/workpage/skyn.mp4',
-        path: '/work/lexus',
+        path: '/work/skyn',
         originalRatio: true,
       },
     ],
