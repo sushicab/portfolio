@@ -17,7 +17,7 @@ const Rows = [
         title: 'A Poem to Alien',
         description: 'Interactive Insallation/ 2025',
         imgUrl: '/img/workpage/img-3.jpg',
-        path: '/work/ainomori',
+        path: '/work/aPoemToAlien',
         originalRatio: true,
       },
 
