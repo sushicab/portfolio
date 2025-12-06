@@ -56,18 +56,19 @@ const skyn = () => {
       width: 100 as const,
       aspectRatio: 'original', // Maintains original aspect ratio
     },
-    {
-      type: 'image' as const,
-      src: '/img/projects/skyn/img-2.jpg',
-      alt: 'Ainomori pair 1',
-      width: 50 as const, // Width ignored in pair layout
-      aspectRatio: 'original', // Maintains original aspect ratio
-    },
+
     {
       type: 'video' as const,
       src: '/img/projects/skyn/skyn_r_2.mp4',
       alt: 'Ainomori pair 2',
-      width: 50 as const,
+      width: 100 as const,
+      aspectRatio: 'original', // Maintains original aspect ratio
+    },
+    {
+      type: 'image' as const,
+      src: '/img/projects/skyn/img-3.webp',
+      alt: 'Ainomori pair 1',
+      width: 100 as const, // Width ignored in pair layout
       aspectRatio: 'original', // Maintains original aspect ratio
     },
   ];

@@ -72,13 +72,6 @@ const aPoemToAlien = () => {
     },
 
     {
-      type: 'image' as const,
-      src: '/img/projects/apoemToAlien/img-2.webp',
-      alt: 'Ainomori pair 4',
-      width: 100 as const,
-      aspectRatio: 'original', // Maintains original aspect ratio
-    },
-    {
       type: 'video' as const,
       src: '/img/projects/apoemToAlien/vid-4.mov',
       alt: 'Ainomori pair 4',

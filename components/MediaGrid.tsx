@@ -8,6 +8,7 @@ interface MediaItem {
   type: 'image' | 'video';
   src: string;
   alt?: string;
+  caption?: string;
   width: 40 | 50 | 60 | 100;
   aspectRatio?: string | 'original'; // e.g., "4-5", "16-9", or "original" for natural ratio
 }
@@ -18,6 +19,15 @@ interface MediaGridProps {
 }
 
 const MediaGrid: React.FC<MediaGridProps> = ({ items, layout = 'grid' }) => {
+  // Check if URL is a YouTube or Vimeo embed URL
+  const isVideoEmbedUrl = (url: string): boolean => {
+    return (
+      url.includes('youtube.com/embed/') ||
+      url.includes('youtu.be/') ||
+      url.includes('player.vimeo.com/video/')
+    );
+  };
+
   // Convert aspect ratio string to padding-bottom percentage
   const getAspectRatioPadding = (aspectRatio?: string | 'original'): string | undefined => {
     if (aspectRatio === 'original') {
@@ -58,17 +68,28 @@ const MediaGrid: React.FC<MediaGridProps> = ({ items, layout = 'grid' }) => {
       const content = isOriginalRatio ? (
         // Original aspect ratio - no wrapper needed
         item.type === 'video' ? (
-          <video
-            className={styles.videoOriginal}
-            src={item.src}
-            autoPlay
-            muted
-            loop
-            playsInline
-            style={{ width: '100%', height: 'auto', display: 'block' }}
-          >
-            Your browser does not support the video tag.
-          </video>
+          isVideoEmbedUrl(item.src) ? (
+            <iframe
+              className={styles.videoOriginal}
+              src={item.src}
+              title={item.caption || 'Video'}
+              style={{ width: '100%', height: '400px', display: 'block', border: 'none' }}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          ) : (
+            <video
+              className={styles.videoOriginal}
+              src={item.src}
+              autoPlay
+              muted
+              loop
+              playsInline
+              style={{ width: '100%', height: 'auto', display: 'block' }}
+            >
+              Your browser does not support the video tag.
+            </video>
+          )
         ) : (
           <img
             className={styles.imageOriginal}
@@ -83,9 +104,27 @@ const MediaGrid: React.FC<MediaGridProps> = ({ items, layout = 'grid' }) => {
         <div className={styles.wrapper} style={{ paddingBottom: padding }}>
           <div className={styles.content}>
             {item.type === 'video' ? (
-              <video className={styles.video} src={item.src} autoPlay muted loop playsInline>
-                Your browser does not support the video tag.
-              </video>
+              isVideoEmbedUrl(item.src) ? (
+                <iframe
+                  className={styles.video}
+                  src={item.src}
+                  title={item.caption || 'Video'}
+                  style={{
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    width: '100%',
+                    height: '100%',
+                    border: 'none',
+                  }}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              ) : (
+                <video className={styles.video} src={item.src} autoPlay muted loop playsInline>
+                  Your browser does not support the video tag.
+                </video>
+              )
             ) : (
               <Image
                 className={styles.image}
@@ -158,17 +197,28 @@ const MediaGrid: React.FC<MediaGridProps> = ({ items, layout = 'grid' }) => {
               {isOriginalRatio ? (
                 // Original aspect ratio - no wrapper needed
                 item.type === 'video' ? (
-                  <video
-                    className={styles.videoOriginal}
-                    src={item.src}
-                    autoPlay
-                    muted
-                    loop
-                    playsInline
-                    style={{ width: '100%', height: 'auto', display: 'block' }}
-                  >
-                    Your browser does not support the video tag.
-                  </video>
+                  isVideoEmbedUrl(item.src) ? (
+                    <iframe
+                      className={styles.videoOriginal}
+                      src={item.src}
+                      title={item.caption || 'Video'}
+                      style={{ width: '100%', height: '400px', display: 'block', border: 'none' }}
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                    />
+                  ) : (
+                    <video
+                      className={styles.videoOriginal}
+                      src={item.src}
+                      autoPlay
+                      muted
+                      loop
+                      playsInline
+                      style={{ width: '100%', height: 'auto', display: 'block' }}
+                    >
+                      Your browser does not support the video tag.
+                    </video>
+                  )
                 ) : (
                   <img
                     className={styles.imageOriginal}
@@ -183,16 +233,34 @@ const MediaGrid: React.FC<MediaGridProps> = ({ items, layout = 'grid' }) => {
                 <div className={styles.wrapper} style={{ paddingBottom: padding }}>
                   <div className={styles.content}>
                     {item.type === 'video' ? (
-                      <video
-                        className={styles.video}
-                        src={item.src}
-                        autoPlay
-                        muted
-                        loop
-                        playsInline
-                      >
-                        Your browser does not support the video tag.
-                      </video>
+                      isVideoEmbedUrl(item.src) ? (
+                        <iframe
+                          className={styles.video}
+                          src={item.src}
+                          title={item.caption || 'Video'}
+                          style={{
+                            position: 'absolute',
+                            top: 0,
+                            left: 0,
+                            width: '100%',
+                            height: '100%',
+                            border: 'none',
+                          }}
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowFullScreen
+                        />
+                      ) : (
+                        <video
+                          className={styles.video}
+                          src={item.src}
+                          autoPlay
+                          muted
+                          loop
+                          playsInline
+                        >
+                          Your browser does not support the video tag.
+                        </video>
+                      )
                     ) : (
                       <Image
                         className={styles.image}
