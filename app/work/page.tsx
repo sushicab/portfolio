@@ -306,10 +306,7 @@ export default function Work() {
           <Row key={index} {...row} />
         ))}
       </div>
-      <div style={{ marginTop: '50px' }}>
-        {' '}
-        <IntroductionComp />
-      </div>
+      <div style={{ marginTop: '50px' }}> </div>
     </main>
   );
 }

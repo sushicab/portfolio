@@ -4,10 +4,11 @@ import './globals.css';
 import Navbar from '@/components/Navbar';
 import { Analytics } from '@vercel/analytics/next';
 import { SpeedInsights } from '@vercel/speed-insights/next';
+import Footer from '@/components/Footer';
 
 const inter = Inter({ subsets: ['latin'] });
 
-export const metadata = {
+export const metadata: Metadata = {
   description: 'portfolio。',
   icons: {
     icon: [
@@ -42,7 +43,18 @@ export default function RootLayout({
         <Navbar />
         <Analytics />
         <SpeedInsights />
+
         {children}
+        <Footer
+          name="YIFAN ZHUANG"
+          email="zhuangyifan01@gmail.com"
+          featuredImage="/img/top/render2.jpg"
+          socialLinks={{
+            instagram: 'https://www.instagram.com/wandanle.z/',
+            linkedin: 'www.linkedin.com/in/yifanzhuang01',
+            threads: 'https://threads.net/@yourusername',
+          }}
+        />
       </body>
     </html>
   );

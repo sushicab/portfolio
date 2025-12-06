@@ -327,9 +327,6 @@ const NewsUpdates: React.FC<NewsUpdatesProps> = ({ items = defaultNewsItems }) =
           <NewsItem key={item.id} item={item} />
         ))}
       </div>
-
-      {/* Bottom spacing */}
-      <div style={{ height: '100px' }} />
     </section>
   );
 };

@@ -9,8 +9,14 @@ const EmblaCarousel = ({ images = [] }) => {
 
   useEffect(() => {
     if (emblaApi) {
-      console.log(emblaApi.slideNodes()); // Access API
+      console.log(emblaApi.slideNodes());
     }
+
+    return () => {
+      if (emblaApi) {
+        emblaApi.destroy();
+      }
+    };
   }, [emblaApi]);
 
   const { prevBtnDisabled, nextBtnDisabled, onPrevButtonClick, onNextButtonClick } =

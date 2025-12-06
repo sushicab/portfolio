@@ -8,8 +8,8 @@ const Imagetop = () => {
         <Image
           src="/img/top/render2.jpg"
           alt="Your Image Alt Text"
-          layout="fill"
-          objectFit="cover"
+          fill
+          style={{ objectFit: 'cover' }}
           className="image_top_main "
         />
         <div className="imageContainer-text"></div>
@@ -93,12 +93,12 @@ const Imagetop = () => {
         </div>
       </div>
 
-      <div className="imageContainer">
+      {/* <div className="imageContainer">
         <Image
           src="/img/top/placeholder.png"
           alt="Your Image Alt Text"
-          layout="fill"
-          objectFit="cover"
+          fill
+          style={{ objectFit: 'cover' }}
           className="image_top_main "
         />
         <div className="imageContainer-text">
@@ -114,7 +114,7 @@ const Imagetop = () => {
             </a>
           </h1>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
